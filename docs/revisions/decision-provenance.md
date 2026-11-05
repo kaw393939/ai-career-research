@@ -65,13 +65,13 @@ The old v1.4.0 viewport failure remains in its review as a historical fact. Thes
 - [x] No fabricated endorsements, social proof, urgency, fit scores or outcome claims are introduced.
 - [x] Mobile dimensions are measured, not assumed from a tool setting.
 - [x] Field choices, reset, keyboard activation, profile links and worksheet download are checked.
-- [ ] Existing eligibility, job/source and occupational-data checks pass.
-- [ ] Production build and internal link/asset checks pass.
+- [x] Existing eligibility, job/source and occupational-data checks pass.
+- [x] Production build and internal link/asset checks pass.
 - [ ] Deployment and public-page verification evidence are recorded before issue closure.
 
 ## Delivery evidence
 
-Issue links, implementation commits and validation results will be added as work proceeds. The [worklog](./worklog) and [release history](./releases) retain the release-level record.
+[Provenance implementation b9c586e](https://github.com/kaw393939/ai-career-research/commit/b9c586ecd8cc5318c68ff55a9931158f632803d8) links decisions to code and adds the templates and screenshots. Production checks passed: 13 eligibility cases, 20 sourced employer records, five occupational series, and 2,350 internal links/assets across 39 pages before final tracking additions. Public verification is pending. The [worklog](./worklog) and [release history](./releases) retain the release-level record.
 
 ## Revisit conditions
 

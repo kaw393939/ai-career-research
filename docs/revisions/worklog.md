@@ -23,6 +23,10 @@ The user authorized implementing the full revision backlog on **November 5, 2026
 | REV-12 | [#12](https://github.com/kaw393939/ai-career-research/issues/12) | [v1.3.0](https://github.com/kaw393939/ai-career-research/releases/tag/v1.3.0) | Shipped / issue closed | [Code d1c1bef](https://github.com/kaw393939/ai-career-research/commit/d1c1bef78e9b1943b2d937ae424a7ca51e9f10e2) · [Deployment](https://github.com/kaw393939/ai-career-research/actions/runs/42057505531) |
 | REV-13 | [#13](https://github.com/kaw393939/ai-career-research/issues/13) | [v1.4.0](https://github.com/kaw393939/ai-career-research/releases/tag/v1.4.0) | Shipped; mobile visual check unverified | [Code d46553b](https://github.com/kaw393939/ai-career-research/commit/d46553bc516c79ec956b8798db94a93c5872df40) · [Deployment](https://github.com/kaw393939/ai-career-research/actions/runs/42061032610) · [Review](./brand-and-student-journey) |
 
+| REV-14 | [#14](https://github.com/kaw393939/ai-career-research/issues/14) | v1.4.1 | In progress / implementation verified locally | [Delivery plan](./decision-provenance) |
+| REV-15 | [#15](https://github.com/kaw393939/ai-career-research/issues/15) | v1.4.1 | In progress / implementation verified locally | [Delivery plan](./decision-provenance) |
+| REV-16 | [#16](https://github.com/kaw393939/ai-career-research/issues/16) | v1.4.1 | In progress / implementation verified locally | [Delivery plan](./decision-provenance) |
+
 ## Closure rule
 
 Implementation commits reference the corresponding issues. Each issue receives code links, verification results, and the successful deployment before closure. Release history and plan checklists are updated at delivery. Research gaps and uncertainties remain visible rather than being filled with invented examples.

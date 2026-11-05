@@ -49,7 +49,6 @@ IDs remain stable so commits and future release notes can refer to the same find
 | [REV-10](https://github.com/kaw393939/ai-career-research/issues/10) | Role/skill relationships and progression need clearer visual explanations | Medium | v1.3 | Shipped |
 | [REV-11](https://github.com/kaw393939/ai-career-research/issues/11) | Generated images need a defined explanatory purpose and illustration labels | Low | v1.3 | Shipped |
 | [REV-12](https://github.com/kaw393939/ai-career-research/issues/12) | Time-sensitive postings need a repeatable review and release record | High | v1.3 | Shipped |
-
 | [REV-13](https://github.com/kaw393939/ai-career-research/issues/13) | Student starting point and next actions need clarity | Medium | v1.4.0 | Shipped |
 | [REV-14](https://github.com/kaw393939/ai-career-research/issues/14) | Follow-up work needs a linked public plan | Medium | v1.4.1 | In progress |
 | [REV-15](https://github.com/kaw393939/ai-career-research/issues/15) | Design decisions need immutable code evidence and a reusable process | Medium | v1.4.1 | In progress |
