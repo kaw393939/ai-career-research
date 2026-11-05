@@ -88,3 +88,7 @@ The unified explorer covers 15 profiles across eight technology fields. The libr
 - [Manual source-review report](https://kaw393939.github.io/ai-career-research/research/source-review.html)
 
 Run `npm run research:review -- --as-of YYYY-MM-DD` to regenerate the source-age report. It performs no network verification and schedules no automation. Reopen primary pages in Chrome before changing their evidence. `npm run check` covers eligibility edge cases, job/source integrity, occupation measures and base-path links. Illustration generation method, exact prompt and asset path are recorded in `docs/research/image-provenance.md`.
+
+## Decision provenance
+
+Follow the [student journey delivery plan](https://kaw393939.github.io/ai-career-research/revisions/decision-provenance.html) from observation to decision, issue, code and deployment. New changes use the [decision issue template](.github/ISSUE_TEMPLATE/decision.md) and [release checklist](.github/RELEASE_CHECKLIST.md).

@@ -16,6 +16,8 @@ This is the public planning record for AI Career Atlas. It combines the simulate
 | v1.1 | [Broader technology careers](./industry-coverage) | Shipped | Explain AI's effect on security, networking, and other technology fields |
 | v1.2 | [Student decision support](./student-experience) | Shipped | Help a student identify plausible opportunities and choose a learning direction |
 | v1.3 | [Primary sources & useful visuals](./evidence-and-visuals) | Shipped | Add occupational context and visuals that answer concrete career questions |
+| v1.4.0 | [Student brand refinement](./brand-and-student-journey) | Shipped | Offer a clear voluntary first step |
+| v1.4.1 | [Decision provenance & verification](./decision-provenance) | In progress | Trace decisions to issues/code and finish narrow-screen verification |
 
 Follow the [implementation worklog](./worklog) for issue links, code, and deployment evidence.
 
@@ -27,7 +29,7 @@ Read the [student review](./student-review) for the scenario, observed behavior,
 
 ## Student brand refinement
 
-[REV-13: brand and student journey review](./brand-and-student-journey) records the next refinement: Sage/Explorer branding, a voluntary first step and restrained persuasion. [Issue #13](https://github.com/kaw393939/ai-career-research/issues/13) retains its code and delivery evidence.
+[REV-13: brand and student journey review](./brand-and-student-journey) records the shipped refinement: Sage/Explorer branding, a voluntary first step and restrained persuasion. [Issue #13](https://github.com/kaw393939/ai-career-research/issues/13) retains its code and delivery evidence.
 
 ## Findings register
 
@@ -47,6 +49,11 @@ IDs remain stable so commits and future release notes can refer to the same find
 | [REV-10](https://github.com/kaw393939/ai-career-research/issues/10) | Role/skill relationships and progression need clearer visual explanations | Medium | v1.3 | Shipped |
 | [REV-11](https://github.com/kaw393939/ai-career-research/issues/11) | Generated images need a defined explanatory purpose and illustration labels | Low | v1.3 | Shipped |
 | [REV-12](https://github.com/kaw393939/ai-career-research/issues/12) | Time-sensitive postings need a repeatable review and release record | High | v1.3 | Shipped |
+
+| [REV-13](https://github.com/kaw393939/ai-career-research/issues/13) | Student starting point and next actions need clarity | Medium | v1.4.0 | Shipped |
+| [REV-14](https://github.com/kaw393939/ai-career-research/issues/14) | Follow-up work needs a linked public plan | Medium | v1.4.1 | In progress |
+| [REV-15](https://github.com/kaw393939/ai-career-research/issues/15) | Design decisions need immutable code evidence and a reusable process | Medium | v1.4.1 | In progress |
+| [REV-16](https://github.com/kaw393939/ai-career-research/issues/16) | Narrow-screen verification remains incomplete in v1.4.0 | High | v1.4.1 | In progress |
 
 Priority expresses impact on research quality or student decisions, not an estimate of implementation effort.
 
@@ -69,8 +76,8 @@ Checkboxes are manually maintained Markdown records. GitHub issues, commits, and
 - [x] Exercise changed filters/navigation on desktop and mobile when behavior changes.
 - [x] Verify the deployed pages and update the release history with evidence.
 
-These checks were completed for the shipped revisions. Copy a fresh checklist for the next release. The issue tracker currently has no open issues from this backlog.
+These checks were completed for the shipped revisions. Copy a fresh checklist for the next release. The v1.4.1 plan keeps its own acceptance checklist and issue status above.
 
 ## Delivered versions
 
-[GitHub releases](https://github.com/kaw393939/ai-career-research/releases) retain versioned source snapshots. See the [implementation worklog](./worklog) for per-finding code and deployment links. The complete accepted backlog is shipped; documented research limitations remain part of the product rather than hidden unfinished features.
+[GitHub releases](https://github.com/kaw393939/ai-career-research/releases) retain versioned source snapshots. See the [implementation worklog](./worklog) for per-finding code and deployment links. The v1.1–v1.4.0 backlog is shipped; documented research limitations remain part of the product rather than hidden unfinished features.

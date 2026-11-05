@@ -55,6 +55,8 @@ Production checks passed: 13 eligibility cases, 20 employer records with source 
 
 Desktop visual review passed at 1,200 CSS pixels. The browser viewport override did not take effect during this session, so a new 390px visual check remains unverified; responsive styles are included, but the desktop check is not evidence of a mobile test.
 
+The [v1.4.1 follow-up](./decision-provenance#verification-record) subsequently completed measured 320px, 390px and desktop checks, preserving this original attempt and its limitation.
+
 A future real-student review should observe whether readers can explain their chosen direction, inspect a source, identify an uncertainty and choose a project. Do not infer success from clicking a button alone. Additional analytics or a user study would be separate work; none was added here.
 
 Code and deployment evidence are attached to [issue #13](https://github.com/kaw393939/ai-career-research/issues/13) and retained in the [release history](./releases).
