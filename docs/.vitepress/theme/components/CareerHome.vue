@@ -10,7 +10,7 @@ import { jobs } from '../../data/jobs'
       <div class="hero-copy">
         <p class="eyebrow"><span class="status-dot"></span> CLEAR EVIDENCE. ROOM TO EXPLORE.</p>
         <h1 id="hero-heading">Find your<br>direction.<br><span>Build from here.</span></h1>
-        <p class="hero-description">Explore how AI is changing security, networking, software, and data. Start with work that interests you, then read the evidence and choose one practical next step.</p>
+        <p class="hero-description">Explore AI careers in software, security, networking, and data. Choose a field or start with an internship.</p>
         <div class="hero-actions">
           <a class="atlas-button primary" href="#first-step">Choose a field <span aria-hidden="true">↗</span></a>
           <a class="text-link" :href="withBase('/jobs/')">See internships <span aria-hidden="true">→</span></a>
@@ -40,24 +40,23 @@ import { jobs } from '../../data/jobs'
 
     <div class="research-strip source-strip"><span class="strip-label">EVIDENCE YOU CAN OPEN</span><a :href="withBase('/jobs/sources.html')">Employer descriptions ↗</a><a :href="withBase('/research/occupational-context.html')">BLS &amp; O*NET context ↗</a><a :href="withBase('/njit.html')">NJIT learning resources ↗</a><a :href="withBase('/research/methodology.html')">How we research ↗</a></div>
 
-    <StudentStart />
+    <div id="explore" class="home-chooser-anchor"><StudentStart /></div>
 
-    <section class="home-jobs-start" aria-labelledby="jobs-start-heading">
-      <div><p class="eyebrow">READY TO LOOK AT AN OPPORTUNITY?</p><h2 id="jobs-start-heading">Your curiosity.<br><em>The employer’s requirements.</em></h2><p>When a role catches your interest, read one employer example. Check the degree, timing, location, and experience requirements before adding it to your shortlist.</p></div>
-      <div class="home-stage-links"><a :href="withBase('/jobs/')"><span>01</span><div><strong>Internships & entry level</strong><small>Student programs, new graduates, and early-career examples</small></div><span aria-hidden="true">↗</span></a><a :href="withBase('/jobs/#career-stage-filters')"><span>02</span><div><strong>Compare career stages</strong><small>Select Mid level or Senior to explore experienced roles</small></div><span aria-hidden="true">↗</span></a><a :href="withBase('/research/emerging-roles.html')"><span>03</span><div><strong>Look beyond the familiar titles</strong><small>AI platforms, agents, product management, and responsible AI</small></div><span aria-hidden="true">↗</span></a></div>
+    <section class="home-next-step" aria-labelledby="path-heading">
+      <div><p class="eyebrow">PUT IT INTO PRACTICE</p><h2 id="path-heading">Practice one skill.</h2><p>Find a small project for the role you want to explore.</p></div>
+      <a class="atlas-button light" :href="withBase('/roadmap.html')">Choose one project <span aria-hidden="true">↗</span></a>
     </section>
 
-    <section id="explore" class="role-section" aria-labelledby="explore-heading">
-      <div class="section-intro"><div><p class="eyebrow">01 / EXPLORE THE LANDSCAPE</p><h2 id="explore-heading">Different titles. <em>Real work.</em></h2></div><p>Find the kind of problems you want to solve.<br>Then get to know the role behind them.</p></div>
-      <RoleExplorer />
-    </section>
-
-    <section class="path-section" aria-labelledby="path-heading">
-      <div class="path-intro"><p class="eyebrow">02 / MAKE IT PRACTICAL</p><h2 id="path-heading">You don’t need to<br>learn <em>everything.</em></h2><p>Start with one direction. Build something small, measure what works, and let the evidence shape your next step.</p><a class="atlas-button light" :href="withBase('/roadmap.html')">Choose one project <span aria-hidden="true">↗</span></a></div>
-      <ol class="path-steps"><li><span>01</span><div><h3>Read one real description.</h3><p>Compare responsibilities across real job descriptions. The same title can mean different things.</p></div></li><li><span>02</span><div><h3>Build one project with proof.</h3><p>A working demo, a clear evaluation, and an honest write-up tell a stronger story.</p></div></li><li><span>03</span><div><h3>Connect what you already know.</h3><p>Software, data, design, and domain knowledge can each be a useful starting point.</p></div></li></ol>
-    </section>
-
-    <section class="field-note"><span class="field-note-icon" aria-hidden="true">↳</span><div><p class="eyebrow">A NOTE FROM THE FIELD</p><h2>The title is a starting point.</h2><p>“AI forward engineer” may refer to a <a :href="withBase('/roles/forward-deployed-engineer.html')">forward-deployed engineer</a>. “AI engineer” and “LLM engineer” often overlap. This atlas follows responsibilities and evidence, because titles alone don’t tell the whole story.</p></div><a class="text-link" :href="withBase('/research/glossary.html')">Decode the language <span aria-hidden="true">↗</span></a></section>
     <div class="home-colophon"><span>YOUR NEXT STEP, GROUNDED IN REAL WORK.</span><span>REVIEWED NOV 05, 2026</span></div>
   </div>
 </template>
+
+<style scoped>
+.home-chooser-anchor { scroll-margin-top: 100px; }
+.home-next-step { display: flex; align-items: center; justify-content: space-between; gap: 28px; margin-top: 32px; padding: 30px 34px; background: #214a37; color: #f3f5e8; border-radius: 8px; }
+.home-next-step .eyebrow { color: #bdcea6; }
+.home-next-step h2 { margin-top: 9px; font-size: 28px; line-height: 1.3; font-weight: 600; letter-spacing: -.8px; }
+.home-next-step p:not(.eyebrow) { margin-top: 10px; color: #c2cebb; font-size: 13px; line-height: 1.8; }
+.home-next-step .atlas-button { flex-shrink: 0; margin-top: 0; font-size: 12px; }
+@media (max-width: 650px) { .home-next-step { flex-direction: column; align-items: flex-start; gap: 20px; padding: 25px; }.home-next-step h2 { font-size: 25px; } }
+</style>
