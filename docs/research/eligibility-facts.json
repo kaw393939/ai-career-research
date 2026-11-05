@@ -1,0 +1,332 @@
+{
+  "t-mobile-assoc-ai-intern-2027": {
+    "degrees": [
+      "bachelor"
+    ],
+    "graduation": null,
+    "experience": null,
+    "student": true,
+    "graduate": false,
+    "equivalent": false,
+    "research": false,
+    "noSponsorship": false,
+    "citizen": false,
+    "metro": false,
+    "remoteStates": null
+  },
+  "gm-ai-platform-intern-2027": {
+    "degrees": [
+      "bachelor",
+      "master"
+    ],
+    "graduation": [
+      2027,
+      2029
+    ],
+    "experience": null,
+    "student": true,
+    "graduate": false,
+    "equivalent": false,
+    "research": false,
+    "noSponsorship": false,
+    "citizen": false,
+    "metro": false,
+    "remoteStates": null
+  },
+  "atlassian-ml-intern-2027": {
+    "degrees": [
+      "master"
+    ],
+    "graduation": [
+      null,
+      2028
+    ],
+    "experience": null,
+    "student": true,
+    "graduate": false,
+    "equivalent": false,
+    "research": false,
+    "noSponsorship": true,
+    "citizen": false,
+    "metro": false,
+    "remoteStates": null
+  },
+  "scale-ml-research-intern-2027": {
+    "degrees": [
+      "bachelor",
+      "master",
+      "phd"
+    ],
+    "graduation": [
+      2027,
+      2028
+    ],
+    "experience": null,
+    "student": true,
+    "graduate": false,
+    "equivalent": false,
+    "research": true,
+    "noSponsorship": false,
+    "citizen": false,
+    "metro": true,
+    "remoteStates": null
+  },
+  "c3-ai-federal-fde-new-grad-2027": {
+    "degrees": [
+      "bachelor",
+      "master"
+    ],
+    "graduation": [
+      2026,
+      2027
+    ],
+    "experience": null,
+    "student": false,
+    "graduate": true,
+    "equivalent": false,
+    "research": false,
+    "noSponsorship": true,
+    "citizen": true,
+    "metro": false,
+    "remoteStates": null
+  },
+  "bitdeer-us-ai-engineering-new-college-graduate-2027": {
+    "degrees": [
+      "bachelor",
+      "master",
+      "phd"
+    ],
+    "graduation": null,
+    "experience": 0,
+    "student": false,
+    "graduate": true,
+    "equivalent": false,
+    "research": false,
+    "noSponsorship": false,
+    "citizen": false,
+    "metro": false,
+    "remoteStates": null
+  },
+  "applied-intuition-fde-new-grad-2027": {
+    "degrees": [
+      "bachelor",
+      "master"
+    ],
+    "graduation": [
+      2026,
+      2027
+    ],
+    "experience": 1,
+    "student": false,
+    "graduate": true,
+    "equivalent": true,
+    "research": false,
+    "noSponsorship": false,
+    "citizen": false,
+    "metro": false,
+    "remoteStates": null
+  },
+  "adobe-university-graduate-machine-learning-engineer-2027": {
+    "degrees": [
+      "master",
+      "phd"
+    ],
+    "graduation": [
+      2026,
+      2027
+    ],
+    "experience": 0,
+    "student": false,
+    "graduate": true,
+    "equivalent": true,
+    "research": false,
+    "noSponsorship": false,
+    "citizen": false,
+    "metro": true,
+    "remoteStates": null
+  },
+  "allstate-ai-software-engineer": {
+    "degrees": [
+      "bachelor"
+    ],
+    "graduation": null,
+    "experience": 4,
+    "student": false,
+    "graduate": false,
+    "equivalent": false,
+    "research": false,
+    "noSponsorship": false,
+    "citizen": false,
+    "metro": false,
+    "remoteStates": null,
+    "conditionalSponsorship": true
+  },
+  "mantech-automation-ai-developer": {
+    "degrees": null,
+    "graduation": null,
+    "experience": 3,
+    "student": false,
+    "graduate": false,
+    "equivalent": false,
+    "research": false,
+    "noSponsorship": false,
+    "citizen": true,
+    "metro": false,
+    "remoteStates": null
+  },
+  "merck-ai-data-science-product-manager": {
+    "degrees": null,
+    "graduation": null,
+    "experience": 3,
+    "student": false,
+    "graduate": false,
+    "equivalent": false,
+    "research": false,
+    "noSponsorship": true,
+    "citizen": false,
+    "metro": false,
+    "remoteStates": null
+  },
+  "wex-sr-staff-ai-platform-engineer": {
+    "degrees": null,
+    "graduation": null,
+    "experience": 15,
+    "student": false,
+    "graduate": false,
+    "equivalent": false,
+    "research": false,
+    "noSponsorship": false,
+    "citizen": false,
+    "metro": false,
+    "remoteStates": null
+  },
+  "united-senior-engineer-enterprise-ai-risk": {
+    "degrees": [
+      "bachelor"
+    ],
+    "graduation": null,
+    "experience": 3,
+    "student": false,
+    "graduate": false,
+    "equivalent": false,
+    "research": false,
+    "noSponsorship": true,
+    "citizen": false,
+    "metro": false,
+    "remoteStates": null
+  },
+  "apple-sr-ai-inference-platform-engineer": {
+    "degrees": [
+      "bachelor",
+      "master"
+    ],
+    "graduation": null,
+    "experience": 7,
+    "student": false,
+    "graduate": false,
+    "equivalent": false,
+    "research": false,
+    "noSponsorship": false,
+    "citizen": false,
+    "metro": false,
+    "remoteStates": null
+  },
+  "cisco-ai-network-solutions": {
+    "degrees": null,
+    "graduation": null,
+    "experience": 8,
+    "student": false,
+    "graduate": false,
+    "equivalent": false,
+    "research": false,
+    "noSponsorship": false,
+    "citizen": false,
+    "metro": false,
+    "remoteStates": null
+  },
+  "cisco-wireless-qa-junior": {
+    "degrees": [
+      "bachelor"
+    ],
+    "graduation": null,
+    "experience": null,
+    "student": false,
+    "graduate": false,
+    "equivalent": false,
+    "research": false,
+    "noSponsorship": false,
+    "citizen": false,
+    "metro": false,
+    "remoteStates": null
+  },
+  "nvidia-senior-ai-security": {
+    "degrees": [
+      "bachelor",
+      "master"
+    ],
+    "graduation": null,
+    "experience": 8,
+    "student": false,
+    "graduate": false,
+    "equivalent": true,
+    "research": false,
+    "noSponsorship": false,
+    "citizen": false,
+    "metro": false,
+    "remoteStates": [
+      "TX",
+      "CO",
+      "WA",
+      "CA"
+    ]
+  },
+  "palo-enterprise-ai-security": {
+    "degrees": [
+      "bachelor",
+      "master"
+    ],
+    "graduation": null,
+    "experience": 5,
+    "student": false,
+    "graduate": false,
+    "equivalent": true,
+    "research": false,
+    "noSponsorship": true,
+    "citizen": false,
+    "metro": false,
+    "remoteStates": null
+  },
+  "nyc-hpd-data-ai-intern": {
+    "degrees": null,
+    "graduation": null,
+    "experience": null,
+    "student": true,
+    "graduate": false,
+    "equivalent": false,
+    "research": false,
+    "noSponsorship": true,
+    "citizen": false,
+    "metro": true,
+    "remoteStates": null,
+    "recentGraduateAllowed": true
+  },
+  "duolingo-data-scientist-intern": {
+    "degrees": [
+      "bachelor",
+      "master"
+    ],
+    "graduation": [
+      2027,
+      2028
+    ],
+    "experience": null,
+    "student": true,
+    "graduate": false,
+    "equivalent": false,
+    "research": false,
+    "noSponsorship": false,
+    "citizen": false,
+    "metro": true,
+    "remoteStates": null
+  }
+}

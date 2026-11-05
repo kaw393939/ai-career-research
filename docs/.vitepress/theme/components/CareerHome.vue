@@ -2,7 +2,7 @@
 import { withBase } from 'vitepress'
 import { jobs } from '../../data/jobs'
 
-const startingJobs = jobs.filter(job => ['Internship', 'Entry level'].includes(job.level)).length
+const startingJobs = jobs.filter(job => ['Internship', 'Entry level'].includes(job.level) && job.status !== 'Closed example').length
 
 </script>
 

@@ -9,6 +9,8 @@ You do not need to learn every AI tool before starting. Choose a kind of work, i
 
 This roadmap is **editorial guidance**, not an employer requirement or a promise of employment. Adjust the pace to your background and available time. Use the [sourced role profiles](./roles/) to check the responsibilities behind your chosen direction.
 
+For NJIT students, the [coursework-to-portfolio map](./njit) connects official curriculum topics and career-service resources to practical evidence. Check your own catalog year with an advisor.
+
 ## 1. Start from what you know
 
 | Your background | A useful first direction | What to practice next |

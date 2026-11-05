@@ -10,7 +10,7 @@ sidebar: false
     <p class="eyebrow">US OPPORTUNITIES / A CAREER RESEARCH LIBRARY</p>
     <h1>Start where you are.<br><span>Read the real requirements.</span></h1>
     <p>Internships and entry-level examples come first. Compare what employers ask for, then look ahead to mid-level and senior work. Every example links to the employer’s own description.</p>
-    <div class="jobs-page-links"><a href="./sources.html">Employer source ledger ↗</a><a href="../research/emerging-roles.html">Explore additional AI roles →</a><a href="../roadmap.html">Build a learning roadmap →</a></div>
+    <div class="jobs-page-links"><a href="./sources.html">Employer source ledger ↗</a><a href="../research/emerging-roles.html">Explore additional AI roles →</a><a href="../roadmap.html">Build a learning roadmap →</a><a href="../njit.html">NJIT learning connections →</a></div>
   </div>
   <div class="jobs-fit-check"><strong>Before you shortlist:</strong><span>Check degree and graduation dates.</span><span>Read location and authorization rules.</span><span>Separate required skills from preferences.</span></div>
   <div id="career-stage-filters"><JobExamples /></div>

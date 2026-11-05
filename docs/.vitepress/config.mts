@@ -23,6 +23,7 @@ export default defineConfig({
       { text: 'Internships & jobs', link: '/jobs/', activeMatch: '/jobs/' },
       { text: 'Explore roles', link: '/roles/', activeMatch: '/roles/' },
       { text: 'Career roadmap', link: '/roadmap' },
+        { text: 'NJIT learning connections', link: '/njit' },
       { text: 'Research notes', link: '/research/methodology' },
       { text: 'Revisions', link: '/revisions/', activeMatch: '/revisions/' }
     ],
@@ -45,7 +46,8 @@ export default defineConfig({
       ] },
       { text: 'Start here', items: [
         { text: 'Compare AI careers', link: '/roles/' },
-        { text: 'Career roadmap', link: '/roadmap' }
+        { text: 'Career roadmap', link: '/roadmap' },
+        { text: 'NJIT learning connections', link: '/njit' }
       ] },
       { text: 'The roles', items: [
         { text: 'AI engineer', link: '/roles/ai-engineer' },
