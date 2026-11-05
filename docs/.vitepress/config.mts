@@ -20,6 +20,7 @@ export default defineConfig({
     logo: { src: '/mark.svg', alt: '' },
     siteTitle: 'AI Career Atlas',
     nav: [
+      { text: 'Internships & jobs', link: '/jobs/', activeMatch: '/jobs/' },
       { text: 'Explore roles', link: '/roles/', activeMatch: '/roles/' },
       { text: 'Career roadmap', link: '/roadmap' },
       { text: 'Research notes', link: '/research/methodology' }
@@ -27,6 +28,11 @@ export default defineConfig({
     socialLinks: [{ icon: 'github', link: repo }],
     search: { provider: 'local' },
     sidebar: [
+      { text: 'Find your starting point', items: [
+        { text: 'Internships & entry-level jobs', link: '/jobs/' },
+        { text: 'Employer source ledger', link: '/jobs/sources' },
+        { text: 'New role patterns', link: '/research/emerging-roles' }
+      ] },
       { text: 'Start here', items: [
         { text: 'Compare AI careers', link: '/roles/' },
         { text: 'Career roadmap', link: '/roadmap' }
@@ -37,7 +43,11 @@ export default defineConfig({
         { text: 'LLM engineer', link: '/roles/llm-engineer' },
         { text: 'ML engineer', link: '/roles/ml-engineer' },
         { text: 'AI evaluation engineer', link: '/roles/ai-evaluation-engineer' },
-        { text: 'AI solutions architect', link: '/roles/ai-solutions-architect' }
+        { text: 'AI solutions architect', link: '/roles/ai-solutions-architect' },
+        { text: 'AI platform / inference engineer', link: '/roles/ai-platform-engineer' },
+        { text: 'AI automation / agent engineer', link: '/roles/ai-automation-engineer' },
+        { text: 'AI product manager', link: '/roles/ai-product-manager' },
+        { text: 'Responsible AI / governance', link: '/roles/responsible-ai-engineer' }
       ] },
       { text: 'The research', items: [
         { text: 'Methodology & sources', link: '/research/methodology' },

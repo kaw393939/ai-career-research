@@ -22,6 +22,8 @@ This comparison is an editorial synthesis of the employer and official role desc
 
 ## Choose by the problems you enjoy
 
+Start with [internships and entry-level examples](../jobs/) if you want to see eligibility before exploring a role. For additional paths, compare [AI platforms, agent automation, product management, and responsible AI](../research/emerging-roles).
+
 - **You like building software:** start with [AI engineering](./ai-engineer) and [LLM engineering](./llm-engineer). Compare how much the job asks you to work on the application versus model infrastructure.
 - **You like working directly with people:** explore [forward-deployed engineering](./forward-deployed-engineer). Read carefully for travel, production ownership, and experience requirements.
 - **You like data and reliable systems:** investigate [ML engineering](./ml-engineer). Training knowledge, data quality, deployment, and monitoring often matter together.

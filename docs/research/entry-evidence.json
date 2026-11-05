@@ -1,0 +1,102 @@
+[
+  {
+    "id": "c3-ai-federal-fde-new-grad-2027",
+    "employer": "C3 AI",
+    "title": "Forward Deployed Engineer - Federal, New Grad 2027",
+    "level": "Entry level",
+    "role": "Forward-deployed engineering / agentic AI applications",
+    "location": "Tysons, Virginia, United States",
+    "workMode": "On-site",
+    "eligibility": "BS/MS in computer science, computer engineering, or a related field; December 2026 or Summer/Fall 2027 graduates. US citizenship and security-clearance eligibility required. No current or future employer visa sponsorship. Application asks about five office days per week; travel as needed.",
+    "experience": "No minimum professional-years requirement stated. Programming and hands-on technical experience required; prior internships or deployment projects are preferred.",
+    "levelReason": "Employer explicitly calls this an early-professional, new-graduate role and specifies eligible graduation dates.",
+    "responsibilities": [
+      "Develop and deploy enterprise AI applications with federal customers on the employer's platform.",
+      "Debug and test customer software, assess technical risks, and document operation.",
+      "Support demonstrations, trials, and customer training alongside senior engineers."
+    ],
+    "skills": ["Python / JavaScript / Java", "Data structures", "Databases", "LLM tool calling", "Customer communication"],
+    "compensation": "$120,000–$150,000 USD advertised Virginia base-pay range; pay period not explicitly stated in the description. Equity and benefits mentioned separately.",
+    "status": "Open when checked",
+    "sourceUrl": "https://c3.ai/job-description?gh_jid=8900477002",
+    "sourceLabel": "C3 AI employer posting; live application form observed in Chrome",
+    "checked": "November 5, 2026",
+    "portfolio": "Suggested practice: build a synthetic-data customer workflow with a tool-using assistant, 20 test cases, a risk log, and a short user guide.",
+    "transferable": ["Full-stack projects", "Technical writing", "Stakeholder communication"]
+  },
+  {
+    "id": "bitdeer-us-ai-engineering-new-college-graduate-2027",
+    "employer": "Bitdeer Technologies Group",
+    "title": "2027 US AI Engineering – New College Graduate",
+    "level": "Entry level",
+    "role": "AI platform / inference / agent engineering",
+    "location": "San Jose, CA / Austin, TX; employer labels location Remote (Any Location)",
+    "workMode": "Remote — US",
+    "eligibility": "Fresh bachelor's, master's, or PhD graduates from any discipline and/or candidates with up to two years of related experience. US title and US locations explicitly listed; sponsorship and state restrictions not stated. Confirm hiring location with employer.",
+    "experience": "Fresh graduates or up to two years of related work experience. Cloud-native and large-scale platform experience are highly preferred.",
+    "levelReason": "The program explicitly targets new graduates and candidates with up to two years of related experience.",
+    "responsibilities": [
+      "Develop GPU cloud or Kubernetes services, including scheduling, observability, and resource isolation.",
+      "Contribute to model training, inference, deployment, evaluation, or serving platforms.",
+      "Build agent-platform capabilities such as tool integration and workflow orchestration; initial track depends on assessment and business needs."
+    ],
+    "skills": ["Go / Python / C++ / Java / Rust", "Distributed systems", "Kubernetes", "Inference", "Agent platforms"],
+    "compensation": "$70,000–$150,000 per year advertised on the US posting; location-specific terms not supplied.",
+    "status": "Open when checked",
+    "sourceUrl": "https://bitdeer.breezy.hr/p/826249d5dbdc-2027-us-ai-engineering-new-college-graduate",
+    "sourceLabel": "Bitdeer official Breezy HR posting; Apply To Position link observed in Chrome",
+    "checked": "November 5, 2026",
+    "portfolio": "Suggested practice: package a small model-serving API with container deployment, a load test, monitoring, and a report of latency versus resource usage.",
+    "transferable": ["Backend engineering", "Cloud infrastructure", "Linux operations"]
+  },
+  {
+    "id": "applied-intuition-fde-new-grad-2027",
+    "employer": "Applied Intuition",
+    "title": "Forward Deployed Engineer - New Grad (2027)",
+    "level": "Entry level",
+    "role": "Forward-deployed engineering / physical AI",
+    "location": "Sunnyvale, California, United States",
+    "workMode": "On-site",
+    "eligibility": "Completed or in-progress BS/MS in computer science, computer engineering, electrical engineering, or related field; December 2026 or Summer 2027 graduation. Five office days per week is the stated full-time expectation, with occasional flexibility. Sponsorship not specified in the reviewed description.",
+    "experience": "One or more years in any field, or an equivalent combination of education and experience. C++ or Python proficiency and engineering problem-solving evidence expected.",
+    "levelReason": "Listed in the employer's 2026–2027 New Grad department with graduation windows; the experience condition permits education-equivalent evidence.",
+    "responsibilities": [
+      "Integrate autonomy tools and products into customer operating environments.",
+      "Solve software, infrastructure, robotics, and systems problems across the stack.",
+      "Work with customers and internal teams to carry technical decisions through deployment."
+    ],
+    "skills": ["C++ / Python", "Systems integration", "Customer communication", "Robotics", "Containers (preferred)"],
+    "compensation": "$130,000–$158,000 advertised estimated base-salary range; period not stated in the displayed range. Equity offered separately.",
+    "status": "Open when checked",
+    "sourceUrl": "https://jobs.ashbyhq.com/applied/31140958-d768-452c-8498-0b1c7f403943",
+    "sourceLabel": "Applied Intuition official Ashby posting; Apply for this Job link observed in Chrome",
+    "checked": "November 5, 2026",
+    "portfolio": "Suggested practice: integrate a simulated robotics or autonomy workflow for a fictional customer, with reproducible setup, system tests, and a deployment decision log.",
+    "transferable": ["Systems coursework", "Robotics projects", "Customer delivery"]
+  },
+  {
+    "id": "adobe-university-graduate-machine-learning-engineer-2027",
+    "employer": "Adobe",
+    "title": "2027 University Graduate - Machine Learning Engineer",
+    "level": "Entry level",
+    "role": "Machine learning engineering / predictive modeling",
+    "location": "San Jose, CA; San Francisco, CA; Waltham, MA; Austin, TX; Lehi, UT; Seattle, WA; New York, NY",
+    "workMode": "US location; mode unspecified",
+    "eligibility": "MS or PhD in a listed quantitative/computing field, or equivalent experience; expected graduation December 2026–June 2027. Work arrangement and sponsorship not stated in the reviewed description. This is not an unrestricted bachelor's-level example.",
+    "experience": "Employer states 0–2+ years in relevant skills; statistical/ML understanding and problem-solving track record required.",
+    "levelReason": "Explicit university-graduate title, graduation window, and 0–2+ years wording; advanced-degree or equivalent-experience requirement remains important.",
+    "responsibilities": [
+      "Build predictive models for large-scale customer and business datasets.",
+      "Implement modeling algorithms that operate efficiently in production.",
+      "Partner with engineering and product teams on new capabilities."
+    ],
+    "skills": ["Statistics / ML", "Python / Scala / Java / C", "SQL", "R / Matlab / scikit-learn", "Communication"],
+    "compensation": "US annual base-salary range $102,400–$202,250; location-specific ranges differ. Incentives and possible equity are separate. The employer says pay depends on location, knowledge, skills, and experience.",
+    "status": "Open when checked",
+    "sourceUrl": "https://careers.adobe.com/us/en/job/R172085/2027-University-Graduate-Machine-Learning-Engineer",
+    "sourceLabel": "Adobe employer posting R172085; Apply now button and seven US locations observed in Chrome",
+    "checked": "November 5, 2026",
+    "portfolio": "Suggested practice: compare a simple baseline with a predictive model on held-out data, then document leakage controls, model errors, and a small inference service.",
+    "transferable": ["Statistical analysis", "Quantitative research", "Software development"]
+  }
+]

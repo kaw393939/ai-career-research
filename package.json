@@ -11,7 +11,7 @@
     "docs:dev": "npm run dev",
     "docs:build": "npm run build",
     "docs:preview": "npm run preview",
-    "check": "npm run build && node scripts/check-links.mjs"
+    "check": "node scripts/check-jobs.mjs && npm run build && node scripts/check-links.mjs"
   },
   "engines": { "node": ">=22" },
   "devDependencies": {

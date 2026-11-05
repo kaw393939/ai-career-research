@@ -1,6 +1,9 @@
 <script setup lang="ts">
 import { computed, ref } from 'vue'
 import { withBase } from 'vitepress'
+import { jobs } from '../../data/jobs'
+
+const startingJobs = jobs.filter(job => ['Internship', 'Entry level'].includes(job.level)).length
 
 const selected = ref('All roles')
 const query = ref('')
@@ -25,12 +28,12 @@ const visibleRoles = computed(() => roles.filter(role =>
       <div class="hero-copy">
         <p class="eyebrow"><span class="status-dot"></span> A FIELD GUIDE TO THE NEXT CHAPTER OF WORK</p>
         <h1 id="hero-heading">Big shifts.<br>New roles.<br><span>Your next move.</span></h1>
-        <p class="hero-description">The AI industry is changing the way we work. Get past the job titles and discover what people actually do, what to learn, and where you could fit.</p>
+        <p class="hero-description">Find a practical way into AI. Start with real US internships and entry-level jobs, understand the requirements, and explore where the work could take you.</p>
         <div class="hero-actions">
-          <a class="atlas-button primary" href="#explore">Explore the roles <span aria-hidden="true">↗</span></a>
-          <a class="text-link" :href="withBase('/roadmap.html')">Build your roadmap <span aria-hidden="true">→</span></a>
+          <a class="atlas-button primary" :href="withBase('/jobs/')">Find your starting point <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="#explore">Explore the roles <span aria-hidden="true">→</span></a>
         </div>
-        <div class="hero-footnote"><span class="mini-stars" aria-hidden="true">✳</span><span>Six career profiles. Real job descriptions.<br>A practical place to start.</span></div>
+        <div class="hero-footnote"><span class="mini-stars" aria-hidden="true">✳</span><span>{{ jobs.length }} employer examples · {{ startingJobs }} early-career starting points.<br>US locations and explicitly US-eligible remote work.</span></div>
       </div>
       <div class="atlas-map" role="img" aria-label="Illustrative map of AI career paths, connecting product building, models and quality, and customer work. These are overlapping paths, not a ranking.">
         <div class="map-topline"><span>THE AI CAREER LANDSCAPE</span><span>FIELD NOTES / 001</span></div>
@@ -55,6 +58,11 @@ const visibleRoles = computed(() => roles.filter(role =>
 
     <div class="research-strip"><span class="strip-label">RESEARCH, WITH CONTEXT</span><p>Employer sources <span>+</span> Skills that transfer <span>+</span> Projects you can build</p><a :href="withBase('/research/methodology.html')">How we research <span aria-hidden="true">↗</span></a></div>
 
+    <section class="home-jobs-start" aria-labelledby="jobs-start-heading">
+      <div><p class="eyebrow">START WITH OPPORTUNITIES YOU CAN ASSESS</p><h2 id="jobs-start-heading">Internships first.<br><em>Requirements in plain sight.</em></h2><p>Check the degree, graduation date, work location, and experience before deciding if a title fits. Then compare how the responsibility grows.</p></div>
+      <div class="home-stage-links"><a :href="withBase('/jobs/')"><span>01</span><div><strong>Internships & entry level</strong><small>Student programs, new graduates, and early-career examples</small></div><span aria-hidden="true">↗</span></a><a :href="withBase('/jobs/#career-stage-filters')"><span>02</span><div><strong>Compare career stages</strong><small>Select Mid level or Senior to explore experienced roles</small></div><span aria-hidden="true">↗</span></a><a :href="withBase('/research/emerging-roles.html')"><span>03</span><div><strong>Look beyond the familiar titles</strong><small>AI platforms, agents, product management, and responsible AI</small></div><span aria-hidden="true">↗</span></a></div>
+    </section>
+
     <section id="explore" class="role-section" aria-labelledby="explore-heading">
       <div class="section-intro"><div><p class="eyebrow">01 / EXPLORE THE LANDSCAPE</p><h2 id="explore-heading">Different titles. <em>Real work.</em></h2></div><p>Find the kind of problems you want to solve.<br>Then get to know the role behind them.</p></div>
       <div class="explorer-tools">
@@ -70,7 +78,8 @@ const visibleRoles = computed(() => roles.filter(role =>
           <div class="card-bottom"><span>Read the role profile</span><span aria-hidden="true">↗</span></div>
         </a>
       </div>
-      <div v-if="visibleRoles.length === 0" class="empty-state"><h3>No matching roles yet.</h3><p>Try a broader skill, or reset the filters to see all six profiles.</p><button type="button" @click="selected = 'All roles'; query = ''">Reset filters →</button></div>
+      <div v-if="visibleRoles.length === 0" class="empty-state"><h3>No matching roles yet.</h3><p>Try a broader skill, or reset the filters to see these six foundational profiles.</p><button type="button" @click="selected = 'All roles'; query = ''">Reset filters →</button></div>
+      <a class="text-link additional-roles-link" :href="withBase('/research/emerging-roles.html')">Explore four additional role patterns <span aria-hidden="true">→</span></a>
     </section>
 
     <section class="path-section" aria-labelledby="path-heading">

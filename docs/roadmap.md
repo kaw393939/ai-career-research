@@ -23,6 +23,8 @@ These are possible starting points, not qualifications by themselves. For exampl
 
 ## 2. Read three job descriptions
 
+The [US job-example library](./jobs/) starts with internships and entry-level roles. Check enrollment, graduation dates, degree level, location, and work authorization before adding an example to your shortlist. Use experienced examples to understand future responsibilities; they do not all represent immediate application targets.
+
 Choose a role and read three relevant employer descriptions, including examples in its profile. Build a simple evidence table:
 
 | Requirement or task | Evidence I already have | Evidence I can build |
