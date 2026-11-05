@@ -5,7 +5,7 @@ description: Plan occupational research, accessible charts, explanatory diagrams
 
 # v1.3 plan: primary sources & useful visuals
 
-**Status:** In progress; implementation authorized November 5, 2026 · **Created:** November 5, 2026 · **Findings:** REV-09–REV-12
+**Status:** Shipped · **Created:** November 5, 2026 · **Findings:** REV-09–REV-12
 
 The user requested a plan before adding generated images, charts, graphs, or broader primary-source research to the site. This document records that plan; those additions are not implemented by publishing it.
 
@@ -40,16 +40,20 @@ For job examples, retain each review date and availability state. Establish a ma
 ## Acceptance criteria
 
 - [x] Review this visual/source plan before implementation begins. The user authorized processing all revision issues on November 5, 2026.
-- [ ] Verify source vintages and document title-to-occupation mappings before choosing chart values.
-- [ ] Every chart links its source, discloses scope/units/year, and has an accessible table.
-- [ ] No chart treats 14 selected job examples as a labor-market estimate.
-- [ ] Images are labeled illustrations and carry appropriate alternative text; they introduce no factual claims.
-- [ ] New graphics answer a question identified in the student review or coverage issue.
-- [ ] Verify desktop/mobile rendering, data transformations, internal links, and deployed behavior.
-- [ ] Record source rechecks and remaining limitations in the release history.
+- [x] Verify source vintages and document title-to-occupation mappings before choosing chart values.
+- [x] Every chart links its source, discloses scope/units/year, and has an accessible table.
+- [x] No chart treats 14 selected job examples as a labor-market estimate.
+- [x] Images are labeled illustrations and carry appropriate alternative text; they introduce no factual claims.
+- [x] New graphics answer a question identified in the student review or coverage issue.
+- [x] Verify desktop/mobile rendering, data transformations, internal links, and deployed behavior.
+- [x] Record source rechecks and remaining limitations in the release history.
 
 ## Delivery record
 
-Implementation commit/PR: **Pending** · Deployment evidence: **Pending** · Deferred scope: **None decided yet**
+Implementation: [d1c1bef](https://github.com/kaw393939/ai-career-research/commit/d1c1bef78e9b1943b2d937ae424a7ca51e9f10e2) · [Successful deployment](https://github.com/kaw393939/ai-career-research/actions/runs/42057505531) · [Release v1.3.0](https://github.com/kaw393939/ai-career-research/releases/tag/v1.3.0).
 
 [Revision tracker](./) · [Release history](./releases)
+
+## Delivered scope and limits
+
+Five national wage series and three single-occupation growth series are shown with source tables and explicit broad-occupation mappings. A qualitative skill matrix, role-selectable learning path and labeled generated illustration support student decisions. A manual source-age command/report retains dates and limitations; it does not check live hiring or schedule automation. Chrome verified the published charts, source report and loaded illustration. Issues #9–#12 are closed with evidence.

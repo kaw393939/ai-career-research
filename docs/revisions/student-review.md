@@ -50,3 +50,7 @@ The student still cannot build a confident local/remote internship shortlist fro
 Ask a student to select a field, identify two opportunities worth investigating, explain any eligibility uncertainty, compare two roles, and choose one skill-building project. Record observed obstacles rather than claiming the interface guarantees a match. Include different degree stages and work-authorization scenarios without collecting unnecessary personal information.
 
 [Return to the revision tracker](./) · [Student experience plan](./student-experience)
+
+## Retest after v1.1–v1.3
+
+The simulated bachelor/2028/no-research scenario was repeated in Chrome. GM is correctly recognized inside the inclusive graduation-year window, with other requirements left for confirmation. Selecting NYC/NJ-or-US-remote work and hiding identified restrictions leaves the Duolingo data internship as a potential opportunity to investigate; its prior data-analysis requirements and authorization questions remain unresolved by the UI. The local expired HPD listing is excluded from default results. Notes survive reload locally and clear correctly; comparisons, compact cards and the NJIT map are live. This improves the decision process without claiming that the student qualifies or that the sample is comprehensive.

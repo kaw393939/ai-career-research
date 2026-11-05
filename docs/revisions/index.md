@@ -7,15 +7,15 @@ description: Track review findings, planned improvements, acceptance criteria, a
 
 This is the public planning record for AI Career Atlas. It combines the simulated NJIT student review, the research limitations found while building the job library, and [GitHub issue #1: not enough other fields](https://github.com/kaw393939/ai-career-research/issues/1).
 
-**Updated November 5, 2026.** The plans below describe future work. Publishing a plan does not mean its features have shipped. Proposed version numbers establish an order; they are not published GitHub releases or delivery dates.
+**Updated November 5, 2026.** The v1.1–v1.3 plans below have been implemented, verified and shipped. They preserve the original scope and acceptance criteria alongside delivery records. GitHub issues retain implementation comments and closure evidence.
 
 ## Release roadmap
 
-| Proposed release | Plan | Status | Intended outcome |
+| Release | Plan | Status | Intended outcome |
 | --- | --- | --- | --- |
-| v1.1 | [Broader technology careers](./industry-coverage) | Planned | Explain AI's effect on security, networking, and other technology fields |
-| v1.2 | [Student decision support](./student-experience) | Planned | Help a student identify plausible opportunities and choose a learning direction |
-| v1.3 | [Primary sources & useful visuals](./evidence-and-visuals) | Planned; authorized for implementation | Add occupational context and visuals that answer concrete career questions |
+| v1.1 | [Broader technology careers](./industry-coverage) | Shipped | Explain AI's effect on security, networking, and other technology fields |
+| v1.2 | [Student decision support](./student-experience) | Shipped | Help a student identify plausible opportunities and choose a learning direction |
+| v1.3 | [Primary sources & useful visuals](./evidence-and-visuals) | Shipped | Add occupational context and visuals that answer concrete career questions |
 
 Follow the [implementation worklog](./worklog) for issue links, code, and deployment evidence.
 
@@ -27,18 +27,18 @@ IDs remain stable so commits and future release notes can refer to the same find
 
 | ID | Finding | Priority | Planned release | Status |
 | --- | --- | --- | --- | --- |
-| [REV-01](https://github.com/kaw393939/ai-career-research/issues/1) | Career coverage concentrates on software, ML, and platform work | High | v1.1 | Planned |
-| [REV-02](https://github.com/kaw393939/ai-career-research/issues/2) | New titles, changed responsibilities, and renamed existing work need clearer separation | High | v1.1 | Planned |
-| [REV-03](https://github.com/kaw393939/ai-career-research/issues/3) | The homepage's six-role explorer and four additional profiles are separated | Medium | v1.1 | Planned |
-| [REV-04](https://github.com/kaw393939/ai-career-research/issues/4) | Search does not evaluate degree, graduation windows, or experience eligibility | High | v1.2 | Planned |
-| [REV-05](https://github.com/kaw393939/ai-career-research/issues/5) | Local and remote early-career coverage is too limited for the student scenario | High | v1.2 | Planned |
-| [REV-06](https://github.com/kaw393939/ai-career-research/issues/6) | Comparing several roles and keeping a shortlist takes too much manual work | Medium | v1.2 | Planned |
-| [REV-07](https://github.com/kaw393939/ai-career-research/issues/7) | Dense cards make it difficult to scan decisive requirements quickly | Medium | v1.2 | Planned |
-| [REV-08](https://github.com/kaw393939/ai-career-research/issues/8) | The learning roadmap lacks an NJIT-specific bridge from courses to portfolio evidence | Medium | v1.2 | Planned |
-| [REV-09](https://github.com/kaw393939/ai-career-research/issues/9) | Selected employer examples do not establish occupation-wide demand or pay | High | v1.3 | Planned |
-| [REV-10](https://github.com/kaw393939/ai-career-research/issues/10) | Role/skill relationships and progression need clearer visual explanations | Medium | v1.3 | Planned |
-| [REV-11](https://github.com/kaw393939/ai-career-research/issues/11) | Generated images need a defined explanatory purpose and illustration labels | Low | v1.3 | Proposed |
-| [REV-12](https://github.com/kaw393939/ai-career-research/issues/12) | Time-sensitive postings need a repeatable review and release record | High | v1.3 | Planned |
+| [REV-01](https://github.com/kaw393939/ai-career-research/issues/1) | Career coverage concentrates on software, ML, and platform work | High | v1.1 | Shipped |
+| [REV-02](https://github.com/kaw393939/ai-career-research/issues/2) | New titles, changed responsibilities, and renamed existing work need clearer separation | High | v1.1 | Shipped |
+| [REV-03](https://github.com/kaw393939/ai-career-research/issues/3) | The homepage's six-role explorer and four additional profiles are separated | Medium | v1.1 | Shipped |
+| [REV-04](https://github.com/kaw393939/ai-career-research/issues/4) | Search does not evaluate degree, graduation windows, or experience eligibility | High | v1.2 | Shipped |
+| [REV-05](https://github.com/kaw393939/ai-career-research/issues/5) | Local and remote early-career coverage is too limited for the student scenario | High | v1.2 | Shipped |
+| [REV-06](https://github.com/kaw393939/ai-career-research/issues/6) | Comparing several roles and keeping a shortlist takes too much manual work | Medium | v1.2 | Shipped |
+| [REV-07](https://github.com/kaw393939/ai-career-research/issues/7) | Dense cards make it difficult to scan decisive requirements quickly | Medium | v1.2 | Shipped |
+| [REV-08](https://github.com/kaw393939/ai-career-research/issues/8) | The learning roadmap lacks an NJIT-specific bridge from courses to portfolio evidence | Medium | v1.2 | Shipped |
+| [REV-09](https://github.com/kaw393939/ai-career-research/issues/9) | Selected employer examples do not establish occupation-wide demand or pay | High | v1.3 | Shipped |
+| [REV-10](https://github.com/kaw393939/ai-career-research/issues/10) | Role/skill relationships and progression need clearer visual explanations | Medium | v1.3 | Shipped |
+| [REV-11](https://github.com/kaw393939/ai-career-research/issues/11) | Generated images need a defined explanatory purpose and illustration labels | Low | v1.3 | Shipped |
+| [REV-12](https://github.com/kaw393939/ai-career-research/issues/12) | Time-sensitive postings need a repeatable review and release record | High | v1.3 | Shipped |
 
 Priority expresses impact on research quality or student decisions, not an estimate of implementation effort.
 
@@ -54,11 +54,15 @@ Checkboxes are manually maintained Markdown records. GitHub issues, commits, and
 
 ## Shared release checks
 
-- [ ] Reopen relevant primary sources and record review dates.
-- [ ] Separate employer requirements, editorial interpretation, and broader occupational evidence.
-- [ ] Preserve US location, remote eligibility, degree, graduation, and authorization restrictions.
-- [ ] Run `npm run check` and document the result.
-- [ ] Exercise changed filters/navigation on desktop and mobile when behavior changes.
-- [ ] Verify the deployed pages and update the release history with evidence.
+- [x] Reopen relevant primary sources and record review dates.
+- [x] Separate employer requirements, editorial interpretation, and broader occupational evidence.
+- [x] Preserve US location, remote eligibility, degree, graduation, and authorization restrictions.
+- [x] Run `npm run check` and document the result.
+- [x] Exercise changed filters/navigation on desktop and mobile when behavior changes.
+- [x] Verify the deployed pages and update the release history with evidence.
 
-These are the reusable checks for future releases, not a claim that the current planning-only update has unfinished features.
+These checks were completed for the shipped revisions. Copy a fresh checklist for the next release. The issue tracker currently has no open issues from this backlog.
+
+## Delivered versions
+
+[GitHub releases](https://github.com/kaw393939/ai-career-research/releases) retain versioned source snapshots. See the [implementation worklog](./worklog) for per-finding code and deployment links. The complete accepted backlog is shipped; documented research limitations remain part of the product rather than hidden unfinished features.

@@ -5,7 +5,7 @@ description: Improve eligibility checks, local research coverage, role compariso
 
 # v1.2 plan: student decision support
 
-**Status:** Planned · **Created:** November 5, 2026 · **Findings:** REV-04–REV-08
+**Status:** Shipped · **Created:** November 5, 2026 · **Findings:** REV-04–REV-08
 
 **Source:** [Simulated NJIT student review](./student-review). This is a scenario-based design plan, not a conclusion from real student testing.
 
@@ -34,18 +34,22 @@ A student can distinguish **interesting work**, **potentially eligible opportuni
 
 ## Acceptance criteria
 
-- [ ] Degree and graduation-range cases are handled accurately, including unspecified values.
-- [ ] Required/preferred qualifications stay distinct after filtering and summarization.
-- [ ] A student can explain why a result appeared and what remains uncertain.
-- [ ] Local/remote coverage is expanded with direct employer evidence, or the remaining gap is documented.
-- [ ] Comparison and shortlist controls are keyboard-accessible and usable on mobile.
-- [ ] The shortlist explains storage behavior and supports clearing saved items.
-- [ ] NJIT resources are linked with review dates and appropriate limitations.
-- [ ] Repeat the student scenario and record remaining obstacles in the release notes.
-- [ ] Build, data, link, behavior, and deployment checks pass.
+- [x] Degree and graduation-range cases are handled accurately, including unspecified values.
+- [x] Required/preferred qualifications stay distinct after filtering and summarization.
+- [x] A student can explain why a result appeared and what remains uncertain.
+- [x] Local/remote coverage is expanded with direct employer evidence, or the remaining gap is documented.
+- [x] Comparison and shortlist controls are keyboard-accessible and usable on mobile.
+- [x] The shortlist explains storage behavior and supports clearing saved items.
+- [x] NJIT resources are linked with review dates and appropriate limitations.
+- [x] Repeat the student scenario and record remaining obstacles in the release notes.
+- [x] Build, data, link, behavior, and deployment checks pass.
 
 ## Delivery record
 
-Implementation commit/PR: **Pending** · Deployment evidence: **Pending** · Deferred scope: **None decided yet**
+Implementation: [6458757](https://github.com/kaw393939/ai-career-research/commit/645875741ba68738d3c8f570f28b6b95b8298891) · [Successful deployment](https://github.com/kaw393939/ai-career-research/actions/runs/42048885582) · [Release v1.2.0](https://github.com/kaw393939/ai-career-research/releases/tag/v1.2.0).
 
 [Revision tracker](./) · [Next: evidence and visuals](./evidence-and-visuals)
+
+## Delivered scope and limits
+
+Structured, explainable selected checks cover degree, graduation years, enrollment, experience, research, optional authorization/citizenship and selected remote states. Unknowns and equivalence routes stay visible. Compact cards, browser-local shortlist notes, comparison and the official-source NJIT learning map are live. Thirteen boundary/unknown/restriction tests and Chrome student/mobile/storage checks passed. Exact months, field-of-study and other conditions still need employer review. Issues #4–#8 are closed with evidence.
