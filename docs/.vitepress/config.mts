@@ -20,11 +20,20 @@ export default defineConfig({
     logo: { src: '/mark.svg', alt: '' },
     siteTitle: 'AI Career Atlas',
     nav: [
-      { text: 'Internships & jobs', link: '/jobs/', activeMatch: '/jobs/' },
+      { text: 'Start here', link: '/#first-step' },
       { text: 'Explore roles', link: '/roles/', activeMatch: '/roles/' },
-      { text: 'Career roadmap', link: '/roadmap' },
-        { text: 'NJIT learning connections', link: '/njit' },
-      { text: 'Research notes', link: '/research/methodology' },
+      { text: 'Internships & jobs', link: '/jobs/', activeMatch: '/jobs/' },
+      { text: 'Learn', items: [
+        { text: 'Choose a project', link: '/roadmap' },
+        { text: 'Skills & learning paths', link: '/research/visual-guide' },
+        { text: 'NJIT learning connections', link: '/njit' }
+      ] },
+      { text: 'Research', items: [
+        { text: 'Methodology & sources', link: '/research/methodology' },
+        { text: 'Occupational context & charts', link: '/research/occupational-context' },
+        { text: 'Employer source ledger', link: '/jobs/sources' },
+        { text: 'Source review record', link: '/research/source-review' }
+      ] },
       { text: 'Revisions', link: '/revisions/', activeMatch: '/revisions/' }
     ],
     socialLinks: [{ icon: 'github', link: repo }],
@@ -34,6 +43,7 @@ export default defineConfig({
         { text: 'Revision tracker', link: '/revisions/' },
         { text: 'Implementation worklog', link: '/revisions/worklog' },
         { text: 'Student review', link: '/revisions/student-review' },
+        { text: 'Brand & student journey review', link: '/revisions/brand-and-student-journey' },
         { text: 'Broader technology careers', link: '/revisions/industry-coverage' },
         { text: 'Student decision support', link: '/revisions/student-experience' },
         { text: 'Primary sources & visuals', link: '/revisions/evidence-and-visuals' },
@@ -77,7 +87,7 @@ export default defineConfig({
     editLink: { pattern: `${repo}/edit/main/docs/:path`, text: 'Improve this research on GitHub' },
     outline: { level: [2, 3] },
     footer: {
-      message: 'An open research project. Read the work behind the title.',
+      message: 'Clear evidence for a next step you choose. An independent career research project.',
       copyright: 'AI Career Atlas · Research reviewed November 5, 2026'
     }
   }

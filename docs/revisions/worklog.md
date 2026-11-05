@@ -21,6 +21,7 @@ The user authorized implementing the full revision backlog on **November 5, 2026
 | REV-10 | [#10](https://github.com/kaw393939/ai-career-research/issues/10) | [v1.3.0](https://github.com/kaw393939/ai-career-research/releases/tag/v1.3.0) | Shipped / issue closed | [Code d1c1bef](https://github.com/kaw393939/ai-career-research/commit/d1c1bef78e9b1943b2d937ae424a7ca51e9f10e2) · [Deployment](https://github.com/kaw393939/ai-career-research/actions/runs/42057505531) |
 | REV-11 | [#11](https://github.com/kaw393939/ai-career-research/issues/11) | [v1.3.0](https://github.com/kaw393939/ai-career-research/releases/tag/v1.3.0) | Shipped / issue closed | [Code d1c1bef](https://github.com/kaw393939/ai-career-research/commit/d1c1bef78e9b1943b2d937ae424a7ca51e9f10e2) · [Deployment](https://github.com/kaw393939/ai-career-research/actions/runs/42057505531) |
 | REV-12 | [#12](https://github.com/kaw393939/ai-career-research/issues/12) | [v1.3.0](https://github.com/kaw393939/ai-career-research/releases/tag/v1.3.0) | Shipped / issue closed | [Code d1c1bef](https://github.com/kaw393939/ai-career-research/commit/d1c1bef78e9b1943b2d937ae424a7ca51e9f10e2) · [Deployment](https://github.com/kaw393939/ai-career-research/actions/runs/42057505531) |
+| REV-13 | [#13](https://github.com/kaw393939/ai-career-research/issues/13) | v1.4.0 | In progress | [Student brand review](./brand-and-student-journey) |
 
 ## Closure rule
 

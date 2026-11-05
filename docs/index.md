@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Explore the next chapter of work
-description: An evidence-backed field guide to AI careers, from forward-deployed engineering to evaluation. Find the work, skills, and projects that fit you.
+title: Find your direction in AI and technology
+description: Explore AI across technology fields, inspect real employer evidence, and choose one practical next step.
 sidebar: false
 ---
 

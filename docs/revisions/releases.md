@@ -7,6 +7,14 @@ description: A dated record of deployed changes, verification evidence, and the 
 
 Entries record deployed changes. Versions v1.1.0–v1.3.0 are shipped with issue-linked code and deployment evidence. Earlier baseline entries describe commits and deployments without implying a matching version tag.
 
+## November 5, 2026 — v1.4.0: a clearer student invitation
+
+Addresses **REV-13 / issue #13**. Applies a Sage-primary, Explorer-secondary brand direction: clearer next actions, an optional work-interest chooser, a direct-download first-role worksheet, more visible primary sources, and grouped learning/research navigation.
+
+The [review and rationale](./brand-and-student-journey) explains restrained applications of reciprocity, authority, consistency and liking. It records a simulated student walkthrough, not a claim about real student behavior or improved outcomes. Existing research and student eligibility/shortlist features are retained.
+
+Implementation and successful deployment evidence: [issue #13](https://github.com/kaw393939/ai-career-research/issues/13) · [versioned source](https://github.com/kaw393939/ai-career-research/releases/tag/v1.4.0).
+
 ## November 5, 2026 — v1.3.0: evidence, visuals and maintenance
 
 Addressed **REV-09–REV-12 / issues #9–#12**. Added BLS/O*NET national occupation context, wage/growth charts with accessible source tables and explicit mapping limits, a qualitative skill matrix, interactive learning paths, a labeled generated illustration and its prompt provenance, and a manual source-age review command/report.

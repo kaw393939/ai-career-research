@@ -13,6 +13,8 @@ For NJIT students, the [coursework-to-portfolio map](./njit) connects official c
 
 Explore the [visual skill map and learning paths](./research/visual-guide), or compare [broad occupational context](./research/occupational-context) separately from individual job examples.
 
+Use the <a href="/ai-career-research/first-role-worksheet.md" download="ai-career-first-role-worksheet.md">first-role worksheet</a> to keep your questions and choose a small project. You can download it directly without signing up.
+
 ## 1. Start from what you know
 
 | Your background | A useful first direction | What to practice next |
