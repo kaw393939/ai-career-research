@@ -1,0 +1,202 @@
+[
+  {
+    "checked": "November 5, 2026",
+    "status": "Open when checked",
+    "transferable": [
+      "Programming",
+      "Technical communication"
+    ],
+    "id": "cisco-ai-network-solutions",
+    "employer": "Cisco",
+    "title": "Solutions Engineer-Hyperscale and AI Infrastructure",
+    "level": "Senior",
+    "role": "AI infrastructure networking / technical sales",
+    "location": "Richardson, TX or San Jose, CA; remote label",
+    "workMode": "Remote — US",
+    "sourceUrl": "https://careers.cisco.com/global/en/job/CISCISGLOBAL2022491EXTERNALENGLOBAL/Solutions-Engineer-Hyperscale-and-AI-Infrastructure",
+    "sourceLabel": "Cisco employer description · Chrome reviewed",
+    "experience": "8+ years technical sales/customer engagement with data-center or service-provider networking; 10+ years and degree/CCIE are preferred.",
+    "eligibility": "Two US locations are listed; remote label does not establish approval in every state. Sponsorship not established. Application window expected to close November 18, 2026.",
+    "responsibilities": [
+      "Design data-center and service-provider networks supporting AI workloads, compute, storage and optics.",
+      "Lead architecture discussions, demonstrations and customer engagements.",
+      "Apply routing, automation and operating-system knowledge to infrastructure designs."
+    ],
+    "skills": [
+      "BGP / EVPN",
+      "Data-center networking",
+      "Optics",
+      "Automation",
+      "Customer discovery"
+    ],
+    "portfolio": "Design a small simulated network for an inference service; explain routing, failure recovery, capacity assumptions and the customer tradeoffs.",
+    "levelReason": "Editorial grouping based on the employer title, stated prerequisites, and scope of responsibility; not a universal years threshold."
+  },
+  {
+    "checked": "November 5, 2026",
+    "status": "Status uncertain",
+    "transferable": [
+      "Programming",
+      "Technical communication"
+    ],
+    "id": "cisco-wireless-qa-junior",
+    "employer": "Cisco",
+    "title": "Software QA Engineer I (Full Time) - United States",
+    "level": "Entry level",
+    "role": "Networking quality / AI-assisted testing",
+    "location": "Richardson, TX",
+    "workMode": "On-site",
+    "sourceUrl": "https://careers.cisco.com/global/en/job/CISCISGLOBAL2030253EXTERNALENGLOBAL/Software-QA-Engineer-I-Full-Time-United-States-",
+    "sourceLabel": "Cisco employer description · Chrome reviewed",
+    "experience": "Programming fundamentals, basic TCP/IP, DHCP, DNS and routing; networking lab exposure and CCNA are preferred.",
+    "eligibility": "Bachelor degree completed within three years or expected within the next 12 months in a relevant field. Employer explicitly advertises potential future opportunities, not a confirmed current vacancy. Sponsorship not established.",
+    "responsibilities": [
+      "Write wireless test plans and Python automation.",
+      "Reproduce customer failures in router, switch and access-point labs.",
+      "Use AI-assisted development tools while validating test results."
+    ],
+    "skills": [
+      "Python",
+      "TCP/IP",
+      "Wireless testing",
+      "Debugging",
+      "AI-assisted tooling"
+    ],
+    "portfolio": "Create a simulated network testbed, automate connectivity and DNS checks, and compare an AI-proposed test with manually verified expected behavior.",
+    "levelReason": "Editorial grouping based on the employer title, stated prerequisites, and scope of responsibility; not a universal years threshold."
+  },
+  {
+    "checked": "November 5, 2026",
+    "status": "Open when checked",
+    "transferable": [
+      "Programming",
+      "Technical communication"
+    ],
+    "id": "nvidia-senior-ai-security",
+    "employer": "NVIDIA",
+    "title": "Senior AI Security Engineer",
+    "level": "Senior",
+    "role": "AI cybersecurity / secure agents",
+    "location": "Seattle, WA; remote locations listed in TX, CO, WA and CA",
+    "workMode": "Remote — US",
+    "sourceUrl": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/Senior-AI-Security-Engineer_JR2028090",
+    "sourceLabel": "NVIDIA employer description · Chrome reviewed",
+    "experience": "8+ years software/security engineering including hands-on leadership; agent tooling, backend systems, and offensive-security thinking.",
+    "eligibility": "Bachelor or master degree in a related field, or equivalent experience. Several US remote states are explicit; do not infer nationwide remote eligibility. Sponsorship not established. Page states an existing vacancy; minimum application acceptance date was November 3, 2026, with Apply still visible at review.",
+    "responsibilities": [
+      "Turn cybersecurity research prototypes into maintained tools and services.",
+      "Build secure agent integrations, APIs and reusable tools.",
+      "Work across security, research and product teams to validate practical solutions."
+    ],
+    "skills": [
+      "Security engineering",
+      "Backend APIs",
+      "Agents",
+      "Threat modeling",
+      "Technical leadership"
+    ],
+    "portfolio": "Build a local sandbox for a tool-using assistant; document authorization boundaries and test prompt injection, unsafe tool requests and failure handling.",
+    "levelReason": "Editorial grouping based on the employer title, stated prerequisites, and scope of responsibility; not a universal years threshold."
+  },
+  {
+    "checked": "November 5, 2026",
+    "status": "Open when checked",
+    "transferable": [
+      "Programming",
+      "Technical communication"
+    ],
+    "id": "palo-enterprise-ai-security",
+    "employer": "Palo Alto Networks",
+    "title": "Senior Enterprise AI Security Engineer",
+    "level": "Senior",
+    "role": "Enterprise AI security / controls",
+    "location": "Santa Clara, CA",
+    "workMode": "On-site",
+    "sourceUrl": "https://jobs.paloaltonetworks.com/de/stellenbeschreibung/santa-clara/senior-enterprise-ai-security-engineer/47263/102572386592",
+    "sourceLabel": "Palo Alto Networks employer description · Chrome reviewed",
+    "experience": "5+ years enterprise, application, cloud security or architecture; AI guardrail implementation and scripting experience.",
+    "eligibility": "Related bachelor/master degree or equivalent practice. Employer says most teams work in office full time; confirm position-specific attendance. Immigration sponsorship is explicitly unavailable. English job body is displayed within a localized recruiting page.",
+    "responsibilities": [
+      "Inventory approved and shadow AI systems and integrations.",
+      "Build automated guardrails, data-protection controls and remediation workflows.",
+      "Assess model hosting, agents, connectors and AI-specific security risks."
+    ],
+    "skills": [
+      "AI risk assessment",
+      "IAM / cloud security",
+      "Python or Go",
+      "DLP",
+      "Security automation"
+    ],
+    "portfolio": "Document an AI asset inventory and threat model for a synthetic organization, then demonstrate one access-control and one data-leakage test.",
+    "levelReason": "Editorial grouping based on the employer title, stated prerequisites, and scope of responsibility; not a universal years threshold.",
+    "compensation": "USD $129,200–$209,000 per year advertised base range for the posted non-sales role; location and qualifications affect offers."
+  },
+  {
+    "checked": "November 5, 2026",
+    "status": "Closed example",
+    "transferable": [
+      "Programming",
+      "Technical communication"
+    ],
+    "id": "nyc-hpd-data-ai-intern",
+    "employer": "NYC Housing Preservation and Development",
+    "title": "Summer Undergraduate Intern, Data Engineering & AI",
+    "level": "Internship",
+    "role": "Data engineering / introductory AI",
+    "location": "100 Gold Street, NYC; NYC-all-boroughs listing",
+    "workMode": "US location; mode unspecified",
+    "sourceUrl": "https://cityjobs.nyc.gov/job/summer-undergraduate-intern-data-engineering-and-ai-in-nyc-all-boros-jid-42436",
+    "sourceLabel": "NYC Housing Preservation and Development employer description · Chrome reviewed",
+    "experience": "Student learning role; Python/SQL, datasets and database concepts appear in preferred skills.",
+    "eligibility": "Historical June–August program: enrolled college student or recent winter/spring graduate by June. US work authorization required; no visa sponsorship. NYC residency generally required within 90 days, with exceptions requiring employer confirmation. Posting expired May 1, 2026; not an active application target.",
+    "responsibilities": [
+      "Support ETL pipelines, SQL queries and data-quality documentation.",
+      "Prepare data and features for introductory ML models.",
+      "Evaluate models and communicate results through visualizations."
+    ],
+    "skills": [
+      "SQL",
+      "Python",
+      "Data quality",
+      "ETL",
+      "Model evaluation"
+    ],
+    "portfolio": "Build a public-data ETL pipeline with schema validation and a simple model; document how data quality affects results.",
+    "levelReason": "Editorial grouping based on the employer title, stated prerequisites, and scope of responsibility; not a universal years threshold."
+  },
+  {
+    "checked": "November 5, 2026",
+    "status": "Open when checked",
+    "transferable": [
+      "Programming",
+      "Technical communication"
+    ],
+    "id": "duolingo-data-scientist-intern",
+    "employer": "Duolingo",
+    "title": "Data Scientist, Intern",
+    "level": "Internship",
+    "role": "Product analytics / applied AI",
+    "location": "New York, NY or Pittsburgh, PA",
+    "workMode": "On-site",
+    "sourceUrl": "https://careers.duolingo.com/jobs/8888721002",
+    "sourceLabel": "Duolingo employer description · Chrome reviewed",
+    "experience": "Previous analysis of large datasets and communication of results; SQL, Python or R/statistics. BigQuery/Snowflake/dbt, GPA 3.5+ and AI-tool familiarity are exceptional/preferred signals.",
+    "eligibility": "Undergraduate or master degree in a quantitative field; expected graduation Fall 2027 or Spring/Summer 2028. Able to relocate to NYC or Pittsburgh; application asks office willingness. Work-authorization and sponsorship questions are asked, but answers/eligibility policies are not established by their presence.",
+    "responsibilities": [
+      "Apply analytical and AI methods to model user behavior and evaluate product changes.",
+      "Analyze experiments and influence product priorities.",
+      "Build reports/forecasts and check tracking-data quality."
+    ],
+    "skills": [
+      "SQL",
+      "Python / R",
+      "Statistics",
+      "Experiment analysis",
+      "Communication"
+    ],
+    "portfolio": "Analyze a public behavioral dataset with a simple baseline, an experiment-analysis plan and a clear report of uncertainty.",
+    "levelReason": "Editorial grouping based on the employer title, stated prerequisites, and scope of responsibility; not a universal years threshold.",
+    "compensation": "USD $54–$56 per hour as advertised for this internship."
+  }
+]

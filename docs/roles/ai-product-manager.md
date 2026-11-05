@@ -7,6 +7,10 @@ description: Connect user needs, AI evaluation, and product delivery, with evide
 
 An AI product manager connects user problems, delivery priorities, and evidence about whether an AI capability is useful. It is a product responsibility with technical and measurement demands; the title alone does not establish a junior or nontechnical job.
 
+## How this role is changing
+
+**Editorial classification: Established role with AI responsibilities.** Value and acceptance criteria must account for uncertain outputs. Traditional foundations: Product ownership, Domain knowledge. This is a responsibility-based interpretation of the employer evidence below, not a claim that a title is newly invented.
+
 ## What the work looks like
 
 Merck's **AI and Data Science Product Manager** example involves turning scientists' needs into requirements, acceptance criteria, and backlogs. It also covers moving language-model and agent prototypes toward maintainable services, selecting evaluation measures, and using feedback to improve adoption. [Merck employer description](https://jobs.merck.com/us/en/job/R424180/AI-and-Data-Science-Product-Manager).

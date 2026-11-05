@@ -1,25 +1,9 @@
 <script setup lang="ts">
-import { computed, ref } from 'vue'
 import { withBase } from 'vitepress'
 import { jobs } from '../../data/jobs'
 
 const startingJobs = jobs.filter(job => ['Internship', 'Entry level'].includes(job.level)).length
 
-const selected = ref('All roles')
-const query = ref('')
-const filters = ['All roles', 'Build products', 'Work with customers', 'Models & quality']
-const roles = [
-  { number: '01', title: 'AI engineer', tag: 'PRODUCT ENGINEERING', category: 'Build products', icon: '⌘', color: 'green', description: 'Turn AI capabilities into useful, reliable software that people actually use.', skills: ['Python / TypeScript', 'APIs', 'Evaluation'], link: '/roles/ai-engineer.html' },
-  { number: '02', title: 'Forward-deployed engineer', tag: 'CUSTOMER × CODE', category: 'Work with customers', icon: '↗', color: 'orange', description: 'Get close to a customer’s problem. Build and ship the solution alongside them.', skills: ['Full-stack', 'Discovery', 'Integration'], link: '/roles/forward-deployed-engineer.html' },
-  { number: '03', title: 'LLM engineer', tag: 'LANGUAGE SYSTEMS', category: 'Build products', icon: '✳', color: 'purple', description: 'Build the retrieval, tools, and evaluation loops behind language model applications.', skills: ['RAG', 'Tool use', 'Model serving'], link: '/roles/llm-engineer.html' },
-  { number: '04', title: 'ML engineer', tag: 'MODELS IN PRODUCTION', category: 'Models & quality', icon: '⌁', color: 'blue', description: 'Connect data, trained models, and production systems that keep performing.', skills: ['Python / SQL', 'ML pipelines', 'Monitoring'], link: '/roles/ml-engineer.html' },
-  { number: '05', title: 'AI evaluation engineer', tag: 'QUALITY & RELIABILITY', category: 'Models & quality', icon: '◎', color: 'pink', description: 'Make model quality measurable. Find failures before they reach real users.', skills: ['Test design', 'Statistics', 'Failure analysis'], link: '/roles/ai-evaluation-engineer.html' },
-  { number: '06', title: 'AI solutions architect', tag: 'SYSTEMS & STRATEGY', category: 'Work with customers', icon: '◇', color: 'yellow', description: 'Translate business goals into AI architectures that teams can operate and trust.', skills: ['Cloud design', 'Tradeoffs', 'Communication'], link: '/roles/ai-solutions-architect.html' }
-]
-const visibleRoles = computed(() => roles.filter(role =>
-  (selected.value === 'All roles' || role.category === selected.value) &&
-  `${role.title} ${role.description} ${role.skills.join(' ')}`.toLowerCase().includes(query.value.toLowerCase().trim())
-))
 </script>
 
 <template>
@@ -65,21 +49,7 @@ const visibleRoles = computed(() => roles.filter(role =>
 
     <section id="explore" class="role-section" aria-labelledby="explore-heading">
       <div class="section-intro"><div><p class="eyebrow">01 / EXPLORE THE LANDSCAPE</p><h2 id="explore-heading">Different titles. <em>Real work.</em></h2></div><p>Find the kind of problems you want to solve.<br>Then get to know the role behind them.</p></div>
-      <div class="explorer-tools">
-        <div class="filter-tabs" role="group" aria-label="Filter roles by work focus"><button v-for="filter in filters" :key="filter" type="button" :class="{ active: selected === filter }" :aria-pressed="selected === filter" @click="selected = filter">{{ filter }}</button></div>
-        <label class="role-search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></svg><input v-model="query" type="search" placeholder="Search roles or skills" aria-label="Search roles or skills"></label>
-      </div>
-      <p class="result-count" aria-live="polite">{{ visibleRoles.length }} {{ visibleRoles.length === 1 ? 'role' : 'roles' }} to explore <span>· Grouped by focus; skills often overlap</span></p>
-      <div class="role-grid">
-        <a v-for="role in visibleRoles" :key="role.number" class="role-card" :href="withBase(role.link)">
-          <div class="card-top"><span :class="['role-symbol', role.color]" aria-hidden="true">{{ role.icon }}</span><span class="card-number">{{ role.number }} /</span></div>
-          <p class="card-tag">{{ role.tag }}</p><h3>{{ role.title }}</h3><p class="card-description">{{ role.description }}</p>
-          <div class="skill-list"><span v-for="skill in role.skills" :key="skill">{{ skill }}</span></div>
-          <div class="card-bottom"><span>Read the role profile</span><span aria-hidden="true">↗</span></div>
-        </a>
-      </div>
-      <div v-if="visibleRoles.length === 0" class="empty-state"><h3>No matching roles yet.</h3><p>Try a broader skill, or reset the filters to see these six foundational profiles.</p><button type="button" @click="selected = 'All roles'; query = ''">Reset filters →</button></div>
-      <a class="text-link additional-roles-link" :href="withBase('/research/emerging-roles.html')">Explore four additional role patterns <span aria-hidden="true">→</span></a>
+      <RoleExplorer />
     </section>
 
     <section class="path-section" aria-labelledby="path-heading">

@@ -9,6 +9,10 @@ A **machine learning engineer** builds, deploys, and maintains systems that turn
 
 **Focus:** model and data lifecycle · **Related titles:** applied ML engineer, ML software engineer, MLOps engineer
 
+## How this role is changing
+
+**Editorial classification: Established role with AI responsibilities.** Foundation models broaden an established production-ML discipline. Traditional foundations: Statistics, Software systems. This is a responsibility-based interpretation of the employer evidence below, not a claim that a title is newly invented.
+
 ## What the work looks like
 
 ML engineering is an established role that predates the current generative AI wave. Its scope can now include foundation models alongside prediction, classification, recommendation, and other conventional ML applications. Google's official role description includes both conventional approaches and generative AI, with responsibilities covering pipelines, deployment, monitoring, and model improvement. [Google Cloud role definition](https://cloud.google.com/learn/certification/machine-learning-engineer).

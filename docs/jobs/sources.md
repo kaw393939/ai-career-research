@@ -51,3 +51,18 @@ These employer pages were inspected in **Chrome on November 5, 2026**. The libra
 - **Posting evidence is narrower than occupation evidence.** These descriptions show what selected employers ask for. They cannot establish that a title is new, rapidly growing, or typical across the market.
 
 The [methodology](../research/methodology) defines inclusion and status rules. Return to the [job explorer](./) to compare responsibilities, requirements, and editorial portfolio ideas.
+
+## Expanded fields and local evidence — November 5, 2026
+
+These additional primary pages were inspected in Chrome. Closed and potential-future listings are research examples, not confirmed vacancies.
+
+| Employer / exact title | Stage | Location | Status |
+| --- | --- | --- | --- |
+| [Cisco — Solutions Engineer-Hyperscale and AI Infrastructure](https://careers.cisco.com/global/en/job/CISCISGLOBAL2022491EXTERNALENGLOBAL/Solutions-Engineer-Hyperscale-and-AI-Infrastructure) | Senior | Richardson, TX or San Jose, CA; remote label | Open when checked |
+| [Cisco — Software QA Engineer I (Full Time) - United States](https://careers.cisco.com/global/en/job/CISCISGLOBAL2030253EXTERNALENGLOBAL/Software-QA-Engineer-I-Full-Time-United-States-) | Entry level | Richardson, TX | Status uncertain |
+| [NVIDIA — Senior AI Security Engineer](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/Senior-AI-Security-Engineer_JR2028090) | Senior | Seattle, WA; remote locations listed in TX, CO, WA and CA | Open when checked |
+| [Palo Alto Networks — Senior Enterprise AI Security Engineer](https://jobs.paloaltonetworks.com/de/stellenbeschreibung/santa-clara/senior-enterprise-ai-security-engineer/47263/102572386592) | Senior | Santa Clara, CA | Open when checked |
+| [NYC Housing Preservation and Development — Summer Undergraduate Intern, Data Engineering & AI](https://cityjobs.nyc.gov/job/summer-undergraduate-intern-data-engineering-and-ai-in-nyc-all-boros-jid-42436) | Internship | 100 Gold Street, NYC; NYC-all-boroughs listing | Closed example |
+| [Duolingo — Data Scientist, Intern](https://careers.duolingo.com/jobs/8888721002) | Internship | New York, NY or Pittsburgh, PA | Open when checked |
+
+The NYC HPD listing is historical and has a residency rule; it does not demonstrate a current opening for NJ residents. Duolingo adds a current undergraduate/master’s NYC option with a 2027–2028 graduation window and prior data-analysis requirements. New Jersey-specific and remote undergraduate internship coverage remains incomplete.

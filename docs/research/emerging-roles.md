@@ -3,7 +3,7 @@ title: Look beyond the familiar AI titles
 description: Compare AI platform, inference, agent automation, product management, and responsible-AI responsibilities using real US employer evidence.
 ---
 
-# Follow the responsibility, then the title
+# AI across the technology industry
 
 The additional Chrome research surfaces work around AI platforms, inference performance, agent workflows, product decisions, and responsible-AI integration. These are useful areas to investigate. A few postings cannot establish that an occupation is newly created or growing quickly.
 
@@ -38,3 +38,9 @@ Use this as a learning hypothesis. Choose one profile, inspect its [real job exa
 ## Limits of this snapshot
 
 The examples span a small set of employers and were checked on **November 5, 2026**. They do not measure the proportion of remote jobs, typical pay, the frequency of a title, or the likelihood of being hired. Broader occupational research would need an appropriate population, geography, time period, and classification method.
+
+## Security, networking, data, quality and physical systems
+
+The [unified role explorer](../roles/) now includes security, networking/telecom, quality/testing, data engineering and embedded/robotics alongside software, customer/product and cloud/platform work. Classifications distinguish AI-focused specialties, established roles with changed responsibilities, and overlapping employer titles. These are editorial interpretations, not claims that a title is new.
+
+See [AI security](../roles/ai-security-engineer), [AI infrastructure networking](../roles/ai-network-engineer), [network quality](../roles/ai-quality-engineer), [data engineering](../roles/ai-data-engineer), and [physical AI](../roles/physical-ai-engineer). The [source ledger](../jobs/sources) preserves exact titles, including pipeline and expired examples. Early-career evidence remains uneven across fields.

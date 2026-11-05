@@ -9,16 +9,9 @@ AI careers involve much more than training models. Some engineers build products
 
 This comparison is an editorial synthesis of the employer and official role descriptions linked in each profile. It describes common patterns, not universal job requirements. Research reviewed **November 5, 2026**.
 
-## Compare the roles
+## Explore and compare all fields
 
-| Role | Main question | Typical work | Useful portfolio evidence |
-| --- | --- | --- | --- |
-| [AI engineer](./ai-engineer) | How do we make AI useful in a product? | Application code, model integration, evaluation, deployment | A working AI feature with a test set and documented limitations |
-| [Forward-deployed engineer](./forward-deployed-engineer) | How do we solve this customer's actual problem? | Discovery, integration, implementation, adoption | A deployed workflow built around a realistic stakeholder brief |
-| [LLM engineer](./llm-engineer) | How do we make a language model application reliable? | Retrieval, tool use, inference, evaluations | A retrieval or agent workflow with baselines and failure analysis |
-| [ML engineer](./ml-engineer) | How do we run and maintain a useful model? | Data pipelines, training, serving, monitoring | A reproducible model pipeline with validation and monitoring |
-| [AI evaluation engineer](./ai-evaluation-engineer) | How do we know the system is good enough? | Test design, measurement, error analysis, release gates | A versioned evaluation suite with scoring guidance and regression reports |
-| [AI solutions architect](./ai-solutions-architect) | What system should the organization build? | Requirements, cloud design, tradeoffs, technical guidance | An architecture proposal with a working prototype and cost model |
+<RoleExplorer />
 
 ## Choose by the problems you enjoy
 

@@ -9,6 +9,10 @@ An AI solutions architect translates an organization's requirements into an AI s
 
 **Focus:** system design and adoption · **Useful starting point:** cloud, software, or consulting experience · **Also search:** generative AI solutions architect, AI specialist solutions architect, applied AI architect
 
+## How this role is changing
+
+**Editorial classification: Established role with AI responsibilities.** Model, data and evaluation decisions join existing architecture work. Traditional foundations: Architecture, Consulting. This is a responsibility-based interpretation of the employer evidence below, not a claim that a title is newly invented.
+
 ## What the work looks like
 
 AWS's **Senior Solutions Architect, Global Energy & Utilities** example covers model selection, retrieval-augmented generation, agent workflows, and production-oriented architecture. It includes proofs of concept, reusable reference designs, technical presentations to leadership, and communication between customers and product teams. This combines technical depth with domain-specific customer work. [AWS energy employer example](https://amazon.jobs/en/jobs/10559802/senior-solutions-architect-global-energy-utilities)

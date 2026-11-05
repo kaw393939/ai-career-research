@@ -9,6 +9,10 @@ An **AI evaluation engineer** builds repeatable tests and analysis that reveal w
 
 **Focus:** measurement and reliability · **Related titles:** evaluation engineer, model evaluations research engineer, evaluations research scientist
 
+## How this role is changing
+
+**Editorial classification: AI-focused specialty.** Open-ended model behavior requires explicit rubrics and judgment. Traditional foundations: Experimental design, Testing. This is a responsibility-based interpretation of the employer evidence below, not a claim that a title is newly invented.
+
 ## What the work looks like
 
 “AI evaluation engineer” is a useful role-family label; employers use several titles, and the work ranges from application testing to frontier-model research. It is also different from a short-term data-rating assignment: check whether the job owns test design, software infrastructure, analysis, or annotation.

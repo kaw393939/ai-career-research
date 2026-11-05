@@ -1,6 +1,6 @@
 {
   "name": "ai-career-atlas",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "type": "module",
   "description": "Evidence-backed research on AI careers, skills, and portfolio projects.",
@@ -13,7 +13,9 @@
     "docs:preview": "npm run preview",
     "check": "node scripts/check-jobs.mjs && npm run build && node scripts/check-links.mjs"
   },
-  "engines": { "node": ">=22" },
+  "engines": {
+    "node": ">=22"
+  },
   "devDependencies": {
     "vitepress": "1.6.4",
     "vue": "3.5.45"

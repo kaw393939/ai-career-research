@@ -1,3 +1,4 @@
+import expandedEvidence from '../../research/expanded-evidence.json'
 import internshipEvidence from '../../research/internship-evidence.json'
 import entryEvidence from '../../research/entry-evidence.json'
 import experiencedEvidence from '../../research/experienced-evidence.json'
@@ -25,4 +26,4 @@ export type JobExample = {
 }
 
 export const researchDate = 'November 5, 2026'
-export const jobs = [...internshipEvidence, ...entryEvidence, ...experiencedEvidence] as JobExample[]
+export const jobs = [...internshipEvidence, ...entryEvidence, ...experiencedEvidence, ...expandedEvidence] as JobExample[]

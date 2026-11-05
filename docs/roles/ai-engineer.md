@@ -9,6 +9,10 @@ An AI engineer turns AI capabilities into usable software by connecting models, 
 
 **Focus:** application delivery · **Useful starting point:** software development · **Also search:** applied AI engineer, generative AI engineer, AI application engineer
 
+## How this role is changing
+
+**Editorial classification: AI-focused specialty.** Model behavior becomes part of application quality. Traditional foundations: Software engineering, Testing. This is a responsibility-based interpretation of the employer evidence below, not a claim that a title is newly invented.
+
 ## What the work looks like
 
 Microsoft's AI engineer role outline covers planning, implementing, and maintaining solutions across generative AI, agents, vision, language, and information extraction. That breadth is a reminder that “AI engineer” can mean more than building chat applications. The outline also describes collaboration with architects, data scientists, operations engineers, and security engineers. [Microsoft role outline](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-apps-and-agents-developer-associate/)

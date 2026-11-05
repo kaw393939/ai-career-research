@@ -9,6 +9,10 @@ An **LLM engineer** builds and operates software that uses large language models
 
 **Focus:** language model applications · **Related titles:** generative AI engineer, NLP engineer, AI/ML engineer
 
+## How this role is changing
+
+**Editorial classification: Overlapping employer title.** Language-model reliability and context pipelines add specific concerns. Traditional foundations: Backend development, Information retrieval. This is a responsibility-based interpretation of the employer evidence below, not a claim that a title is newly invented.
+
 ## What the work looks like
 
 The title overlaps substantially with [AI engineer](./ai-engineer). Read the description to see whether the employer wants application development, model adaptation, inference infrastructure, or research.

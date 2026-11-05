@@ -7,6 +7,10 @@ description: Compare student, new-graduate, and experienced examples of AI infra
 
 In this atlas, **AI platform and inference engineering** is an editorial focus category for building the infrastructure that other teams use to train, deploy, and operate AI systems. It is not a standardized new occupation. Read each employer's responsibilities to distinguish platform development, model serving, performance engineering, and application work.
 
+## How this role is changing
+
+**Editorial classification: Overlapping employer title.** Accelerators, model serving and context platforms change system constraints. Traditional foundations: Linux, Cloud infrastructure. This is a responsibility-based interpretation of the employer evidence below, not a claim that a title is newly invented.
+
 ## What the work means
 
 General Motors' **2027 Summer Intern – Machine Learning Engineer, AV/AI Platform** includes infrastructure for training, deployment, and inference, along with data processing, testing, and monitoring. This is a concrete student-level example of systems work supporting AI. [GM employer description](https://search-careers.gm.com/en/jobs/jr-202621695/2027-summer-intern-machine-learning-engineer-av-ai-platform/)

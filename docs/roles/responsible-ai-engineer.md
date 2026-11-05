@@ -7,6 +7,10 @@ description: Understand AI risk, governance, and engineering responsibilities th
 
 Responsible-AI work can include system integration, risk analysis, documentation, controls, and ongoing operational support. Treat this as a family of responsibilities: an analyst, engineer, policy specialist, and researcher may do quite different work.
 
+## How this role is changing
+
+**Editorial classification: Overlapping employer title.** AI use cases add model-specific risks to established controls. Traditional foundations: Governance, Systems support. This is a responsibility-based interpretation of the employer evidence below, not a claim that a title is newly invented.
+
 ## An engineering example
 
 United Airlines' **Senior Engineer - Enterprise AI Risk (Remote)** describes implementing and maintaining responsible-AI agents, APIs, and cybersecurity integrations. The work also includes troubleshooting, incident support, identifying gaps, and producing control documentation for stakeholders. This is an engineering and operations example within the broader governance area. [United employer description](https://careers.united.com/us/en/job/WHQ00027023/Senior-Engineer-Enterprise-AI-Risk-Remote).

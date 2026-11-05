@@ -13,6 +13,10 @@ A forward-deployed engineer works closely with customer teams to turn their oper
 “AI forward engineer” may refer to this role, but it is not a standardized equivalent. Search for **forward-deployed engineer** and verify the actual responsibilities. A title alone cannot establish that a position involves AI.
 :::
 
+## How this role is changing
+
+**Editorial classification: Established role with AI responsibilities.** Some deployments now include models and agents; the role is not inherently AI-only. Traditional foundations: Full-stack development, Delivery. This is a responsibility-based interpretation of the employer evidence below, not a claim that a title is newly invented.
+
 ## What the work looks like
 
 Palantir's **Forward Deployed Software Engineer** example combines customer discovery, application development, data work, architecture decisions, and ownership through deployment. It expects engineers to communicate with both technical teams and executives. This is hands-on implementation work within that employer's platform and customer environment. [Palantir employer example](https://jobs.lever.co/palantir/7ea66860-ae93-4139-9388-b7284cb33f37)

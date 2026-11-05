@@ -7,6 +7,10 @@ description: Understand agent and workflow automation work through student, new-
 
 **AI agents and automation engineering** is an editorial focus category for software that connects models, tools, and business workflows. Employers may call this applied AI, AI software engineering, agent engineering, or automation development. The category is not proof of a standardized new title or a separate entry-level profession.
 
+## How this role is changing
+
+**Editorial classification: Overlapping employer title.** Probabilistic tool selection adds permission and evaluation concerns. Traditional foundations: Process analysis, Backend development. This is a responsibility-based interpretation of the employer evidence below, not a claim that a title is newly invented.
+
 ## What the work means
 
 Bitdeer's **2027 US AI Engineering – New College Graduate** includes agent-platform capabilities such as tool integration and workflow orchestration among several possible tracks. C3 AI's **Forward Deployed Engineer – Federal, New Grad 2027** combines enterprise AI application delivery, debugging, customer demonstrations, and training; its skill areas include LLM tool calling. These show overlap between agent work, application engineering, and customer delivery. [Bitdeer description](https://bitdeer.breezy.hr/p/826249d5dbdc-2027-us-ai-engineering-new-college-graduate) · [C3 AI description](https://c3.ai/job-description?gh_jid=8900477002)

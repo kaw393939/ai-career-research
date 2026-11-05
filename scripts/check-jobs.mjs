@@ -1,7 +1,7 @@
 import { readFile } from 'node:fs/promises'
 import assert from 'node:assert/strict'
 
-const sources = ['internship', 'entry', 'experienced']
+const sources = ['internship', 'entry', 'experienced', 'expanded']
 const levels = ['Internship', 'Entry level', 'Mid level', 'Senior']
 const modes = ['On-site', 'Hybrid', 'Remote — US', 'US location; mode unspecified']
 const statuses = ['Open when checked', 'Status uncertain', 'Closed example']

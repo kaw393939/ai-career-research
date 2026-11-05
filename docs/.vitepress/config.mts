@@ -57,7 +57,12 @@ export default defineConfig({
         { text: 'AI platform / inference engineer', link: '/roles/ai-platform-engineer' },
         { text: 'AI automation / agent engineer', link: '/roles/ai-automation-engineer' },
         { text: 'AI product manager', link: '/roles/ai-product-manager' },
-        { text: 'Responsible AI / governance', link: '/roles/responsible-ai-engineer' }
+        { text: 'Responsible AI / governance', link: '/roles/responsible-ai-engineer' },
+        { text: 'AI security engineer', link: '/roles/ai-security-engineer' },
+        { text: 'AI infrastructure networking', link: '/roles/ai-network-engineer' },
+        { text: 'Network quality & AI tools', link: '/roles/ai-quality-engineer' },
+        { text: 'Data engineering & AI', link: '/roles/ai-data-engineer' },
+        { text: 'Physical AI & autonomy', link: '/roles/physical-ai-engineer' }
       ] },
       { text: 'The research', items: [
         { text: 'Methodology & sources', link: '/research/methodology' },
