@@ -21,6 +21,10 @@ Follow the [implementation worklog](./worklog) for issue links, code, and deploy
 
 Read the [student review](./student-review) for the scenario, observed behavior, and limits. The [release history](./releases) records what is already live.
 
+## Student journey delivery plan
+
+[v1.4.1: decision provenance and verification](./decision-provenance) connects the student review to decisions, GitHub issues, code and deployment evidence.
+
 ## Student brand refinement
 
 [REV-13: brand and student journey review](./brand-and-student-journey) records the next refinement: Sage/Explorer branding, a voluntary first step and restrained persuasion. [Issue #13](https://github.com/kaw393939/ai-career-research/issues/13) retains its code and delivery evidence.

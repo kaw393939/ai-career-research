@@ -42,6 +42,7 @@ export default defineConfig({
       { text: 'Revisions & releases', items: [
         { text: 'Revision tracker', link: '/revisions/' },
         { text: 'Implementation worklog', link: '/revisions/worklog' },
+        { text: 'Student journey delivery plan', link: '/revisions/decision-provenance' },
         { text: 'Student review', link: '/revisions/student-review' },
         { text: 'Brand & student journey review', link: '/revisions/brand-and-student-journey' },
         { text: 'Broader technology careers', link: '/revisions/industry-coverage' },
