@@ -7,6 +7,16 @@ description: A dated record of deployed changes, verification evidence, and the 
 
 Entries record deployed changes. Versions v1.1.0–v1.3.0 are shipped with issue-linked code and deployment evidence. Earlier baseline entries describe commits and deployments without implying a matching version tag.
 
+## November 5, 2026 — v1.4.1: decision provenance and completed verification
+
+Addresses **REV-14–REV-16 / issues #14–#16**. The [delivery plan](./decision-provenance) was committed before implementation and links observations, six design decisions, issues, immutable source files, screenshots and deployment evidence. Future contributions have a decision issue template and release checklist.
+
+The mobile follow-up uses one column for choices at 320px and restores keyboard focus to the cleared choice after reset. Chrome measured viewport/scroll widths of 320/320, 390/390 and 1200/1200; checked selection, reset, visible focus, mobile menu, profile navigation and worksheet download. These are emulated viewport checks, not physical-device testing or a real-student study. The original v1.4.0 limitation is preserved with a link to this resolution.
+
+Evidence: [plan commit 596231d](https://github.com/kaw393939/ai-career-research/commit/596231d171c40e802dc18c897bccca9bc8ab3a90) · [behavior commit eab5b7d](https://github.com/kaw393939/ai-career-research/commit/eab5b7d91800810329598df45e728b9cee4b916d) · [provenance commit b9c586e](https://github.com/kaw393939/ai-career-research/commit/b9c586ecd8cc5318c68ff55a9931158f632803d8) · [successful deployment](https://github.com/kaw393939/ai-career-research/actions/runs/42062454115) · [versioned source](https://github.com/kaw393939/ai-career-research/releases/tag/v1.4.1).
+
+Production checks passed: 13 eligibility cases, 20 sourced employer records, five occupational series, build and 2,353 internal links/assets across 39 pages before final release documentation. Public Chrome verified the linked plan, decision table, evidence link and mobile focus behavior. The final tracking commit/run is attached to the issues after deployment.
+
 ## November 5, 2026 — v1.4.0: a clearer student invitation
 
 Addresses **REV-13 / issue #13**. Applies a Sage-primary, Explorer-secondary brand direction: clearer next actions, an optional work-interest chooser, a direct-download first-role worksheet, more visible primary sources, and grouped learning/research navigation.

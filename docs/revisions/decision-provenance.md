@@ -5,7 +5,7 @@ description: The v1.4.1 plan connecting student observations, design decisions, 
 
 # Student journey delivery & decision provenance
 
-**Planned release:** v1.4.1 · **Created:** November 5, 2026 · **Status:** In progress
+**Planned release:** v1.4.1 · **Created:** November 5, 2026 · **Status:** Shipped
 
 ## Why this release exists
 
@@ -17,9 +17,9 @@ This release makes that chain inspectable: **observation → decision → issue 
 
 | Revision | Work | Acceptance | Status |
 | --- | --- | --- | --- |
-| [REV-14 · #14](https://github.com/kaw393939/ai-career-research/issues/14) | Publish this plan in Revisions and connect its work to GitHub issues | Plan accessible from revision overview and sidebar; each work item has an issue and explicit acceptance criteria | In progress |
-| [REV-15 · #15](https://github.com/kaw393939/ai-career-research/issues/15) | Add decision provenance and a repeatable contribution record | Map student findings and Cialdini interpretations to exact code commits/files; provide an issue template and release checklist; verify referenced local code exists | In progress |
-| [REV-16 · #16](https://github.com/kaw393939/ai-career-research/issues/16) | Complete mobile and keyboard verification of the student journey | Verify actual CSS viewport, layout, selection, reset, profile and worksheet access at narrow widths; fix observed defects; record evidence and rerun production checks | In progress |
+| [REV-14 · #14](https://github.com/kaw393939/ai-career-research/issues/14) | Publish this plan in Revisions and connect its work to GitHub issues | Plan accessible from revision overview and sidebar; each work item has an issue and explicit acceptance criteria | Shipped |
+| [REV-15 · #15](https://github.com/kaw393939/ai-career-research/issues/15) | Add decision provenance and a repeatable contribution record | Map student findings and Cialdini interpretations to exact code commits/files; provide an issue template and release checklist; verify referenced local code exists | Shipped |
+| [REV-16 · #16](https://github.com/kaw393939/ai-career-research/issues/16) | Complete mobile and keyboard verification of the student journey | Verify actual CSS viewport, layout, selection, reset, profile and worksheet access at narrow widths; fix observed defects; record evidence and rerun production checks | Shipped |
 
 Implementation follows these steps in order. The plan is committed before feature work. Each implementation commit references its issue; issues receive code and validation comments while work proceeds. The final delivery record includes the deployed URL and successful GitHub Actions run before closure.
 
@@ -67,11 +67,11 @@ The old v1.4.0 viewport failure remains in its review as a historical fact. Thes
 - [x] Field choices, reset, keyboard activation, profile links and worksheet download are checked.
 - [x] Existing eligibility, job/source and occupational-data checks pass.
 - [x] Production build and internal link/asset checks pass.
-- [ ] Deployment and public-page verification evidence are recorded before issue closure.
+- [x] Deployment and public-page verification evidence are recorded before issue closure.
 
 ## Delivery evidence
 
-[Provenance implementation b9c586e](https://github.com/kaw393939/ai-career-research/commit/b9c586ecd8cc5318c68ff55a9931158f632803d8) links decisions to code and adds the templates and screenshots. Production checks passed: 13 eligibility cases, 20 sourced employer records, five occupational series, and 2,350 internal links/assets across 39 pages before final tracking additions. Public verification is pending. The [worklog](./worklog) and [release history](./releases) retain the release-level record.
+[Provenance implementation b9c586e](https://github.com/kaw393939/ai-career-research/commit/b9c586ecd8cc5318c68ff55a9931158f632803d8) links decisions to code and adds the templates and screenshots. Production checks passed: 13 eligibility cases, 20 sourced employer records, five occupational series, and 2,350 internal links/assets across 39 pages before final tracking additions (2,353 after the first tracking additions). [Deployment 42062454115](https://github.com/kaw393939/ai-career-research/actions/runs/42062454115) passed for [e9dc684](https://github.com/kaw393939/ai-career-research/commit/e9dc6846f5b447850dbaf1db66becefb4497af3f). Chrome verified the public plan from Revisions, the decision/code mappings and screenshot link, worksheet download, and actual 320px layout with visible focus recovery after reset. A fresh page reload was needed while hashed deployment assets propagated; the reloaded public checks passed. Final status documentation uses a separate tracking commit, linked in issues #14–#16. The [worklog](./worklog) and [release history](./releases) retain the release-level record.
 
 ## Revisit conditions
 
