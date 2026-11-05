@@ -1,6 +1,6 @@
 ---
 title: Compare AI careers
-description: Compare six AI career paths by responsibilities, skills, collaborators, and portfolio evidence.
+description: Compare 15 AI career profiles by responsibilities, skills, collaborators, and portfolio evidence.
 ---
 
 # Find the work that fits you
@@ -27,7 +27,7 @@ Start with [internships and entry-level examples](../jobs/) if you want to see e
 
 An AI engineer may build a product at one employer and advise customers at another. A forward-deployed engineer can work on AI projects or on other kinds of software. An evaluation role can focus on product tests, research, safety, or data operations.
 
-ML engineering and solutions architecture existed before the current generative AI wave. The atlas groups established and emerging responsibilities together to help you compare work; it does not claim all six titles are newly invented occupations.
+ML engineering and solutions architecture existed before the current generative AI wave. The atlas groups established and emerging responsibilities together to help you compare work; it does not claim all these titles are newly invented occupations.
 
 ## Use a job description as a research document
 

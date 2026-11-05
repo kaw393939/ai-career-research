@@ -5,60 +5,60 @@ description: Understand how AI solutions architects connect business requirement
 
 # AI Solutions Architect
 
-An AI solutions architect translates an organization's requirements into an AI system design and helps teams understand, implement, and adopt that design.
+An AI solutions architect turns organizational requirements into an implementable AI system design and helps teams adopt it.
 
-**Focus:** system design and adoption · **Useful starting point:** cloud, software, or consulting experience · **Also search:** generative AI solutions architect, AI specialist solutions architect, applied AI architect
+**Classification:** Established role with AI responsibilities · **Foundations:** Architecture, Consulting · **Focus:** system design and adoption
 
-## How this role is changing
+**Also search:** generative AI solutions architect, AI specialist solutions architect, applied AI architect
 
-**Editorial classification: Established role with AI responsibilities.** Model, data and evaluation decisions join existing architecture work. Traditional foundations: Architecture, Consulting. This is a responsibility-based interpretation of the employer evidence below, not a claim that a title is newly invented.
+<span id="how-this-role-is-changing"></span>
+<span id="what-the-work-looks-like"></span>
 
-## What the work looks like
+## What you do
 
-AWS's **Senior Solutions Architect, Global Energy & Utilities** example covers model selection, retrieval-augmented generation, agent workflows, and production-oriented architecture. It includes proofs of concept, reusable reference designs, technical presentations to leadership, and communication between customers and product teams. This combines technical depth with domain-specific customer work. [AWS energy employer example](https://amazon.jobs/en/jobs/10559802/senior-solutions-architect-global-energy-utilities)
+Connect models, data and evaluation to system architecture, customer constraints and adoption. Build prototypes or reference designs, explain tradeoffs to leadership, and translate customer feedback for product teams. Ask how much coding, commercial work and delivery ownership the position includes.
 
-Another AWS example, **Sr. GenAI Specialist Solutions Architect – Agentic AI**, explicitly places specialist architects within the sales organization. Responsibilities include understanding customer problems, guiding implementation, sharing technical material, and translating customer feedback into product requirements. This shows why applicants should ask about the commercial part of a role as well as its technology stack. [AWS specialist employer example](https://amazon.jobs/en/jobs/10562026/sr-genai-specialist-solutions-architect-agentic-ai-agentic-ai-wwso-generative-ai)
+<span id="skills-to-practice"></span>
 
-Our interpretation: architects make a design understandable and feasible across teams. Depending on the employer, they may build prototypes, advise implementation teams, or own broader delivery. The title does not reveal how much time is spent coding or how success is measured.
+## Skills
 
-## Skills to practice
+- Requirements: user needs, constraints and measurable acceptance criteria.
+- System design: data flow, interfaces, deployment and failure behavior.
+- AI judgment: compare model-based designs with a simpler baseline.
+- Cloud: identity, networking, storage, monitoring, quality/latency/cost tradeoffs.
+- Communication: explain one design to builders and business stakeholders.
 
-Use this project-oriented checklist to turn architecture knowledge into visible evidence:
+<span id="entry-routes-and-title-boundaries"></span>
 
-| Capability | Evidence you can show |
-| --- | --- |
-| Requirements | Separate user needs, constraints, and measurable acceptance criteria |
-| System design | Explain data flow, interfaces, deployment, and failure handling |
-| AI judgment | Compare a model-based approach with a simpler baseline |
-| Cloud fundamentals | Explain identity, networking, storage, and observability choices |
-| Tradeoffs | Compare quality, response time, operational burden, and cost |
-| Communication | Present the same design to a builder and a business stakeholder |
+## Example requirements
 
-This checklist is editorial guidance. Employers may emphasize a specific cloud, industry, sales motion, or implementation platform. A diagram becomes more convincing when it connects to a working demonstration and evidence from tests.
+**AWS — Senior Solutions Architect, Global Energy & Utilities:** model selection, RAG, agent workflows, proofs of concept, reusable reference designs and leadership presentations, combining implementation and domain-specific customer work.
 
-## Portfolio project: an AI architecture decision package
+**AWS — Sr. GenAI Specialist Solutions Architect – Agentic AI:** a specialist within the **sales organization**, guiding implementation, sharing technical material and translating customer needs into product requirements.
 
-Design a document assistance system for a fictional organization using approved public or synthetic material. Give the fictional organization explicit requirements so readers can evaluate your choices.
+Both are explicitly **senior**; the energy role requests substantial technology and implementation experience. Cloud/backend engineering, consulting and solutions engineering offer related foundations. For first roles, investigate separate associate, graduate, internship or apprenticeship eligibility.
 
-Suggested acceptance criteria:
+<span id="portfolio-project-an-ai-architecture-decision-package"></span>
 
-1. Publish a requirements brief and a diagram tracing a request from interface to answer.
-2. Compare at least two plausible designs, including a simpler non-AI option where appropriate.
-3. Build a small proof of concept for the highest-risk design assumption.
-4. Provide a cost model with traffic, token, storage, and pricing assumptions clearly labeled.
-5. Document access boundaries, data retention, monitoring, and failure behavior.
-6. Record a five-minute explanation for a nontechnical decision-maker and link the detailed implementation notes.
+## One project
 
-Treat the proposal as a learning artifact. Avoid claiming compliance, security certification, or enterprise readiness that you have not independently established. Explain what would need further validation before a real deployment.
+**AI architecture decision package.** Use public or synthetic material for a clearly fictional organization.
 
-## Entry routes and title boundaries
+1. Publish requirements and a diagram tracing a request to its answer.
+2. Compare **two designs**, including a simpler non-AI option where appropriate; prototype the highest-risk assumption.
+3. Model cost with explicit traffic, token, storage and pricing assumptions.
+4. Document access, retention, monitoring and failures.
+5. Record a **five-minute nontechnical explanation** and link implementation notes.
 
-Cloud engineering, backend development, technical consulting, and solutions engineering can offer relevant foundations. Students can begin with complete applications and cloud fundamentals, then learn to justify designs under constraints. This is a suggested progression, not a required sequence.
+Distinguish implemented behavior from proposals and further validation; do not claim unestablished compliance, certification or enterprise readiness.
 
-Both cited examples are explicitly **senior** roles. The energy posting requests substantial technology and implementation experience, so it should not be presented as a typical first job. Look separately for associate, graduate, internship, and apprenticeship programs and read their eligibility rules. [AWS energy requirements](https://amazon.jobs/en/jobs/10559802/senior-solutions-architect-global-energy-utilities)
+<span id="research-notes"></span>
 
-Compare [Forward-Deployed Engineer](/roles/forward-deployed-engineer) for embedded implementation and [AI Engineer](/roles/ai-engineer) for application building. Use the [learning roadmap](/roadmap) to choose a practical next step.
+## Sources and notes
 
-## Research notes
+- [AWS energy employer example](https://amazon.jobs/en/jobs/10559802/senior-solutions-architect-global-energy-utilities)
+- [AWS specialist employer example](https://amazon.jobs/en/jobs/10562026/sr-genai-specialist-solutions-architect-agentic-ai-agentic-ai-wwso-generative-ai)
 
-Sources accessed **November 5, 2026**. Access dates are not publication dates. These examples describe one employer's roles and do not establish universal responsibilities, hiring demand, or continuing vacancies. See the [research methodology](/research/methodology).
+Sources accessed **November 5, 2026** (not publication dates). Examples may change or close. Classifications are editorial, not standardized occupations or growth forecasts; skills, projects and routes are guidance, not hiring standards.
+
+[Forward-Deployed Engineer](/roles/forward-deployed-engineer) · [AI Engineer](/roles/ai-engineer) · [learning roadmap](/roadmap) · [research methodology](/research/methodology)

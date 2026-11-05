@@ -5,58 +5,60 @@ description: Understand the established ML engineering role and its changing rel
 
 # Machine Learning Engineer
 
-A **machine learning engineer** builds, deploys, and maintains systems that turn data and trained models into useful production capabilities.
+A machine learning engineer builds, deploys and maintains systems that turn data and trained models into production capabilities.
 
-**Focus:** model and data lifecycle · **Related titles:** applied ML engineer, ML software engineer, MLOps engineer
+**Classification:** Established role with AI responsibilities · **Foundations:** Statistics, Software systems · **Focus:** model and data lifecycle
 
-## How this role is changing
+**Related titles:** applied ML engineer, ML software engineer, MLOps engineer
 
-**Editorial classification: Established role with AI responsibilities.** Foundation models broaden an established production-ML discipline. Traditional foundations: Statistics, Software systems. This is a responsibility-based interpretation of the employer evidence below, not a claim that a title is newly invented.
+<span id="how-this-role-is-changing"></span>
+<span id="what-the-work-looks-like"></span>
 
-## What the work looks like
+## What you do
 
-ML engineering is an established role that predates the current generative AI wave. Its scope can now include foundation models alongside prediction, classification, recommendation, and other conventional ML applications. Google's official role description includes both conventional approaches and generative AI, with responsibilities covering pipelines, deployment, monitoring, and model improvement. [Google Cloud role definition](https://cloud.google.com/learn/certification/machine-learning-engineer).
+Check data quality and leakage, build training/release pipelines, compare models with baselines, serve predictions, and monitor changing behavior. ML engineering predates the current generative-AI wave; foundation models broaden work that already includes prediction, classification and recommendation.
 
-Amazon's EXR OPS description illustrates production ownership: data and feature pipelines, translating research into services, monitoring performance, retraining, and operational support. Its Alexa AI description instead emphasizes language model training, inference, and optimization. The shared title does not identify a single specialty. [Amazon EXR OPS role](https://www.amazon.jobs/en/jobs/10556687/machine-learning-engineer-exr-ops-tech-team), [Amazon Alexa AI role](https://www.amazon.jobs/jobs/10381642).
+<span id="skills-to-develop"></span>
 
-Typical work includes:
+## Skills
 
-- Check and transform data; investigate leakage and quality problems.
-- Implement repeatable training, validation, and release pipelines.
-- Evaluate models against baselines and task-specific metrics.
-- Serve predictions with acceptable performance and reliability.
-- Monitor behavior and plan updates when data or usage changes.
+- Python, SQL, software testing and data pipelines.
+- Probability, statistics, supervised learning and careful data splitting.
+- One modeling framework and an understanding of metric limitations.
+- Version control, packaging and reproducible experiments.
+- Service deployment, performance measurement, monitoring and updates.
 
-## Skills to develop
+<span id="entry-routes-and-title-boundaries"></span>
 
-Practice Python, SQL, software testing, data pipelines, and one modeling framework. Learn probability, statistics, supervised learning, data splitting, and the limits of your chosen metric. Add version control, packaging, service deployment, monitoring, and reproducible experiments.
+## Example requirements
 
-Google's role definition stresses programming, data systems, model architecture, MLOps, and interpreting metrics. Amazon's production example adds the ordinary software lifecycle: design, code review, testing, deployment, and ongoing support. [Google Cloud](https://cloud.google.com/learn/certification/machine-learning-engineer), [Amazon EXR OPS](https://www.amazon.jobs/en/jobs/10556687/machine-learning-engineer-exr-ops-tech-team).
+**Google Cloud’s role framework** covers conventional and generative AI, programming, data systems, model architecture, MLOps, metrics, deployment and improvement. It is a vendor competency model.
 
-## A portfolio project that shows the work
+**Amazon — EXR OPS Tech Team:** data/feature pipelines, translating research into services, monitoring, retraining and operational support, including design, code review, tests and deployment. **Amazon — Alexa AI:** language-model training, inference and optimization. The shared title does not identify one specialty.
 
-**Suggested project: a support-ticket routing service.** Use an openly licensed or synthetic dataset and document its limitations. These are practice deliverables, not employer requirements:
+Software engineering, data engineering and applied data science offer adjacent practice. Students can investigate supervised projects or internships; distributed-training roles may demand considerably more experience.
 
-1. Define the label set and create separate training, validation, and held-out test sets; explain how you prevent duplicates crossing the split.
-2. Compare a majority-class baseline with a simple classifier before adding complexity.
-3. Report macro F1, per-class errors, and a confusion matrix on the untouched test set.
-4. Package preprocessing and prediction together behind a small API with automated input checks.
-5. Measure latency under a documented load and demonstrate how you would detect changing class distributions.
+<span id="a-portfolio-project-that-shows-the-work"></span>
 
-Publish a reproducible training command, a versioned model artifact, deployment instructions, and a rollback plan. Explain which errors would be most costly to the intended user.
+## One project
 
-## Entry routes and title boundaries
+**Support-ticket routing service.** Use openly licensed or synthetic data and document its limits.
 
-Software engineering, data engineering, and applied data science are useful adjacent routes. Students can start with an internship or a supervised project where they own a small model through deployment. Larger distributed training roles may require considerably more experience.
+1. Define labels and separate training, validation and held-out test sets; prevent duplicates crossing splits.
+2. Compare a majority-class baseline with a simple classifier; report macro F1, per-class errors and a confusion matrix on untouched test data.
+3. Package preprocessing/prediction behind an API with input checks.
+4. Measure latency under documented load and show how you would detect changing class distributions.
 
-Compare [LLM engineer](./llm-engineer) when a role centers on language model applications. Compare evaluation engineering when the central deliverable is trustworthy measurement. Search **ML engineer**, **applied machine learning engineer**, and **machine learning software engineer**; inspect whether each role emphasizes modeling, infrastructure, or applications.
+Publish reproducible training, a versioned model, deployment/rollback instructions and an explanation of costly user-facing errors.
 
-[Plan your learning →](../roadmap) · [How this research is sourced →](../research/methodology)
+<span id="sources-and-review-date"></span>
 
-## Sources and review date
+## Sources and notes
 
-Primary sources accessed **November 5, 2026**. This is an access date, not a publication date. Certification descriptions are vendor-specific role frameworks, not universal hiring standards; postings may change or close. Portfolio and entry-route suggestions are editorial guidance.
+- [Google Cloud role definition](https://cloud.google.com/learn/certification/machine-learning-engineer)
+- [Amazon EXR OPS role](https://www.amazon.jobs/en/jobs/10556687/machine-learning-engineer-exr-ops-tech-team)
+- [Amazon Alexa AI role](https://www.amazon.jobs/jobs/10381642)
 
-- [Google Cloud — Professional Machine Learning Engineer](https://cloud.google.com/learn/certification/machine-learning-engineer)
-- [Amazon — Machine Learning Engineer, EXR OPS Tech Team](https://www.amazon.jobs/en/jobs/10556687/machine-learning-engineer-exr-ops-tech-team)
-- [Amazon — Machine Learning Engineer, Alexa AI](https://www.amazon.jobs/jobs/10381642)
+Sources accessed **November 5, 2026** (not publication dates). Examples may change or close. Classifications are editorial, not standardized occupations or growth forecasts; skills, projects and routes are guidance, not hiring standards.
+
+[LLM engineer](./llm-engineer) · [Plan your learning →](../roadmap) · [How this research is sourced →](../research/methodology)

@@ -5,60 +5,57 @@ description: What AI engineers build, the skills to practice, and a portfolio pr
 
 # AI Engineer
 
-An AI engineer turns AI capabilities into usable software by connecting models, data, application logic, and the systems that run them.
+An AI engineer connects models, data and application logic to build usable software.
 
-**Focus:** application delivery · **Useful starting point:** software development · **Also search:** applied AI engineer, generative AI engineer, AI application engineer
+**Classification:** AI-focused specialty · **Foundations:** Software engineering, Testing · **Focus:** application delivery
 
-## How this role is changing
+**Also search:** applied AI engineer, generative AI engineer, AI application engineer
 
-**Editorial classification: AI-focused specialty.** Model behavior becomes part of application quality. Traditional foundations: Software engineering, Testing. This is a responsibility-based interpretation of the employer evidence below, not a claim that a title is newly invented.
+<span id="how-this-role-is-changing"></span>
+<span id="what-the-work-looks-like"></span>
 
-## What the work looks like
+## What you do
 
-Microsoft's AI engineer role outline covers planning, implementing, and maintaining solutions across generative AI, agents, vision, language, and information extraction. That breadth is a reminder that “AI engineer” can mean more than building chat applications. The outline also describes collaboration with architects, data scientists, operations engineers, and security engineers. [Microsoft role outline](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-apps-and-agents-developer-associate/)
+Clarify a user problem, integrate a model and relevant data, evaluate behavior, and maintain the deployed application. Model behavior becomes part of application quality; some roles also involve customer discovery, pilots and workshops.
 
-For a product-focused role, a representative workflow is to clarify a user problem, connect an appropriate model to relevant data, implement the surrounding application, evaluate its behavior, and improve the deployed experience. This is our synthesis of the role family, rather than a universal employer job description.
+<span id="skills-to-practice"></span>
 
-Some positions are customer-facing. Anthropic's **Applied AI Engineer, Enterprise** example includes technical discovery, architecture advice, customized pilots, evaluation suites, workshops, and code reviews with customer teams. It requests production LLM experience and strong Python or TypeScript skills. [Anthropic employer example](https://job-boards.greenhouse.io/anthropic/jobs/5057647008)
+## Skills
 
-## Skills to practice
+- Software and model integration: APIs, error handling, tests and readable code.
+- Data and retrieval: trace answers to their supporting documents.
+- Evaluation: repeatable datasets, rubrics and failure analysis.
+- Delivery: setup, latency, cost and monitoring.
+- Communication: explain technical decisions to nontechnical stakeholders.
 
-Use the sources as a starting point and look for these capabilities in actual postings:
+<span id="entry-routes-and-title-boundaries"></span>
 
-| Capability | Evidence you can show |
-| --- | --- |
-| Software engineering | A clear API, useful error handling, tests, and readable code |
-| Model integration | Explain model choice, inputs, outputs, and limitations |
-| Data and retrieval | Trace an answer back to the documents used to produce it |
-| Evaluation | A repeatable dataset, scoring rubric, and analysis of failures |
-| Delivery | Document setup, latency, operating costs, and monitoring choices |
-| Collaboration | Explain a technical decision to a nontechnical stakeholder |
+## Example requirements
 
-These are portfolio recommendations, not a requirement to master every framework. Start with one language and one complete application before adding more infrastructure.
+**Microsoft’s role framework** spans generative AI, agents, vision, language and information extraction, with architects, data scientists, operations and security collaborators. It describes an intermediate, vendor-specific competency profile.
 
-## Portfolio project: a document research assistant
+**Anthropic — Applied AI Engineer, Enterprise:** customer discovery, architecture advice, pilots, evaluation suites, workshops and code reviews. The example asks for **4+ relevant years**, production LLM experience, and strong Python or TypeScript; it is not an entry-level example.
 
-Build a small assistant for a public collection of documents you have permission to use. It should answer questions with evidence and identify when the collection does not support an answer.
+Software internships and backend/full-stack projects are suggested starting routes; compare LLM engineering for a language-model focus and FDE for embedded customer delivery.
 
-Suggested acceptance criteria:
+<span id="portfolio-project-a-document-research-assistant"></span>
 
-1. Publish the repository, setup instructions, and a small reproducible document sample.
-2. Create at least 30 test questions, including unanswerable and misleading questions.
-3. Show source passages beside supported answers; flag missing evidence explicitly.
-4. Compare a simple baseline with your retrieval approach using a written rubric.
-5. Report measured response times and estimated per-query costs, including assumptions.
-6. Document three failures and the changes you tried to address them.
+## One project
 
-These thresholds are suggested project goals. They are not employer hiring standards or a promise of production readiness.
+**Document research assistant.** Use approved public documents and show when evidence cannot support an answer.
 
-## Entry routes and title boundaries
+1. Publish setup instructions and a reproducible document sample.
+2. Create **30 test questions**, including unanswerable and misleading cases; show supporting passages or flag missing evidence.
+3. Compare a simple baseline with retrieval using a written rubric.
+4. Report measured response times, estimated per-query cost with assumptions, and **three failures** with attempted fixes.
 
-Students can build toward this work through software internships, backend or full-stack projects, and contributions that combine data with working applications. Career switchers can add AI features to a domain they already understand. Treat that route as a planning suggestion; individual employers set their own requirements.
+<span id="research-notes"></span>
 
-The Anthropic example asks for **four or more years** in relevant technical roles, so its title should not be read as an entry-level opening. Microsoft's credential outline describes an intermediate vendor-specific skill profile, not a hiring guarantee. Read responsibilities and seniority before comparing titles. [Anthropic requirements](https://job-boards.greenhouse.io/anthropic/jobs/5057647008) · [Microsoft profile](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-apps-and-agents-developer-associate/)
+## Sources and notes
 
-For a narrower language-model focus, compare [LLM Engineer](/roles/llm-engineer). For embedded customer delivery, compare [Forward-Deployed Engineer](/roles/forward-deployed-engineer). Then use the [learning roadmap](/roadmap) to plan your next project.
+- [Microsoft role outline](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-apps-and-agents-developer-associate/)
+- [Anthropic employer example](https://job-boards.greenhouse.io/anthropic/jobs/5057647008)
 
-## Research notes
+Sources accessed **November 5, 2026** (not publication dates). Examples may change or close. Classifications are editorial, not standardized occupations or growth forecasts; skills, projects and routes are guidance, not hiring standards.
 
-Sources accessed **November 5, 2026**. This is an access date, not a publication date. Job descriptions are examples of scope and can change or disappear; this page does not confirm continuing vacancies. See the [research methodology](/research/methodology).
+[LLM Engineer](/roles/llm-engineer) · [Forward-Deployed Engineer](/roles/forward-deployed-engineer) · [learning roadmap](/roadmap) · [research methodology](/research/methodology)

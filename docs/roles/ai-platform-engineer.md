@@ -5,43 +5,54 @@ description: Compare student, new-graduate, and experienced examples of AI infra
 
 # AI Platform & Inference Engineer
 
-In this atlas, **AI platform and inference engineering** is an editorial focus category for building the infrastructure that other teams use to train, deploy, and operate AI systems. It is not a standardized new occupation. Read each employer's responsibilities to distinguish platform development, model serving, performance engineering, and application work.
+AI platform and inference engineers build infrastructure that teams use to train, deploy and operate AI systems.
 
-## How this role is changing
+**Classification:** Overlapping employer title · **Foundations:** Linux, Cloud infrastructure
 
-**Editorial classification: Overlapping employer title.** Accelerators, model serving and context platforms change system constraints. Traditional foundations: Linux, Cloud infrastructure. This is a responsibility-based interpretation of the employer evidence below, not a claim that a title is newly invented.
+<span id="how-this-role-is-changing"></span>
+<span id="what-the-work-means"></span>
 
-## What the work means
+## What you do
 
-General Motors' **2027 Summer Intern – Machine Learning Engineer, AV/AI Platform** includes infrastructure for training, deployment, and inference, along with data processing, testing, and monitoring. This is a concrete student-level example of systems work supporting AI. [GM employer description](https://search-careers.gm.com/en/jobs/jr-202621695/2027-summer-intern-machine-learning-engineer-av-ai-platform/)
+Build model infrastructure, serving systems and reusable interfaces; test, monitor and improve their performance. Accelerators and context platforms change system constraints. Distinguish platform development, inference performance and application work when comparing employers.
 
-Bitdeer's **2027 US AI Engineering – New College Graduate** spans GPU cloud services, Kubernetes, model infrastructure, and agent platforms. Its eventual track depends on assessment and business needs; the broad title does not promise assignment to a particular specialty. [Bitdeer employer description](https://bitdeer.breezy.hr/p/826249d5dbdc-2027-us-ai-engineering-new-college-graduate)
+<span id="skills-to-investigate"></span>
 
-WEX's **Sr Staff AI Platform Engineer** instead covers long-term platform architecture, reusable interfaces, secure tool execution, and engineering practices across teams. This demonstrates a larger ownership scope, not simply more tools to learn. [WEX employer description](https://careers.wexinc.com/us/en/job/R22688/Sr-Staff-AI-Platform-Engineer)
+## Skills
 
-## Skills to investigate
+- Programming and distributed systems.
+- Deployment and model-serving infrastructure.
+- Observability, testing and failed-job recovery.
+- Latency, throughput and hardware/bottleneck measurement.
 
-Across these examples, useful areas include programming, distributed systems, deployment, observability, testing, and performance measurement. The required depth varies. GM accepts relevant AI/ML coursework or project experience and lists distributed systems and accelerator exposure as preferred. Bitdeer highly prefers cloud-native and large-scale platform experience. WEX asks for extensive industry experience and deep systems expertise. Follow the linked requirements rather than treating this combined list as mandatory for every role.
+<span id="compare-the-career-stages"></span>
 
-## Compare the career stages
+## Example requirements
 
-- **Internship:** GM specifies bachelor's/master's enrollment, a December 2027–August 2029 graduation window, and a term remaining after the internship. Its Sunnyvale position is hybrid.
-- **New graduate:** Bitdeer accepts fresh graduates or candidates with up to two years of related experience. The US posting labels its location remote, but state and sponsorship details need employer confirmation.
-- **Experienced:** WEX's US-remote senior staff example requires 15+ years and multi-team architectural influence. A portfolio project cannot demonstrate that history by itself.
+**General Motors — 2027 Summer Intern, Machine Learning Engineer, AV/AI Platform:** training/deployment/inference infrastructure, data processing, testing and monitoring. Requires bachelor’s/master’s enrollment, graduation **December 2027–August 2029**, and a term remaining afterward; **hybrid in Sunnyvale**. AI/ML coursework or projects qualify as relevant experience; distributed-systems and accelerator exposure are **preferred**.
 
-These are requirements of the cited examples, not universal level thresholds.
+**Bitdeer — 2027 US AI Engineering, New College Graduate:** GPU cloud, Kubernetes, model infrastructure and agents; track depends on assessment and business needs. Accepts fresh graduates or **up to two related years**; cloud-native/large-platform experience is **highly preferred**. The US posting says remote; state and sponsorship details need confirmation.
 
-## Portfolio practice: a small serving platform
+**WEX — Sr Staff AI Platform Engineer:** long-term architecture, secure tool execution and multi-team practices; **15+ years**, deep systems expertise and architectural influence in a **US-remote** role.
 
-This is an editorial project suggestion, not an employer assignment. Package a small inference service and define a reproducible workload. Include:
+<span id="portfolio-practice-a-small-serving-platform"></span>
 
-1. A setup guide and versioned model or clearly labeled simulator.
-2. A baseline and repeatable latency/throughput measurements under two loads.
-3. Monitoring plus a demonstrated failed-request or failed-job recovery path.
-4. A write-up of the tested hardware, bottlenecks, and one measured improvement.
+## One project
 
-Report the scale actually tested; distinguish an architectural proposal from implemented behavior.
+**Small serving platform.** Package an inference service with a reproducible workload.
 
-**Next:** [US job examples](../jobs/) · [ML engineer](./ml-engineer) · [Research methodology](../research/methodology)
+1. Publish setup and a versioned model or clearly labeled simulator.
+2. Compare baseline latency/throughput under **two loads**.
+3. Add monitoring and demonstrate failed-request or failed-job recovery.
+4. Report hardware, tested scale, bottlenecks and **one measured improvement**, separating proposals from implemented behavior.
 
-Sources reviewed **November 5, 2026**. Availability and eligibility may change.
+
+## Sources and notes
+
+- [GM employer description](https://search-careers.gm.com/en/jobs/jr-202621695/2027-summer-intern-machine-learning-engineer-av-ai-platform/)
+- [Bitdeer employer description](https://bitdeer.breezy.hr/p/826249d5dbdc-2027-us-ai-engineering-new-college-graduate)
+- [WEX employer description](https://careers.wexinc.com/us/en/job/R22688/Sr-Staff-AI-Platform-Engineer)
+
+Sources accessed **November 5, 2026** (not publication dates). Examples may change or close. Classifications are editorial, not standardized occupations or growth forecasts; skills, projects and routes are guidance, not hiring standards.
+
+[US job examples](../jobs/) · [ML engineer](./ml-engineer) · [Research methodology](../research/methodology)

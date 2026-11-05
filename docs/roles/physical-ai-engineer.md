@@ -5,28 +5,48 @@ description: Integrate autonomy tools with customer systems and robotics.
 
 # Connect AI products to physical operating environments
 
-**Field:** Embedded & robotics · **Editorial classification:** Overlapping employer title
+Physical-AI delivery engineers integrate autonomy software with customer systems and real operating environments.
 
-Integrate autonomy tools with customer systems and robotics. This is a focus category for reading employer descriptions, not proof of a standardized new occupation.
+**Field:** Embedded & robotics · **Classification:** Overlapping employer title · **Foundations:** Embedded systems, Software integration
 
-## What changes, and what remains
+<span id="what-changes-and-what-remains"></span>
 
-AI-enabled physical products combine model behavior with real-world systems constraints. Traditional foundations include Embedded systems, Software integration. The classification is our interpretation of the cited work; it does not establish when a title first appeared or how quickly hiring is growing.
+## What you do
 
-## Employer evidence and career stages
+Integrate autonomy products across software, infrastructure, robotics and systems. Work with customers and internal teams through deployment, accounting for physical operating constraints.
 
-### Applied Intuition: Forward Deployed Engineer - New Grad (2027)
 
-[Applied Intuition official Ashby posting; Apply for this Job link observed in Chrome](https://jobs.ashbyhq.com/applied/31140958-d768-452c-8498-0b1c7f403943) · **Entry level** · **Open when checked** · Reviewed November 5, 2026.
+## Skills
 
-Integrate autonomy tools and products into customer operating environments. Solve software, infrastructure, robotics, and systems problems across the stack. Work with customers and internal teams to carry technical decisions through deployment.
+- C++ or Python and engineering problem-solving.
+- Software, infrastructure and robotics integration.
+- Systems testing and failure recovery.
+- Customer briefs, reproducible setup and deployment communication.
 
-**Experience:** One or more years in any field, or an equivalent combination of education and experience. C++ or Python proficiency and engineering problem-solving evidence expected.
+<span id="employer-evidence-and-career-stages"></span>
+<span id="applied-intuition-forward-deployed-engineer---new-grad-2027"></span>
 
-**Eligibility and location:** Completed or in-progress BS/MS in computer science, computer engineering, electrical engineering, or related field; December 2026 or Summer 2027 graduation. Five office days per week is the stated full-time expectation, with occasional flexibility. Sponsorship not specified in the reviewed description. Location: Sunnyvale, California, United States.
+## Example requirements
 
-## Portfolio practice
+**Applied Intuition — Forward Deployed Engineer - New Grad (2027):** **entry-level** example; **one or more years in any field, or equivalent education/experience**. Expects C++ or Python and engineering evidence.
 
-Integrate a simulated robot or autonomy workflow with a customer brief, reproducible setup, system tests and a documented failure-recovery plan. This is an editorial suggestion, not an employer assignment or a replacement for stated professional experience.
+Completed/in-progress **BS/MS** in computer science, computer/electrical engineering or related field; **December 2026 or Summer 2027 graduation**. **Sunnyvale, CA: five office days weekly**, with occasional flexibility. Sponsorship unstated. **Open when checked**; Apply link observed on Ashby.
+
+<span id="portfolio-practice"></span>
+
+## One project
+
+**Simulated robot or autonomy integration.**
+
+1. Define a customer brief and integrate the workflow.
+2. Publish reproducible setup and system tests.
+3. Document a failure-recovery plan and distinguish the simulation from real deployment.
+
+
+## Sources and notes
+
+- [Applied Intuition official Ashby posting; Apply for this Job link observed in Chrome](https://jobs.ashbyhq.com/applied/31140958-d768-452c-8498-0b1c7f403943)
+
+Sources accessed **November 5, 2026** (not publication dates). Examples may change or close. Classifications are editorial, not standardized occupations or growth forecasts; skills, projects and routes are guidance, not hiring standards.
 
 [Compare roles](./) · [Inspect job examples](../jobs/) · [Research methodology](../research/methodology)

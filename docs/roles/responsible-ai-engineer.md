@@ -5,42 +5,53 @@ description: Understand AI risk, governance, and engineering responsibilities th
 
 # Responsible AI & governance roles
 
-Responsible-AI work can include system integration, risk analysis, documentation, controls, and ongoing operational support. Treat this as a family of responsibilities: an analyst, engineer, policy specialist, and researcher may do quite different work.
+Responsible-AI and governance roles connect system risks with controls, documentation and operational ownership.
 
-## How this role is changing
+**Classification:** Overlapping employer title · **Foundations:** Governance, Systems support
 
-**Editorial classification: Overlapping employer title.** AI use cases add model-specific risks to established controls. Traditional foundations: Governance, Systems support. This is a responsibility-based interpretation of the employer evidence below, not a claim that a title is newly invented.
+<span id="how-this-role-is-changing"></span>
+<span id="an-engineering-example"></span>
 
-## An engineering example
+## What you do
 
-United Airlines' **Senior Engineer - Enterprise AI Risk (Remote)** describes implementing and maintaining responsible-AI agents, APIs, and cybersecurity integrations. The work also includes troubleshooting, incident support, identifying gaps, and producing control documentation for stakeholders. This is an engineering and operations example within the broader governance area. [United employer description](https://careers.united.com/us/en/job/WHQ00027023/Senior-Engineer-Enterprise-AI-Risk-Remote).
+Identify gaps, connect risks to concrete checks and controls, document ownership, and communicate uncertainty. AI adds model-specific concerns to established controls. Analysts, engineers, policy specialists and researchers can have different scopes; engineering examples may also own integrations and incident support.
 
-Do not infer that every governance position has the same technical scope. This posting specifically expects software-lifecycle and cloud-deployment knowledge alongside enterprise AI understanding.
+<span id="skills-to-investigate"></span>
 
-## What the level tells you
+## Skills
 
-The employer labels the role **senior**, requires a bachelor's degree and **3+ related years**, and assigns ongoing ownership of enterprise integrations. The US remote position requires authorization to work without sponsorship. A master's degree, certifications, and governance-vendor experience are preferred. [United requirements](https://careers.united.com/us/en/job/WHQ00027023/Senior-Engineer-Enterprise-AI-Risk-Remote).
+- Intended use, failure modes and operational boundaries.
+- Tests, controls and documented risk ownership.
+- APIs, cloud deployments, software releases and incident response for engineering roles.
+- Communication with technical and business stakeholders.
+- Separating measured behavior from unsupported safety/compliance assurances.
 
-Three years is not a universal seniority threshold. Compare the decisions, systems, and stakeholders a position expects someone to own. Likewise, a remote US label does not remove authorization requirements.
+<span id="what-the-level-tells-you"></span>
 
-## Skills to investigate
+## Example requirements
 
-- Explain a system's intended use, failure modes, and operational boundaries.
-- Connect risks to concrete tests, controls, and documented ownership.
-- Understand APIs, cloud operation, software releases, and incident response when the role is engineering-focused.
-- Communicate gaps and uncertainty to technical and business stakeholders.
-- Distinguish a measured behavior from an unsupported assurance about safety or compliance.
+**United Airlines — Senior Engineer - Enterprise AI Risk (Remote):** implement and maintain responsible-AI agents, APIs and cybersecurity integrations; troubleshoot, support incidents and produce control documentation. Software-lifecycle/cloud-deployment knowledge and enterprise AI understanding are part of this engineering example.
 
-These are editorial learning directions, not a legal compliance checklist or proof of qualification.
+The employer labels it **senior**, requiring a **bachelor’s and 3+ related years**. The **US-remote** role requires authorization to work **without sponsorship**. A master’s, certifications and governance-vendor experience are **preferred**. Three years is not a universal seniority threshold; compare the systems and decisions owned.
 
-## Portfolio idea: an inspectable AI risk case study
+<span id="portfolio-idea-an-inspectable-ai-risk-case-study"></span>
 
-Build a small AI-backed service with a clearly bounded use case. Document its data flow, likely failure cases, controls, and who would respond to a problem. Add automated checks for three concrete failures and run a simulated incident exercise.
+## One project
 
-Publish what your tests observed, what they missed, and which risks remain unresolved. A student prototype can demonstrate engineering judgment; it cannot establish organizational or legal compliance.
+**Inspectable AI risk case study.** Build a small, bounded AI service.
 
-## Sources and next steps
+1. Document its data flow, likely failures, controls and response owners.
+2. Automate checks for **three concrete failures** and run a simulated incident exercise.
+3. Publish observations, test limitations and unresolved risks.
 
-This US employer example was reviewed in Chrome on **November 5, 2026**. It supports a description of this job's responsibilities, not a claim about market-wide hiring demand or a new standardized occupation.
+The prototype demonstrates judgment; it cannot establish organizational or legal compliance.
+
+<span id="sources-and-next-steps"></span>
+
+## Sources and notes
+
+- [United employer description](https://careers.united.com/us/en/job/WHQ00027023/Senior-Engineer-Enterprise-AI-Risk-Remote)
+
+Sources accessed **November 5, 2026** (not publication dates). Examples may change or close. Classifications are editorial, not standardized occupations or growth forecasts; skills, projects and routes are guidance, not hiring standards. The United example was reviewed in Chrome; learning directions are not a legal-compliance checklist.
 
 [Read the full example](../jobs/) · [Compare evaluation work](./ai-evaluation-engineer) · [Research methodology](../research/methodology)

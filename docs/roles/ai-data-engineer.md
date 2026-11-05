@@ -5,38 +5,50 @@ description: Prepare trustworthy datasets and pipelines for analytics and models
 
 # Make the data usable before trusting the model
 
-**Field:** Data & models · **Editorial classification:** Established role with AI responsibilities
+Data engineering and applied-AI roles prepare trustworthy datasets and pipelines for analytics and models.
 
-Prepare trustworthy datasets and pipelines for analytics and models. This is a focus category for reading employer descriptions, not proof of a standardized new occupation.
+**Field:** Data & models · **Classification:** Established role with AI responsibilities · **Foundations:** Databases, Data engineering
 
-## What changes, and what remains
+<span id="what-changes-and-what-remains"></span>
 
-Model inputs make data quality and reproducibility especially visible. Traditional foundations include Databases, Data engineering. The classification is our interpretation of the cited work; it does not establish when a title first appeared or how quickly hiring is growing.
+## What you do
 
-## Employer evidence and career stages
+Build ETL pipelines and SQL queries, check data quality, prepare model features, evaluate results and explain findings. Model inputs make quality and reproducibility especially visible; data engineering and product analytics can carry different responsibilities.
 
-### NYC Housing Preservation and Development: Summer Undergraduate Intern, Data Engineering & AI
 
-[NYC Housing Preservation and Development employer description · Chrome reviewed](https://cityjobs.nyc.gov/job/summer-undergraduate-intern-data-engineering-and-ai-in-nyc-all-boros-jid-42436) · **Internship** · **Closed example** · Reviewed November 5, 2026.
+## Skills
 
-Support ETL pipelines, SQL queries and data-quality documentation. Prepare data and features for introductory ML models. Evaluate models and communicate results through visualizations.
+- ETL, SQL, datasets and database concepts.
+- Python or R, statistics and baseline models.
+- Data-quality checks, missing-data analysis and leakage controls.
+- Experiment analysis, visualizations and communicating results.
 
-**Experience:** Student learning role; Python/SQL, datasets and database concepts appear in preferred skills.
+<span id="employer-evidence-and-career-stages"></span>
+<span id="nyc-housing-preservation-and-development-summer-undergraduate-intern-data-engineering-ai"></span>
+<span id="duolingo-data-scientist-intern"></span>
 
-**Eligibility and location:** Historical June–August program: enrolled college student or recent winter/spring graduate by June. US work authorization required; no visa sponsorship. NYC residency generally required within 90 days, with exceptions requiring employer confirmation. Posting expired May 1, 2026; not an active application target. Location: 100 Gold Street, NYC; NYC-all-boroughs listing.
+## Example requirements
 
-### Duolingo: Data Scientist, Intern
+**NYC Housing Preservation and Development — Summer Undergraduate Intern, Data Engineering & AI:** ETL, SQL, documentation, introductory ML features/models and visualization. Python/SQL and database skills were **preferred**. Historical **June–August** program for enrolled students or recent winter/spring graduates by June; **US authorization, no sponsorship**, and generally **NYC residency within 90 days**, subject to employer-confirmed exceptions. **100 Gold Street, NYC**. **Expired May 1, 2026 — closed example, not an application target**.
 
-[Duolingo employer description · Chrome reviewed](https://careers.duolingo.com/jobs/8888721002) · **Internship** · **Open when checked** · Reviewed November 5, 2026.
+**Duolingo — Data Scientist, Intern:** analyze user behavior, experiments, forecasts and tracking quality to inform product priorities. Requires previous large-dataset analysis and communication, with SQL, Python or R/statistics. BigQuery/Snowflake/dbt, **GPA 3.5+ and AI-tool familiarity are preferred/exceptional signals**. Quantitative undergraduate/master’s degree; graduation **Fall 2027 or Spring/Summer 2028**; able to relocate to **NYC or Pittsburgh**, with office-willingness questions. Authorization/sponsorship questions alone establish no policy. **Open when checked**.
 
-Apply analytical and AI methods to model user behavior and evaluate product changes. Analyze experiments and influence product priorities. Build reports/forecasts and check tracking-data quality.
+<span id="portfolio-practice"></span>
 
-**Experience:** Previous analysis of large datasets and communication of results; SQL, Python or R/statistics. BigQuery/Snowflake/dbt, GPA 3.5+ and AI-tool familiarity are exceptional/preferred signals.
+## One project
 
-**Eligibility and location:** Undergraduate or master degree in a quantitative field; expected graduation Fall 2027 or Spring/Summer 2028. Able to relocate to NYC or Pittsburgh; application asks office willingness. Work-authorization and sponsorship questions are asked, but answers/eligibility policies are not established by their presence. Location: New York, NY or Pittsburgh, PA.
+**Public-data ETL and analysis pipeline.**
 
-## Portfolio practice
+1. Include schema checks, an exploratory report and a baseline model.
+2. Report missing data and leakage controls.
+3. Publish reproducible setup, processing and results.
 
-Create a public-data ETL pipeline with schema checks, an exploratory report and a baseline model. Report missing data, leakage controls and reproducibility. This is an editorial suggestion, not an employer assignment or a replacement for stated professional experience.
+
+## Sources and notes
+
+- [NYC Housing Preservation and Development employer description · Chrome reviewed](https://cityjobs.nyc.gov/job/summer-undergraduate-intern-data-engineering-and-ai-in-nyc-all-boros-jid-42436)
+- [Duolingo employer description · Chrome reviewed](https://careers.duolingo.com/jobs/8888721002)
+
+Sources accessed **November 5, 2026** (not publication dates). Examples may change or close. Classifications are editorial, not standardized occupations or growth forecasts; skills, projects and routes are guidance, not hiring standards.
 
 [Compare roles](./) · [Inspect job examples](../jobs/) · [Research methodology](../research/methodology)

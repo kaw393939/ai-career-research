@@ -5,38 +5,50 @@ description: Design networks that carry AI training and inference workloads.
 
 # Build the networks behind AI workloads
 
-**Field:** Networking & telecom · **Editorial classification:** Established role with AI responsibilities
+AI infrastructure network engineers design networks that carry training and inference workloads.
 
-Design networks that carry AI training and inference workloads. This is a focus category for reading employer descriptions, not proof of a standardized new occupation.
+**Field:** Networking & telecom · **Classification:** Established role with AI responsibilities · **Foundations:** TCP/IP, Network design
 
-## What changes, and what remains
+<span id="what-changes-and-what-remains"></span>
 
-AI compute creates new workload and capacity constraints; routing foundations remain. Traditional foundations include TCP/IP, Network design. The classification is our interpretation of the cited work; it does not establish when a title first appeared or how quickly hiring is growing.
+## What you do
 
-## Employer evidence and career stages
+Design networks around compute, storage, optics and capacity constraints. AI workloads change demands, while routing and network-design foundations remain. Work can involve architecture/customer demonstrations or wireless testing; compare the assignment, not just the AI label.
 
-### Cisco: Solutions Engineer-Hyperscale and AI Infrastructure
 
-[Cisco employer description · Chrome reviewed](https://careers.cisco.com/global/en/job/CISCISGLOBAL2022491EXTERNALENGLOBAL/Solutions-Engineer-Hyperscale-and-AI-Infrastructure) · **Senior** · **Open when checked** · Reviewed November 5, 2026.
+## Skills
 
-Design data-center and service-provider networks supporting AI workloads, compute, storage and optics. Lead architecture discussions, demonstrations and customer engagements. Apply routing, automation and operating-system knowledge to infrastructure designs.
+- TCP/IP, routing, DNS and connectivity.
+- Data-center/service-provider design, compute, storage and optics.
+- Network automation, operating systems and Python testing.
+- Architecture discussions and customer communication.
 
-**Experience:** 8+ years technical sales/customer engagement with data-center or service-provider networking; 10+ years and degree/CCIE are preferred.
+<span id="employer-evidence-and-career-stages"></span>
+<span id="cisco-solutions-engineer-hyperscale-and-ai-infrastructure"></span>
+<span id="cisco-software-qa-engineer-i-full-time---united-states"></span>
 
-**Eligibility and location:** Two US locations are listed; remote label does not establish approval in every state. Sponsorship not established. Application window expected to close November 18, 2026. Location: Richardson, TX or San Jose, CA; remote label.
+## Example requirements
 
-### Cisco: Software QA Engineer I (Full Time) - United States
+**Cisco — Solutions Engineer-Hyperscale and AI Infrastructure:** design networks, lead architecture discussions/demos and engage customers. **Senior** example with **8+ years** of technical sales/customer engagement in data-center/service-provider networking; **10+ years and degree/CCIE are preferred**. Lists **Richardson, TX or San Jose, CA**, with a remote label that does not establish every-state approval. Sponsorship is unstated; expected application close **November 18, 2026**. **Open when checked**.
 
-[Cisco employer description · Chrome reviewed](https://careers.cisco.com/global/en/job/CISCISGLOBAL2030253EXTERNALENGLOBAL/Software-QA-Engineer-I-Full-Time-United-States-) · **Entry level** · **Status uncertain** · Reviewed November 5, 2026.
+**Cisco — Software QA Engineer I (Full Time) - United States:** wireless test plans, Python automation and reproducing failures in router/switch/access-point labs; uses AI-assisted development with validated results. Entry-level classification rests on programming and basic TCP/IP, DHCP, DNS and routing; lab exposure/CCNA are **preferred**. Requires a relevant bachelor’s completed **within three years** or expected **within 12 months**. **Richardson, TX, on-site**; sponsorship unstated. Explicitly a **future-opportunity pipeline — status uncertain**, not a confirmed vacancy.
 
-Write wireless test plans and Python automation. Reproduce customer failures in router, switch and access-point labs. Use AI-assisted development tools while validating test results.
+<span id="portfolio-practice"></span>
 
-**Experience:** Programming fundamentals, basic TCP/IP, DHCP, DNS and routing; networking lab exposure and CCNA are preferred.
+## One project
 
-**Eligibility and location:** Bachelor degree completed within three years or expected within the next 12 months in a relevant field. Employer explicitly advertises potential future opportunities, not a confirmed current vacancy. Sponsorship not established. Location: Richardson, TX.
+**Simulated network for a small inference service.**
 
-## Portfolio practice
+1. Explain routing and capacity assumptions.
+2. Automate DNS and connectivity checks.
+3. Demonstrate one link failure and document the observed behavior.
 
-A simulated network for a small inference service: explain routing and capacity assumptions, automate DNS/connectivity checks, and demonstrate one link failure. This is an editorial suggestion, not an employer assignment or a replacement for stated professional experience.
+
+## Sources and notes
+
+- [Cisco employer description · Chrome reviewed](https://careers.cisco.com/global/en/job/CISCISGLOBAL2022491EXTERNALENGLOBAL/Solutions-Engineer-Hyperscale-and-AI-Infrastructure)
+- [Cisco employer description · Chrome reviewed](https://careers.cisco.com/global/en/job/CISCISGLOBAL2030253EXTERNALENGLOBAL/Software-QA-Engineer-I-Full-Time-United-States-)
+
+Sources accessed **November 5, 2026** (not publication dates). Examples may change or close. Classifications are editorial, not standardized occupations or growth forecasts; skills, projects and routes are guidance, not hiring standards.
 
 [Compare roles](./) · [Inspect job examples](../jobs/) · [Research methodology](../research/methodology)

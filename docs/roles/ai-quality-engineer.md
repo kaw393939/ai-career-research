@@ -5,28 +5,48 @@ description: Validate wireless systems with automation and AI-assisted tools.
 
 # Test networks and validate AI-assisted work
 
-**Field:** Quality & reliability · **Editorial classification:** Established role with AI responsibilities
+AI-assisted network QA engineers validate wireless systems using automation and carefully checked AI-assisted tools.
 
-Validate wireless systems with automation and AI-assisted tools. This is a focus category for reading employer descriptions, not proof of a standardized new occupation.
+**Field:** Quality & reliability · **Classification:** Established role with AI responsibilities · **Foundations:** Test design, Networking
 
-## What changes, and what remains
+<span id="what-changes-and-what-remains"></span>
 
-AI assistance changes workflow without making every test role a new occupation. Traditional foundations include Test design, Networking. The classification is our interpretation of the cited work; it does not establish when a title first appeared or how quickly hiring is growing.
+## What you do
 
-## Employer evidence and career stages
+Write wireless tests and reproduce failures in router, switch and access-point labs. Validate AI-assisted work; it changes the workflow without creating a new occupation.
 
-### Cisco: Software QA Engineer I (Full Time) - United States
 
-[Cisco employer description · Chrome reviewed](https://careers.cisco.com/global/en/job/CISCISGLOBAL2030253EXTERNALENGLOBAL/Software-QA-Engineer-I-Full-Time-United-States-) · **Entry level** · **Status uncertain** · Reviewed November 5, 2026.
+## Skills
 
-Write wireless test plans and Python automation. Reproduce customer failures in router, switch and access-point labs. Use AI-assisted development tools while validating test results.
+- Test design and reproducible expected results.
+- Python automation and programming fundamentals.
+- TCP/IP, DHCP, DNS and routing.
+- Network labs, failure reproduction and false-positive analysis.
 
-**Experience:** Programming fundamentals, basic TCP/IP, DHCP, DNS and routing; networking lab exposure and CCNA are preferred.
+<span id="employer-evidence-and-career-stages"></span>
+<span id="cisco-software-qa-engineer-i-full-time---united-states"></span>
 
-**Eligibility and location:** Bachelor degree completed within three years or expected within the next 12 months in a relevant field. Employer explicitly advertises potential future opportunities, not a confirmed current vacancy. Sponsorship not established. Location: Richardson, TX.
+## Example requirements
 
-## Portfolio practice
+**Cisco — Software QA Engineer I (Full Time) - United States:** **entry-level** example; relevant bachelor’s completed **within three years** or expected **within 12 months**. Programming/network fundamentals expected; labs and CCNA **preferred**.
 
-Automate a reproducible wireless or simulated-network test plan. Compare an AI-proposed test with a manually verified expected result and report false positives. This is an editorial suggestion, not an employer assignment or a replacement for stated professional experience.
+**Richardson, TX**; sponsorship unstated. The employer advertises **future opportunities — status uncertain**, not a confirmed vacancy.
+
+<span id="portfolio-practice"></span>
+
+## One project
+
+**Reproducible wireless or simulated-network test plan.**
+
+1. Automate the plan and record manually verified expected results.
+2. Compare an AI-proposed test against those results.
+3. Report false positives and explain what required human validation.
+
+
+## Sources and notes
+
+- [Cisco employer description · Chrome reviewed](https://careers.cisco.com/global/en/job/CISCISGLOBAL2030253EXTERNALENGLOBAL/Software-QA-Engineer-I-Full-Time-United-States-)
+
+Sources accessed **November 5, 2026** (not publication dates). Examples may change or close. Classifications are editorial, not standardized occupations or growth forecasts; skills, projects and routes are guidance, not hiring standards.
 
 [Compare roles](./) · [Inspect job examples](../jobs/) · [Research methodology](../research/methodology)

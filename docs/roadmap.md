@@ -83,4 +83,4 @@ Write one short case study: **problem → design decision → observed result �
 
 After completing a project, compare what you enjoyed with the actual work described in your target roles. You might enjoy stakeholder discovery more than model tuning, or error analysis more than feature delivery. Update the project and choose your next learning step from that evidence.
 
-**Continue exploring:** [Compare the six roles](./roles/) · [Decode the vocabulary](./research/glossary)
+**Continue exploring:** [Compare roles](./roles/) · [Decode the vocabulary](./research/glossary)

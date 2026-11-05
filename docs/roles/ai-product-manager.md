@@ -5,42 +5,54 @@ description: Connect user needs, AI evaluation, and product delivery, with evide
 
 # AI product manager
 
-An AI product manager connects user problems, delivery priorities, and evidence about whether an AI capability is useful. It is a product responsibility with technical and measurement demands; the title alone does not establish a junior or nontechnical job.
+An AI product manager connects user problems, delivery priorities and evidence that an AI capability is useful.
 
-## How this role is changing
+**Classification:** Established role with AI responsibilities · **Foundations:** Product ownership, Domain knowledge
 
-**Editorial classification: Established role with AI responsibilities.** Value and acceptance criteria must account for uncertain outputs. Traditional foundations: Product ownership, Domain knowledge. This is a responsibility-based interpretation of the employer evidence below, not a claim that a title is newly invented.
+<span id="how-this-role-is-changing"></span>
+<span id="what-the-work-looks-like"></span>
 
-## What the work looks like
+## What you do
 
-Merck's **AI and Data Science Product Manager** example involves turning scientists' needs into requirements, acceptance criteria, and backlogs. It also covers moving language-model and agent prototypes toward maintainable services, selecting evaluation measures, and using feedback to improve adoption. [Merck employer description](https://jobs.merck.com/us/en/job/R424180/AI-and-Data-Science-Product-Manager).
+Turn user needs into requirements, acceptance criteria and backlogs; select evaluation measures and use feedback to improve adoption. Uncertain outputs change how success is defined. This work requires understanding data and implementation constraints, rather than assuming a product title is junior or nontechnical.
 
-The important distinction is the output: this person helps decide what should be built and what success means, while working with engineering and scientific stakeholders. A product title does not remove the need to understand data, system limitations, and implementation constraints.
+<span id="skills-to-practice"></span>
 
-## Entry routes and seniority
+## Skills
 
-The sampled role requires **3+ professional years** in AI, data science, engineering, product management, or a related discipline. Its minimum education is a high-school diploma; a relevant bachelor's degree or equivalent practical experience is preferred. Mentorship by a senior product manager does not make this particular posting entry level. It is hybrid in West Point, Pennsylvania, and offers neither sponsorship nor relocation. These are employer-specific conditions, not a rule for all product roles. [Merck requirements](https://jobs.merck.com/us/en/job/R424180/AI-and-Data-Science-Product-Manager).
+- Problem discovery and small, testable scopes.
+- Baselines and a clear reason to use AI.
+- Requirements and understandable acceptance criteria.
+- Evaluation, uncertainty, cost and operational tradeoffs.
+- Feedback, prioritization and decision communication.
 
-For a student, useful practice could come from a team project in which you investigate a real user need, write acceptance criteria, and evaluate a prototype. That practice demonstrates some related skills; it does not replace the professional experience in the example.
+<span id="entry-routes-and-seniority"></span>
 
-## Skills to practice
+## Example requirements
 
-- Translate a broad problem into a small, testable product scope.
-- Separate user value from novelty: define what a simpler baseline would do.
-- Write requirements and acceptance criteria that engineers and users can understand.
-- Explain evaluation results, uncertainty, cost, and operational tradeoffs.
-- Turn feedback into priorities and communicate the reasons for decisions.
+**Merck — AI and Data Science Product Manager:** scientists’ requirements, language-model/agent prototypes, maintainable services, evaluation and adoption. Requires **3+ professional years** in AI, data science, engineering, product management or related work. Minimum education is a **high-school diploma**; a relevant bachelor’s or equivalent practical experience is **preferred**.
 
-This is an editorial practice list informed by the example, not an additional employer requirements list.
+The role is **hybrid in West Point, Pennsylvania**, with **no sponsorship or relocation**. Mentorship by a senior manager does not make it entry level. A student team project can demonstrate discovery, acceptance criteria and evaluation, but does not replace the stated experience.
 
-## Portfolio idea: a product decision case study
+<span id="portfolio-idea-a-product-decision-case-study"></span>
 
-Choose a document-analysis task and write a one-page user problem brief. Compare a manual or rules-based baseline with a small AI prototype. Define a rubric before testing, record results on 20 cases, and publish a prioritized backlog explaining what you would change next.
+## One project
 
-Include an explicit decision about when **not** to use AI. Label simulated users or feedback clearly. A useful submission makes your reasoning inspectable, even if the prototype's results are modest.
+**Product decision case study.** Choose a document-analysis task.
 
-## Sources and next steps
+1. Write a **one-page user problem brief**.
+2. Compare a manual/rules baseline with a small AI prototype using a rubric defined beforehand.
+3. Record results on **20 cases**, then publish a prioritized improvement backlog.
+4. Explain when **not** to use AI and label simulated users or feedback.
 
-The employer page was reviewed in Chrome on **November 5, 2026**. Its application window and availability may change; this is an example of work, not a promise of an active vacancy.
+Make the reasoning inspectable even if results are modest.
+
+<span id="sources-and-next-steps"></span>
+
+## Sources and notes
+
+- [Merck employer description](https://jobs.merck.com/us/en/job/R424180/AI-and-Data-Science-Product-Manager)
+
+Sources accessed **November 5, 2026** (not publication dates). Examples may change or close. Classifications are editorial, not standardized occupations or growth forecasts; skills, projects and routes are guidance, not hiring standards. The Merck example was reviewed in Chrome; its application window and availability can change.
 
 [Compare real jobs by level](../jobs/) · [Understand the research](../research/methodology) · [Compare additional role patterns](../research/emerging-roles)
