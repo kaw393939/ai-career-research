@@ -1,0 +1,57 @@
+{
+  "publisher": "US Bureau of Labor Statistics",
+  "reviewed": "2026-11-05",
+  "release": "Occupational Outlook Handbook, last modified August 27, 2026",
+  "wagePeriod": "May 2025",
+  "wageUnit": "USD median annual wage, national, all experience levels",
+  "projectionPeriod": "2025\u20132035",
+  "transformation": "Transcribed individual-occupation median annual wages from the Pay paragraphs. Growth is included only for pages with a single occupation, not the grouped software/developer/tester summary. No inflation adjustment, annualization or aggregation.",
+  "limitations": "Broad occupations are contextual proxies, not AI-title salary estimates, starting pay, local wages or hiring guarantees. Editorial role mappings are approximate; some roles have multiple possible occupations.",
+  "occupations": [
+    {
+      "name": "Software developers",
+      "code": "15-1252",
+      "wage": 135980,
+      "growth": null,
+      "url": "https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm",
+      "onet": "https://www.onetonline.org/link/summary/15-1252.00",
+      "mapping": "AI application, LLM and automation engineering: related software work; model-specific responsibilities are a subset."
+    },
+    {
+      "name": "Software quality assurance analysts and testers",
+      "code": "15-1253",
+      "wage": 104300,
+      "growth": null,
+      "url": "https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm",
+      "onet": "https://www.onetonline.org/link/summary/15-1253.00",
+      "mapping": "Testing and evaluation: useful testing context; model evaluation and research may map differently."
+    },
+    {
+      "name": "Information security analysts",
+      "code": "15-1212",
+      "wage": 129180,
+      "growth": 21,
+      "url": "https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm",
+      "onet": "https://www.onetonline.org/link/summary/15-1212.00",
+      "mapping": "Security and responsible-AI controls: related security work; not every governance or AI-security engineer is in this occupation."
+    },
+    {
+      "name": "Computer network architects",
+      "code": "15-1241",
+      "wage": 134050,
+      "growth": 8,
+      "url": "https://www.bls.gov/ooh/computer-and-information-technology/computer-network-architects.htm",
+      "onet": "https://www.onetonline.org/link/summary/15-1241.00",
+      "mapping": "AI infrastructure networking: related network design; junior operations and sales engineering differ."
+    },
+    {
+      "name": "Data scientists",
+      "code": "15-2051",
+      "wage": 120230,
+      "growth": 35,
+      "url": "https://www.bls.gov/ooh/math/data-scientists.htm",
+      "onet": "https://www.onetonline.org/link/summary/15-2051.00",
+      "mapping": "Data/model work: related statistical and analytical tasks; data engineering and platform work can map elsewhere."
+    }
+  ]
+}

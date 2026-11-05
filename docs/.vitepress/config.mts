@@ -68,6 +68,9 @@ export default defineConfig({
       ] },
       { text: 'The research', items: [
         { text: 'Methodology & sources', link: '/research/methodology' },
+        { text: 'Occupational context & charts', link: '/research/occupational-context' },
+        { text: 'Skills & learning visuals', link: '/research/visual-guide' },
+        { text: 'Source review record', link: '/research/source-review' },
         { text: 'AI career glossary', link: '/research/glossary' }
       ] }
     ],

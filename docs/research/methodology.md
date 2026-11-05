@@ -60,6 +60,8 @@ Official certification role frameworks are useful descriptions of a vendor's com
 
 ## What this research can support
 
+The [occupational context charts](./occupational-context) use separately sourced BLS data with explicit broad-occupation crosswalks; they do not convert the employer sample into market estimates. The [source-review record](./source-review) describes manual freshness checks.
+
 The profiles can show that particular employers ask for certain kinds of work, that job titles overlap, and that projects can be designed to demonstrate related skills. Responsibility summaries combine the linked evidence with editorial organization; portfolio suggestions are identified as such.
 
 The homepage's three focus groups—product building, customer work, and models and quality—are browsing aids. A role can involve all three. They are not an official occupation classification or a ranking.
@@ -79,3 +81,11 @@ Job-research provenance is retained in `docs/research/internship-evidence.json`,
 When updating a profile or job example, reopen the source, revise unsupported statements, and update the review date and availability label. Keep required and preferred qualifications distinct. If a role's scope changes, update the comparison page and homepage summary too. The roadmap and glossary should remain consistent with the profiles.
 
 For a useful research contribution, include the employer, exact title, source URL, review date, supported finding, and any limitation. Open a [GitHub issue](https://github.com/kaw393939/ai-career-research/issues) or use the edit link below to suggest a correction.
+
+## Structured student checks and local notes
+
+The job explorer uses explicitly maintained facts in `eligibility-facts.json`; it does not guess eligibility from a keyword match. Graduation checks compare years and disclose that months, terms, continuing enrollment, equivalence routes and other requirements still need review. Missing facts stay unknown. Potential matches apply only to selected checks, not an application decision.
+
+Optional authorization/citizenship checks are held in memory for the visit. Shortlist IDs and notes are stored in the browser only, with remove/clear controls; no account or external transmission is involved. Storage failures fall back to the current visit. Avoid entering sensitive information in notes.
+
+The additional evidence file is `docs/research/expanded-evidence.json`. It expands security, networking, quality and data coverage while keeping expired and future-opportunity examples visibly distinct. The unified explorer's categories and qualitative skill matrix are editorial summaries, not standardized new occupations or measured skill-demand scores.

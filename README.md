@@ -69,7 +69,7 @@ Edit Markdown pages under `docs/roles/` and add directly supporting employer or 
 
 Job-library files:
 
-- `docs/research/internship-evidence.json`, `docs/research/entry-evidence.json`, and `docs/research/experienced-evidence.json`: retained research provenance.
+- `docs/research/internship-evidence.json`, `docs/research/entry-evidence.json`, and `docs/research/experienced-evidence.json`, and `docs/research/expanded-evidence.json`: retained research provenance.
 - `docs/.vitepress/data/jobs.ts`: typed, curated job-example data.
 - `docs/.vitepress/theme/components/JobExamples.vue` and `docs/.vitepress/theme/jobs.css`: explorer behavior and styling.
 - `docs/jobs/`: job-library pages and source ledger.
@@ -77,3 +77,14 @@ Job-library files:
 Reopen employer sources when updating examples, preserve eligibility and required/preferred distinctions, and refresh the checked date and availability label. Read the [research methodology](https://kaw393939.github.io/ai-career-research/research/methodology.html) before adding salary, growth, or hiring claims. Listings may close or change; snapshots do not establish market-wide trends.
 
 Research reviewed **November 5, 2026**. The site is a research guide, not a live job board.
+
+## Research and student tools
+
+The unified explorer covers 15 profiles across eight technology fields. The library includes 20 selected employer examples, including historical/pipeline examples; it does not measure the labor market. Eligibility checks explain recorded facts and unknowns. Shortlist IDs and notes stay in the browser; preferences are not persisted or transmitted.
+
+- [NJIT learning map](https://kaw393939.github.io/ai-career-research/njit.html)
+- [BLS occupational charts and crosswalk limits](https://kaw393939.github.io/ai-career-research/research/occupational-context.html)
+- [Skill matrix, learning paths and labeled illustration](https://kaw393939.github.io/ai-career-research/research/visual-guide.html)
+- [Manual source-review report](https://kaw393939.github.io/ai-career-research/research/source-review.html)
+
+Run `npm run research:review -- --as-of YYYY-MM-DD` to regenerate the source-age report. It performs no network verification and schedules no automation. Reopen primary pages in Chrome before changing their evidence. `npm run check` covers eligibility edge cases, job/source integrity, occupation measures and base-path links. Illustration generation method, exact prompt and asset path are recorded in `docs/research/image-provenance.md`.

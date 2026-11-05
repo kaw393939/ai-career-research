@@ -1,6 +1,6 @@
 {
   "name": "ai-career-atlas",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "private": true,
   "type": "module",
   "description": "Evidence-backed research on AI careers, skills, and portfolio projects.",
@@ -11,7 +11,8 @@
     "docs:dev": "npm run dev",
     "docs:build": "npm run build",
     "docs:preview": "npm run preview",
-    "check": "node scripts/test-eligibility.mjs && node scripts/check-jobs.mjs && npm run build && node scripts/check-links.mjs"
+    "check": "node scripts/test-eligibility.mjs && node scripts/check-jobs.mjs && node scripts/check-context.mjs && npm run build && node scripts/check-links.mjs",
+    "research:review": "node scripts/review-sources.mjs"
   },
   "engines": {
     "node": ">=22"

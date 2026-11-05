@@ -30,7 +30,8 @@ export function assessFit(job, profile, record = facts[job.id] || {}) {
   }
   if (profile.citizenship === 'not-us' && record.citizen) restrictions.push('US citizenship is explicitly required.')
   if (profile.state && job.workMode === 'Remote — US') {
-    if (record.remoteStates && !record.remoteStates.includes(profile.state)) restrictions.push('Selected state is not among the remote states explicitly listed in this record; confirm other locations with the employer.')
+    if (profile.state === 'OTHER') unknown.push('Specify the actual state with the employer; the generic other-state option cannot establish eligibility.')
+    else if (record.remoteStates && !record.remoteStates.includes(profile.state)) restrictions.push('Selected state is not among the remote states explicitly listed in this record; confirm other locations with the employer.')
     else if (!record.remoteStates) unknown.push('Remote state eligibility needs employer confirmation.')
   }
   const assessed = !!(profile.stage || profile.degree || profile.year || profile.experience !== '' || profile.research || profile.sponsorship || profile.citizenship || profile.state)
