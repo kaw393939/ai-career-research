@@ -21,11 +21,11 @@ The design uses [progressive disclosure](https://www.nngroup.com/articles/progre
 
 | Finding / issue | Decision | Intended result | Status |
 | --- | --- | --- | --- |
-| [REV-18 / #18](https://github.com/kaw393939/ai-career-research/issues/18) | DEC-07 · One homepage chooser | Keep the voluntary interest chooser; link to the full Roles explorer, Jobs and a project | Planned |
-| [REV-19 / #19](https://github.com/kaw393939/ai-career-research/issues/19) | DEC-08 · Results sooner | Short introduction, one dated research note, then useful job controls and results | Planned |
-| [REV-20 / #20](https://github.com/kaw393939/ai-career-research/issues/20) | DEC-09 · Useful summaries | Show the actual work and decisive eligibility facts; expand complete explanations | Planned |
-| [REV-21 / #21](https://github.com/kaw393939/ai-career-research/issues/21) | DEC-10 · Consistent profiles | Apply a concise, task-oriented outline to all 15 career profiles | Planned |
-| [REV-22 / #22](https://github.com/kaw393939/ai-career-research/issues/22) | DEC-11 · Student tasks first | Prioritize Roles, Jobs, Learning and Research; keep history in Revisions | Planned |
+| [REV-18 / #18](https://github.com/kaw393939/ai-career-research/issues/18) | DEC-07 · One homepage chooser | Keep the voluntary interest chooser; link to the full Roles explorer, Jobs and a project | In progress |
+| [REV-19 / #19](https://github.com/kaw393939/ai-career-research/issues/19) | DEC-08 · Results sooner | Short introduction, one dated research note, then useful job controls and results | In progress |
+| [REV-20 / #20](https://github.com/kaw393939/ai-career-research/issues/20) | DEC-09 · Useful summaries | Show the actual work and decisive eligibility facts; expand complete explanations | In progress |
+| [REV-21 / #21](https://github.com/kaw393939/ai-career-research/issues/21) | DEC-10 · Consistent profiles | Apply a concise, task-oriented outline to all 15 career profiles | In progress |
+| [REV-22 / #22](https://github.com/kaw393939/ai-career-research/issues/22) | DEC-11 · Student tasks first | Prioritize Roles, Jobs, Learning and Research; keep history in Revisions | In progress |
 
 The [revision tracker](./) and [implementation worklog](./worklog) link this release to the complete roadmap. Each issue carries its own acceptance criteria. Implementation commits reference the issue and are linked back to its thread while work proceeds.
 
@@ -74,7 +74,7 @@ Prioritize Roles, Jobs, Learning and Research, with section-specific sidebars. K
 ## Implementation and release checks
 
 - [x] Create issues #18–#22 and link the parent request.
-- [ ] Commit this plan before implementation.
+- [x] Commit this plan before implementation: [0960009](https://github.com/kaw393939/ai-career-research/commit/09600099afeeb56490f96916c6c1b48dab56c72f).
 - [ ] Attach each issue-referencing implementation commit and exact file links to its issue.
 - [ ] Run `npm run check` for eligibility, source/job integrity, occupation data, production build and internal links.
 - [ ] Exercise changed controls, disclosures, navigation and keyboard paths in Chrome.
