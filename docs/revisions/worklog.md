@@ -21,7 +21,7 @@ The user authorized implementing the full revision backlog on **November 5, 2026
 | REV-10 | [#10](https://github.com/kaw393939/ai-career-research/issues/10) | [v1.3.0](https://github.com/kaw393939/ai-career-research/releases/tag/v1.3.0) | Shipped / issue closed | [Code d1c1bef](https://github.com/kaw393939/ai-career-research/commit/d1c1bef78e9b1943b2d937ae424a7ca51e9f10e2) · [Deployment](https://github.com/kaw393939/ai-career-research/actions/runs/42057505531) |
 | REV-11 | [#11](https://github.com/kaw393939/ai-career-research/issues/11) | [v1.3.0](https://github.com/kaw393939/ai-career-research/releases/tag/v1.3.0) | Shipped / issue closed | [Code d1c1bef](https://github.com/kaw393939/ai-career-research/commit/d1c1bef78e9b1943b2d937ae424a7ca51e9f10e2) · [Deployment](https://github.com/kaw393939/ai-career-research/actions/runs/42057505531) |
 | REV-12 | [#12](https://github.com/kaw393939/ai-career-research/issues/12) | [v1.3.0](https://github.com/kaw393939/ai-career-research/releases/tag/v1.3.0) | Shipped / issue closed | [Code d1c1bef](https://github.com/kaw393939/ai-career-research/commit/d1c1bef78e9b1943b2d937ae424a7ca51e9f10e2) · [Deployment](https://github.com/kaw393939/ai-career-research/actions/runs/42057505531) |
-| REV-13 | [#13](https://github.com/kaw393939/ai-career-research/issues/13) | v1.4.0 | In progress | [Student brand review](./brand-and-student-journey) |
+| REV-13 | [#13](https://github.com/kaw393939/ai-career-research/issues/13) | [v1.4.0](https://github.com/kaw393939/ai-career-research/releases/tag/v1.4.0) | Shipped; mobile visual check unverified | [Code d46553b](https://github.com/kaw393939/ai-career-research/commit/d46553bc516c79ec956b8798db94a93c5872df40) · [Deployment](https://github.com/kaw393939/ai-career-research/actions/runs/42061032610) · [Review](./brand-and-student-journey) |
 
 ## Closure rule
 
@@ -30,3 +30,5 @@ Implementation commits reference the corresponding issues. Each issue receives c
 ## Final verification
 
 All 12 issues were closed after public verification. Final feature checks passed: 13 eligibility cases, 20 employer records and ledger coverage, five occupational data series, production build and 1,910 internal links/assets across 36 pages. Browser checks covered field and career-stage filters, comparison, explainable student checks, local note persistence and clearing, charts, source tables, learning paths, image loading, keyboard activation and 390px layouts. The dependency audit reported zero known vulnerabilities. Documentation-only tracking updates receive the same build/link workflow.
+
+REV-13 was published after production checks and Chrome desktop/keyboard verification. Its review explicitly records the unsuccessful mobile viewport setup; this release does not claim a new mobile visual pass.
