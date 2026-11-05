@@ -5,7 +5,7 @@ description: Plan occupational research, accessible charts, explanatory diagrams
 
 # v1.3 plan: primary sources & useful visuals
 
-**Status:** Planned; implementation awaiting review · **Created:** November 5, 2026 · **Findings:** REV-09–REV-12
+**Status:** In progress; implementation authorized November 5, 2026 · **Created:** November 5, 2026 · **Findings:** REV-09–REV-12
 
 The user requested a plan before adding generated images, charts, graphs, or broader primary-source research to the site. This document records that plan; those additions are not implemented by publishing it.
 
@@ -39,7 +39,7 @@ For job examples, retain each review date and availability state. Establish a ma
 
 ## Acceptance criteria
 
-- [ ] Review this visual/source plan before implementation begins.
+- [x] Review this visual/source plan before implementation begins. The user authorized processing all revision issues on November 5, 2026.
 - [ ] Verify source vintages and document title-to-occupation mappings before choosing chart values.
 - [ ] Every chart links its source, discloses scope/units/year, and has an accessible table.
 - [ ] No chart treats 14 selected job examples as a labor-market estimate.

@@ -31,6 +31,7 @@ export default defineConfig({
     sidebar: [
       { text: 'Revisions & releases', items: [
         { text: 'Revision tracker', link: '/revisions/' },
+        { text: 'Implementation worklog', link: '/revisions/worklog' },
         { text: 'Student review', link: '/revisions/student-review' },
         { text: 'Broader technology careers', link: '/revisions/industry-coverage' },
         { text: 'Student decision support', link: '/revisions/student-experience' },

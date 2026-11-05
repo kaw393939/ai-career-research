@@ -15,7 +15,9 @@ This is the public planning record for AI Career Atlas. It combines the simulate
 | --- | --- | --- | --- |
 | v1.1 | [Broader technology careers](./industry-coverage) | Planned | Explain AI's effect on security, networking, and other technology fields |
 | v1.2 | [Student decision support](./student-experience) | Planned | Help a student identify plausible opportunities and choose a learning direction |
-| v1.3 | [Primary sources & useful visuals](./evidence-and-visuals) | Planned; implementation awaiting review | Add occupational context and visuals that answer concrete career questions |
+| v1.3 | [Primary sources & useful visuals](./evidence-and-visuals) | Planned; authorized for implementation | Add occupational context and visuals that answer concrete career questions |
+
+Follow the [implementation worklog](./worklog) for issue links, code, and deployment evidence.
 
 Read the [student review](./student-review) for the scenario, observed behavior, and limits. The [release history](./releases) records what is already live.
 
@@ -25,18 +27,18 @@ IDs remain stable so commits and future release notes can refer to the same find
 
 | ID | Finding | Priority | Planned release | Status |
 | --- | --- | --- | --- | --- |
-| REV-01 | Career coverage concentrates on software, ML, and platform work | High | v1.1 | Planned |
-| REV-02 | New titles, changed responsibilities, and renamed existing work need clearer separation | High | v1.1 | Planned |
-| REV-03 | The homepage's six-role explorer and four additional profiles are separated | Medium | v1.1 | Planned |
-| REV-04 | Search does not evaluate degree, graduation windows, or experience eligibility | High | v1.2 | Planned |
-| REV-05 | Local and remote early-career coverage is too limited for the student scenario | High | v1.2 | Planned |
-| REV-06 | Comparing several roles and keeping a shortlist takes too much manual work | Medium | v1.2 | Planned |
-| REV-07 | Dense cards make it difficult to scan decisive requirements quickly | Medium | v1.2 | Planned |
-| REV-08 | The learning roadmap lacks an NJIT-specific bridge from courses to portfolio evidence | Medium | v1.2 | Planned |
-| REV-09 | Selected employer examples do not establish occupation-wide demand or pay | High | v1.3 | Planned |
-| REV-10 | Role/skill relationships and progression need clearer visual explanations | Medium | v1.3 | Planned |
-| REV-11 | Generated images need a defined explanatory purpose and illustration labels | Low | v1.3 | Proposed |
-| REV-12 | Time-sensitive postings need a repeatable review and release record | High | v1.3 | Planned |
+| [REV-01](https://github.com/kaw393939/ai-career-research/issues/1) | Career coverage concentrates on software, ML, and platform work | High | v1.1 | Planned |
+| [REV-02](https://github.com/kaw393939/ai-career-research/issues/2) | New titles, changed responsibilities, and renamed existing work need clearer separation | High | v1.1 | Planned |
+| [REV-03](https://github.com/kaw393939/ai-career-research/issues/3) | The homepage's six-role explorer and four additional profiles are separated | Medium | v1.1 | Planned |
+| [REV-04](https://github.com/kaw393939/ai-career-research/issues/4) | Search does not evaluate degree, graduation windows, or experience eligibility | High | v1.2 | Planned |
+| [REV-05](https://github.com/kaw393939/ai-career-research/issues/5) | Local and remote early-career coverage is too limited for the student scenario | High | v1.2 | Planned |
+| [REV-06](https://github.com/kaw393939/ai-career-research/issues/6) | Comparing several roles and keeping a shortlist takes too much manual work | Medium | v1.2 | Planned |
+| [REV-07](https://github.com/kaw393939/ai-career-research/issues/7) | Dense cards make it difficult to scan decisive requirements quickly | Medium | v1.2 | Planned |
+| [REV-08](https://github.com/kaw393939/ai-career-research/issues/8) | The learning roadmap lacks an NJIT-specific bridge from courses to portfolio evidence | Medium | v1.2 | Planned |
+| [REV-09](https://github.com/kaw393939/ai-career-research/issues/9) | Selected employer examples do not establish occupation-wide demand or pay | High | v1.3 | Planned |
+| [REV-10](https://github.com/kaw393939/ai-career-research/issues/10) | Role/skill relationships and progression need clearer visual explanations | Medium | v1.3 | Planned |
+| [REV-11](https://github.com/kaw393939/ai-career-research/issues/11) | Generated images need a defined explanatory purpose and illustration labels | Low | v1.3 | Proposed |
+| [REV-12](https://github.com/kaw393939/ai-career-research/issues/12) | Time-sensitive postings need a repeatable review and release record | High | v1.3 | Planned |
 
 Priority expresses impact on research quality or student decisions, not an estimate of implementation effort.
 
