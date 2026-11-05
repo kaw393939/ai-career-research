@@ -42,6 +42,7 @@ export default defineConfig({
       { text: 'Revisions & releases', items: [
         { text: 'Revision tracker', link: '/revisions/' },
         { text: 'Implementation worklog', link: '/revisions/worklog' },
+        { text: 'Concision & readability plan', link: '/revisions/concision-and-readability' },
         { text: 'Student journey delivery plan', link: '/revisions/decision-provenance' },
         { text: 'Student review', link: '/revisions/student-review' },
         { text: 'Brand & student journey review', link: '/revisions/brand-and-student-journey' },

@@ -18,12 +18,15 @@ This is the public planning record for AI Career Atlas. It combines the simulate
 | v1.3 | [Primary sources & useful visuals](./evidence-and-visuals) | Shipped | Add occupational context and visuals that answer concrete career questions |
 | v1.4.0 | [Student brand refinement](./brand-and-student-journey) | Shipped | Offer a clear voluntary first step |
 | v1.4.1 | [Decision provenance & verification](./decision-provenance) | Shipped | Trace decisions to issues/code and finish narrow-screen verification |
+| v1.5.0 | [Concision & readability](./concision-and-readability) | In progress | Reduce repeated guidance and make career/job decisions easier to scan |
 
 Follow the [implementation worklog](./worklog) for issue links, code, and deployment evidence.
 
 Read the [student review](./student-review) for the scenario, observed behavior, and limits. The [release history](./releases) records what is already live.
 
 ## Student journey delivery plan
+
+[v1.5.0: concision and readability](./concision-and-readability) responds to [issue #17](https://github.com/kaw393939/ai-career-research/issues/17), with five implementation issues, decisions and acceptance criteria recorded before code changes.
 
 [v1.4.1: decision provenance and verification](./decision-provenance) connects the student review to decisions, GitHub issues, code and deployment evidence.
 
@@ -53,6 +56,12 @@ IDs remain stable so commits and future release notes can refer to the same find
 | [REV-14](https://github.com/kaw393939/ai-career-research/issues/14) | Follow-up work needs a linked public plan | Medium | v1.4.1 | Shipped |
 | [REV-15](https://github.com/kaw393939/ai-career-research/issues/15) | Design decisions need immutable code evidence and a reusable process | Medium | v1.4.1 | Shipped |
 | [REV-16](https://github.com/kaw393939/ai-career-research/issues/16) | Narrow-screen verification remains incomplete in v1.4.0 | High | v1.4.1 | Shipped |
+| [REV-17](https://github.com/kaw393939/ai-career-research/issues/17) | Reading flow needs more concision and clearer priorities | High | v1.5.0 | In progress |
+| [REV-18](https://github.com/kaw393939/ai-career-research/issues/18) | The homepage repeats career discovery | Medium | v1.5.0 | Planned |
+| [REV-19](https://github.com/kaw393939/ai-career-research/issues/19) | Guidance pushes job controls and results down the page | Medium | v1.5.0 | Planned |
+| [REV-20](https://github.com/kaw393939/ai-career-research/issues/20) | Job summaries hide the work and repeat eligibility explanations | High | v1.5.0 | Planned |
+| [REV-21](https://github.com/kaw393939/ai-career-research/issues/21) | Career profiles repeat general caveats between practical sections | Medium | v1.5.0 | Planned |
+| [REV-22](https://github.com/kaw393939/ai-career-research/issues/22) | Maintenance history precedes student tasks in navigation | Medium | v1.5.0 | Planned |
 
 Priority expresses impact on research quality or student decisions, not an estimate of implementation effort.
 
