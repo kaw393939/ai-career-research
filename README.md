@@ -65,7 +65,7 @@ The project pins stable VitePress 1.6.4 and overrides its Vite dependency to 6.4
 
 ## Update the research
 
-Edit Markdown pages under `docs/roles/` and add directly supporting employer or official role-definition sources. Mark the date you reviewed them and distinguish employer requirements from your own career advice. Homepage explorer summaries live in `docs/.vitepress/theme/components/CareerHome.vue`; navigation lives in `docs/.vitepress/config.mts`.
+Edit Markdown pages under `docs/roles/` and add directly supporting employer or official role-definition sources. Mark the date you reviewed them and distinguish employer requirements from your own career advice. Shared role summaries live in `docs/.vitepress/data/roles.ts`. The homepage uses `StudentStart.vue`; the full explorer remains on the Roles page. Navigation lives in `docs/.vitepress/config.mts`.
 
 Job-library files:
 
@@ -90,5 +90,7 @@ The unified explorer covers 15 profiles across eight technology fields. The libr
 Run `npm run research:review -- --as-of YYYY-MM-DD` to regenerate the source-age report. It performs no network verification and schedules no automation. Reopen primary pages in Chrome before changing their evidence. `npm run check` covers eligibility edge cases, job/source integrity, occupation measures and base-path links. Illustration generation method, exact prompt and asset path are recorded in `docs/research/image-provenance.md`.
 
 ## Decision provenance
+
+The [v1.5.0 concision plan](https://kaw393939.github.io/ai-career-research/revisions/concision-and-readability.html) traces issue #17 through decisions, implementation issues, code and release evidence.
 
 Follow the [student journey delivery plan](https://kaw393939.github.io/ai-career-research/revisions/decision-provenance.html) from observation to decision, issue, code and deployment. New changes use the [decision issue template](.github/ISSUE_TEMPLATE/decision.md) and [release checklist](.github/RELEASE_CHECKLIST.md).
