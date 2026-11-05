@@ -23,11 +23,20 @@ export default defineConfig({
       { text: 'Internships & jobs', link: '/jobs/', activeMatch: '/jobs/' },
       { text: 'Explore roles', link: '/roles/', activeMatch: '/roles/' },
       { text: 'Career roadmap', link: '/roadmap' },
-      { text: 'Research notes', link: '/research/methodology' }
+      { text: 'Research notes', link: '/research/methodology' },
+      { text: 'Revisions', link: '/revisions/', activeMatch: '/revisions/' }
     ],
     socialLinks: [{ icon: 'github', link: repo }],
     search: { provider: 'local' },
     sidebar: [
+      { text: 'Revisions & releases', items: [
+        { text: 'Revision tracker', link: '/revisions/' },
+        { text: 'Student review', link: '/revisions/student-review' },
+        { text: 'Broader technology careers', link: '/revisions/industry-coverage' },
+        { text: 'Student decision support', link: '/revisions/student-experience' },
+        { text: 'Primary sources & visuals', link: '/revisions/evidence-and-visuals' },
+        { text: 'Release history', link: '/revisions/releases' }
+      ] },
       { text: 'Find your starting point', items: [
         { text: 'Internships & entry-level jobs', link: '/jobs/' },
         { text: 'Employer source ledger', link: '/jobs/sources' },

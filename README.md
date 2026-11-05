@@ -8,6 +8,8 @@ A career research project about the work behind AI job titles: what people do, w
 
 ## Explore
 
+- [Revisions and release plans](https://kaw393939.github.io/ai-career-research/revisions/) — findings, planned releases, acceptance checklists, and deployed change history.
+
 - **[Internships and entry-level jobs](https://kaw393939.github.io/ai-career-research/jobs/)** — the default view of the US job-example library; switch to all levels, mid-level, or senior examples to compare responsibility.
 - [Job sources and evidence ledger](https://kaw393939.github.io/ai-career-research/jobs/sources.html)
 - [Additional AI roles and title comparisons](https://kaw393939.github.io/ai-career-research/research/emerging-roles.html)
