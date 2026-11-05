@@ -48,6 +48,7 @@
 .jobs-status-closed { border-color: #d8dcd2; color: #6c7465; background: #eeefe9; }
 .jobs-role-category { font-size: 11px; font-weight: 600; letter-spacing: .8px; text-transform: uppercase; color: #718263; }
 .jobs-card h3 { font-size: 22px; line-height: 1.35; font-weight: 700; letter-spacing: -.6px; margin-top: 7px; overflow-wrap: anywhere; }
+.job-examples .jobs-work-summary { margin-top: 12px; color: #40563d; font-size: 14px; line-height: 1.65; }
 .jobs-place { display: flex; gap: 7px; align-items: flex-start; color: #617158; margin-top: 13px; font-size: 14px; }
 .jobs-place svg { width: 16px; height: 19px; flex-shrink: 0; margin-top: 2px; }
 .jobs-work-mode { font-size: 12px; color: #718065; padding-left: 23px !important; }
@@ -94,8 +95,14 @@
 .eligibility-controls { margin-top:14px; border-top:1px solid #d7dfcb; padding-top:12px; }.eligibility-controls summary { color:#2c593b; font-size:14px; font-weight:600; }.eligibility-controls summary span{font-size:11px;font-weight:400;margin-left:8px}.eligibility-controls > p { margin:15px 0; color:#64765b; }
 .eligibility-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr));gap:15px; }.eligibility-grid label{display:flex;flex-direction:column;gap:7px;font-size:12px}.eligibility-grid select,.eligibility-grid input{width:100%;min-width:0;appearance:auto;border:1px solid #cbd6bd;padding:10px;background:white;border-radius:4px;font-size:14px}
 .jobs-check{display:flex;align-items:flex-start;gap:9px;font-size:13px;margin:15px 0}.jobs-check input{appearance:auto;margin-top:5px;flex-shrink:0}.shortlist-toolbar{display:flex;flex-wrap:wrap;align-items:center;gap:8px 20px;margin-top:12px;padding-top:12px;border-top:1px solid #d6dfca}.shortlist-toolbar .jobs-check{margin:0}.shortlist-toolbar p{flex-basis:100%;font-size:11px;color:#627357}.shortlist-toolbar button{font-size:12px;text-decoration:underline;color:#375d3e}
-.jobs-glance { padding-left:17px; margin:14px 0; color:#5d7151; font-size:12px;list-style:disc }.jobs-glance li{margin:5px 0}.save-job{padding:9px 12px;border:1px solid #b8caaa;background:#edf4e2;color:#31563a;border-radius:4px;font-size:13px!important}.save-job[aria-pressed=true]{background:#2c563b;color:white}
+.jobs-glance { padding-left:17px; margin:14px 0; color:#4f6645; font-size:12px;line-height:1.6;list-style:disc }.jobs-glance li{margin:4px 0}.save-job{padding:9px 12px;border:1px solid #b8caaa;background:#edf4e2;color:#31563a;border-radius:4px;font-size:13px!important}.save-job[aria-pressed=true]{background:#2c563b;color:white}
 .jobs-full-details summary{padding:16px 24px;color:#31573b;font-size:14px;font-weight:600;border-top:1px solid #e0e7d6}.jobs-full-details .jobs-card-body{padding-top:5px}.level-explanation{font-size:13px;color:#607252;margin-top:20px!important}.shortlist-note{padding:18px 24px;background:#f0f5e8}.shortlist-note label{display:block;font-size:12px;font-weight:600;margin-bottom:7px}.shortlist-note textarea{display:block;width:100%;resize:vertical;border:1px solid #b8c9aa;border-radius:4px;padding:10px;background:white;font-size:14px}.job-fit{padding:16px 24px;background:#edf3e3;font-size:12px;color:#49643b}.job-fit ul{padding-left:17px;list-style:disc;margin:8px 0}.job-fit li{margin:5px 0}.job-fit p{font-size:11px}.fit-restricted{background:#f8eddf;color:#795b31}
+.job-fit .fit-counts { margin-top: 5px; font-size: 12px; }
+.fit-details { margin-top: 8px; }
+.fit-details summary { width: fit-content; font-size: 12px; font-weight: 600; text-decoration: underline; text-underline-offset: 3px; }
+.fit-details > div { margin-top: 12px; }
+.fit-details h4 { color: inherit; font-size: 12px; margin-bottom: 4px; }
+.job-fit .fit-note { margin-top: 8px; }
 @media(max-width:600px){.eligibility-grid{grid-template-columns:1fr}.jobs-full-details summary{padding:15px 18px}}
 .role-explorer{container-type:inline-size}@container(max-width:900px){.role-explorer .role-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@container(max-width:500px){.role-explorer .role-grid{grid-template-columns:1fr}}
 .jobs-page { padding-top: 36px; }

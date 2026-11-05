@@ -16,7 +16,24 @@ function toggleSaved(id:string) { const next={...shortlist.value}; if(id in next
 function clearSaved() { shortlist.value={}; shortlistOnly.value=false; try { localStorage.removeItem(storageKey) } catch {} }
 const savedCount = computed(()=>Object.keys(shortlist.value).length)
 const startingCount = computed(()=>jobs.filter(job=>['Internship','Entry level'].includes(job.level)&&job.status!=='Closed example').length)
-const fit = (job:typeof jobs[number]) => assessFit(job,profile.value)
+const assessments = computed(()=>Object.fromEntries(jobs.map(job=>[job.id,assessFit(job,profile.value)])))
+const fit = (job:typeof jobs[number]) => assessments.value[job.id]
+function eligibilityHighlights(job:typeof jobs[number]) {
+ const record = facts[job.id]
+ if (!record) return []
+ const highlights:string[] = []
+ if (record.degrees) highlights.push(degreeSummary(job))
+ if (record.graduation) highlights.push(timingSummary(job))
+ if (record.student) highlights.push(record.recentGraduateAllowed ? 'Enrolled student or eligible recent graduate' : 'Continuing student enrollment required')
+ if (record.graduate) highlights.push('Graduate route; confirm degree-completion timing')
+ if (record.experience > 0) highlights.push(`${record.experience}+ relevant professional years${record.equivalent ? '; equivalent-experience routes need review' : ''}`)
+ if (record.research) highlights.push('Prior relevant research or publications required')
+ if (record.citizen) highlights.push('US citizenship required')
+ if (record.noSponsorship) highlights.push('No employer visa sponsorship')
+ else if (record.conditionalSponsorship) highlights.push('Visa sponsorship generally unavailable; confirm exceptions')
+ if (job.workMode === 'Remote — US' && record.remoteStates) highlights.push(`Listed remote states: ${record.remoteStates.join(', ')}`)
+ return highlights
+}
 const visibleJobs = computed(()=> {
  const terms=query.value.toLowerCase().trim().split(/\s+/).filter(Boolean)
  return jobs.filter(job=> {
@@ -57,12 +74,27 @@ function resetFilters(){audience.value='Starting out';query.value='';locationFil
  <div v-if="!visibleJobs.length" class="jobs-empty"><h2>No examples match those filters.</h2><p>This can reflect limited library coverage, not absence of jobs. Broaden the geography or criteria, retain unknowns, or inspect another stage.</p><button type="button" @click="resetFilters">Show internships and entry-level examples →</button></div>
  <section v-for="group in groups" :key="group.level" class="jobs-level-section" :aria-label="group.level+' examples'"><div class="jobs-level-heading"><div class="jobs-level-title"><span>{{group.number}}</span><h2>{{group.level==='Internship'?'Internships':group.level+' examples'}}</h2><span class="jobs-level-total">{{group.examples.length}}</span></div></div>
   <div class="jobs-card-grid"><article v-for="job in group.examples" :id="job.id" :key="job.id" class="jobs-card" :aria-label="job.title">
-   <header class="jobs-card-header"><div class="jobs-card-meta"><strong>{{job.employer}}</strong><span class="jobs-status" :class="{'jobs-status-closed':job.status==='Closed example','jobs-status-uncertain':job.status==='Status uncertain'}">{{job.status}}</span></div><p class="jobs-role-category">{{job.role}}</p><h3>{{job.title}}</h3><p class="jobs-place">{{job.location}}</p><p>{{job.workMode}} · {{job.level}}</p><ul class="jobs-glance"><li>{{degreeSummary(job)}}</li><li>{{timingSummary(job)}}</li><li>{{facts[job.id]?.experience==null?'Experience: read requirements':facts[job.id].experience+'+ relevant professional years; read alternatives'}}</li></ul>
+   <header class="jobs-card-header">
+    <div class="jobs-card-meta"><strong>{{job.employer}}</strong><span class="jobs-status" :class="{'jobs-status-closed':job.status==='Closed example','jobs-status-uncertain':job.status==='Status uncertain'}">{{job.status}}</span></div>
+    <p class="jobs-role-category">{{job.role}}</p><h3>{{job.title}}</h3>
+    <p class="jobs-work-summary">{{job.responsibilities[0]}}</p>
+    <p class="jobs-place">{{job.location}}</p><p>{{job.workMode}} · {{job.level}}</p>
+    <ul v-if="eligibilityHighlights(job).length" class="jobs-glance" aria-label="Recorded eligibility requirements"><li v-for="requirement in eligibilityHighlights(job)" :key="requirement">{{requirement}}</li></ul>
     <button class="save-job" type="button" :aria-pressed="job.id in shortlist" :aria-label="(job.id in shortlist?'Remove saved job: ':'Save job: ')+job.title" @click="toggleSaved(job.id)">{{job.id in shortlist?'Saved ✓ · Remove':'Save to shortlist +'}}</button>
    </header>
-   <div v-if="fit(job).assessed" class="job-fit" :class="{'fit-restricted':fit(job).restrictions.length}"><strong>{{fit(job).status}}</strong><ul><li v-for="reason in [...fit(job).restrictions,...fit(job).unknown,...fit(job).checks]" :key="reason">{{reason}}</li></ul><p>Selected checks only. Read the complete requirements and confirm with the employer.</p></div>
+   <div v-if="fit(job).assessed" class="job-fit" :class="{'fit-restricted':fit(job).restrictions.length}">
+    <strong>{{fit(job).status}}</strong>
+    <ul v-if="fit(job).restrictions.length" class="fit-reasons"><li v-for="reason in fit(job).restrictions" :key="reason">{{reason}}</li></ul>
+    <p class="fit-counts">{{fit(job).checks.length}} recorded {{fit(job).checks.length===1?'match':'matches'}} · {{fit(job).unknown.length}} {{fit(job).unknown.length===1?'unknown':'unknowns'}}</p>
+    <details v-if="fit(job).unknown.length || fit(job).checks.length" class="fit-details">
+     <summary>Check details</summary>
+     <div v-if="fit(job).unknown.length"><h4>Needs confirmation</h4><ul><li v-for="reason in fit(job).unknown" :key="reason">{{reason}}</li></ul></div>
+     <div v-if="fit(job).checks.length"><h4>Recorded matches</h4><ul><li v-for="reason in fit(job).checks" :key="reason">{{reason}}</li></ul></div>
+    </details>
+    <p class="fit-note">Selected checks only; confirm the complete requirements.</p>
+   </div>
    <div v-if="job.id in shortlist" class="shortlist-note"><label :for="'note-'+job.id">My shortlist reason / questions</label><textarea :id="'note-'+job.id" v-model="shortlist[job.id]" maxlength="2000" rows="3" placeholder="Saved on this browser only; avoid sensitive information."></textarea></div>
-   <details class="jobs-full-details"><summary>Read requirements, work & portfolio idea</summary><div class="jobs-card-body"><div class="jobs-facts"><h4>What the posting asks for</h4><dl><div><dt>Experience</dt><dd>{{job.experience}}</dd></div><div><dt>Eligibility</dt><dd>{{job.eligibility}}</dd></div><div><dt>Pay</dt><dd>{{job.compensation||'See employer posting; pay not summarized here.'}}</dd></div></dl></div><div class="jobs-work-list"><h4>The work, in plain language</h4><ul><li v-for="item in job.responsibilities" :key="item">{{item}}</li></ul></div><ul class="jobs-skill-tags"><li v-for="skill in job.skills" :key="skill">{{skill}}</li></ul><p class="level-explanation"><strong>Why this level? Our interpretation:</strong> {{job.levelReason}}</p><div class="jobs-portfolio"><p class="jobs-editorial-label">PORTFOLIO IDEA · EDITORIAL GUIDANCE</p><p>{{job.portfolio}}</p><p class="jobs-transferable">Connect existing skills: {{job.transferable.join(' · ')}}</p></div></div></details>
+   <details class="jobs-full-details"><summary>Full requirements, pay & project idea</summary><div class="jobs-card-body"><div class="jobs-facts"><h4>What the posting asks for</h4><dl><div><dt>Experience</dt><dd>{{job.experience}}</dd></div><div><dt>Eligibility</dt><dd>{{job.eligibility}}</dd></div><div><dt>Pay</dt><dd>{{job.compensation||'See employer posting; pay not summarized here.'}}</dd></div></dl></div><div class="jobs-work-list"><h4>The work, in plain language</h4><ul><li v-for="item in job.responsibilities" :key="item">{{item}}</li></ul></div><ul class="jobs-skill-tags"><li v-for="skill in job.skills" :key="skill">{{skill}}</li></ul><p class="level-explanation"><strong>Why this level? Our interpretation:</strong> {{job.levelReason}}</p><div class="jobs-portfolio"><p class="jobs-editorial-label">PORTFOLIO IDEA · EDITORIAL GUIDANCE</p><p>{{job.portfolio}}</p><p class="jobs-transferable">Connect existing skills: {{job.transferable.join(' · ')}}</p></div></div></details>
    <footer class="jobs-card-footer"><a :href="job.sourceUrl" target="_blank" rel="noopener noreferrer">Read employer posting ↗<span class="jobs-sr-only">: {{job.title}} at {{job.employer}} (opens in a new tab)</span></a><span class="jobs-source">{{job.sourceLabel}} · Checked {{job.checked}}</span></footer>
   </article></div>
  </section>
