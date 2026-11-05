@@ -24,7 +24,7 @@ Integrate autonomy products across software, infrastructure, robotics and system
 - Customer briefs, reproducible setup and deployment communication.
 
 <span id="employer-evidence-and-career-stages"></span>
-<span id="applied-intuition-forward-deployed-engineer---new-grad-2027"></span>
+<span id="applied-intuition-forward-deployed-engineer-new-grad-2027"></span>
 
 ## Example requirements
 

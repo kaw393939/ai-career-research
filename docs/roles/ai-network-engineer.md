@@ -25,7 +25,7 @@ Design networks around compute, storage, optics and capacity constraints. AI wor
 
 <span id="employer-evidence-and-career-stages"></span>
 <span id="cisco-solutions-engineer-hyperscale-and-ai-infrastructure"></span>
-<span id="cisco-software-qa-engineer-i-full-time---united-states"></span>
+<span id="cisco-software-qa-engineer-i-full-time-united-states"></span>
 
 ## Example requirements
 

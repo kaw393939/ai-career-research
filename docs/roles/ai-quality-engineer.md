@@ -24,7 +24,7 @@ Write wireless tests and reproduce failures in router, switch and access-point l
 - Network labs, failure reproduction and false-positive analysis.
 
 <span id="employer-evidence-and-career-stages"></span>
-<span id="cisco-software-qa-engineer-i-full-time---united-states"></span>
+<span id="cisco-software-qa-engineer-i-full-time-united-states"></span>
 
 ## Example requirements
 
