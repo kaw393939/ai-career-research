@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { computed, onMounted, ref, watch } from 'vue'
+import { withBase } from 'vitepress'
 import { jobs, researchDate } from '../../data/jobs'
 import { assessFit, degreeSummary, timingSummary, facts } from '../../data/eligibility.mjs'
 import '../jobs.css'
@@ -7,7 +8,7 @@ const audiences = ['Starting out', 'All levels', 'Mid level', 'Senior']
 const audience = ref('Starting out'), query = ref(''), locationFilter = ref('All US examples')
 const availability = ref('Open / uncertain at review'), hideRestrictions = ref(false), shortlistOnly = ref(false)
 const profile = ref({degree:'',year:'',experience:'',research:'',sponsorship:'',citizenship:'',state:'',stage:''})
-const shortlist = ref<Record<string,string>>({}), storageMessage = ref('Shortlists and notes stay in this browser. Eligibility preferences are held only for this visit. Nothing here is sent to an employer.')
+const shortlist = ref<Record<string,string>>({}), storageMessage = ref('Notes stay in this browser; eligibility choices last this visit. Nothing is sent to employers.')
 const storageKey = 'ai-career-atlas-shortlist-v1'
 onMounted(() => { try { const saved=JSON.parse(localStorage.getItem(storageKey) || '{}'); if(saved && typeof saved==='object' && !Array.isArray(saved)) shortlist.value=Object.fromEntries(Object.entries(saved).filter(([id,note])=>jobs.some(job=>job.id===id)&&typeof note==='string').map(([id,note])=>[id,String(note).slice(0,2000)])) } catch { storageMessage.value='Persistent browser storage is unavailable or invalid. Your shortlist works for this visit only.' } })
 watch(shortlist, value => { try { localStorage.setItem(storageKey,JSON.stringify(value)) } catch { storageMessage.value='Browser storage is unavailable. Your shortlist works for this visit only.' } }, {deep:true})
@@ -32,12 +33,12 @@ function resetFilters(){audience.value='Starting out';query.value='';locationFil
 </script>
 <template>
 <div class="job-examples">
- <div class="jobs-research-note"><div><p class="jobs-kicker">A RESEARCH SNAPSHOT, WITH SOURCES</p><p>Reviewed {{researchDate}}. This selected library is not the entire job market. Open when checked describes the review date, not guaranteed availability today.</p></div></div>
+ <p class="jobs-research-note">Reviewed {{researchDate}} · Selected examples; availability may change. <a :href="withBase('/jobs/sources.html')">Source ledger ↗</a></p>
  <div class="jobs-toolbar">
   <div class="jobs-audience" role="group" aria-label="Filter job examples by career stage"><button v-for="option in audiences" :key="option" type="button" :class="{'jobs-selected':audience===option}" :aria-pressed="audience===option" @click="audience=option">{{option}}<span v-if="option==='Starting out'" class="jobs-count">{{startingCount}}</span></button></div>
   <div class="jobs-search-row"><label class="jobs-query"><span>Search examples</span><div class="jobs-input-wrap"><input v-model="query" type="search" placeholder="Title, employer, skill, or location" aria-label="Search job examples"></div></label><label class="jobs-location-filter"><span>Work location</span><select v-model="locationFilter" aria-label="Filter job examples by work location"><option>All US examples</option><option>Remote — US only</option><option>NYC/NJ or US remote</option></select></label><label class="jobs-location-filter"><span>Availability at review</span><select v-model="availability" aria-label="Availability at review"><option>Open / uncertain at review</option><option>Open when checked only</option><option>Include closed examples</option></select></label></div>
-  <details class="eligibility-controls"><summary>Check selected eligibility requirements <span>Optional · explainable checks</span></summary>
-   <p>These checks compare only recorded facts. They do not decide whether you qualify. Unknown, equivalent-experience, exact term, field-of-study and other conditions still need review. Preferences are not saved.</p>
+  <details class="eligibility-controls"><summary>Eligibility checks <span>Optional · this visit only</span></summary>
+   <p>Compares recorded facts, not overall qualification. Review unknowns and alternative requirements with the employer.</p>
    <div class="eligibility-grid">
     <label>Degree to compare<select v-model="profile.degree" aria-label="Degree to compare"><option value="">Do not assess</option><option value="bachelor">Bachelor's</option><option value="master">Master's</option><option value="phd">PhD</option></select></label>
     <label>Graduation year<input v-model="profile.year" type="number" min="2020" max="2040" placeholder="Optional, e.g. 2028" aria-label="Graduation year"></label>
@@ -50,7 +51,7 @@ function resetFilters(){audience.value='Starting out';query.value='';locationFil
    </div>
    <label class="jobs-check"><input v-model="hideRestrictions" type="checkbox"> Hide examples with an identified restriction; keep unknowns visible</label>
   </details>
-  <div class="shortlist-toolbar"><p>{{storageMessage}}</p><label class="jobs-check"><input v-model="shortlistOnly" type="checkbox"> Show saved examples ({{savedCount}})</label><button type="button" @click="clearSaved">Clear shortlist and notes</button></div>
+  <div class="shortlist-toolbar"><label class="jobs-check"><input v-model="shortlistOnly" type="checkbox"> Saved examples ({{savedCount}})</label><button type="button" @click="clearSaved">Clear shortlist and notes</button><p>{{storageMessage}}</p></div>
  </div>
  <div class="jobs-results-summary"><p aria-live="polite"><strong>{{visibleJobs.length}}</strong> {{visibleJobs.length===1?'example':'examples'}} · {{audience}}</p><button type="button" @click="resetFilters">Reset filters ↺</button></div>
  <div v-if="!visibleJobs.length" class="jobs-empty"><h2>No examples match those filters.</h2><p>This can reflect limited library coverage, not absence of jobs. Broaden the geography or criteria, retain unknowns, or inspect another stage.</p><button type="button" @click="resetFilters">Show internships and entry-level examples →</button></div>
